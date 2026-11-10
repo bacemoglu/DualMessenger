@@ -1,0 +1,88 @@
+{% import "_parts.j2" as p with context -%}
+<!DOCTYPE html>
+<html lang="{{ t.lang }}" dir="{{ t.dir }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ title }}</title>
+<meta name="description" content="{{ description }}">
+<link rel="canonical" href="{{ canonical }}">
+{% if robots %}<meta name="robots" content="{{ robots }}">
+{% endif -%}
+{% for a in alternates -%}
+<link rel="alternate" hreflang="{{ a.hreflang }}" href="{{ a.url }}">
+{% endfor -%}
+<meta name="theme-color" content="#F3F9F4">
+<meta name="format-detection" content="telephone=no">
+<meta name="apple-itunes-app" content="app-id={{ app_id }}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ t.app }}">
+<meta property="og:title" content="{{ title }}">
+<meta property="og:description" content="{{ description }}">
+<meta property="og:url" content="{{ canonical }}">
+<meta property="og:image" content="{{ og_image }}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="{{ u.root }}favicon.ico" sizes="48x48">
+<link rel="icon" type="image/png" sizes="96x96" href="{{ u.assets }}img/favicon-96.png">
+<link rel="apple-touch-icon" href="{{ u.assets }}img/apple-touch-icon.png">
+{% for f in preload -%}
+<link rel="preload" as="font" type="font/woff2" href="{{ u.assets }}fonts/{{ f }}" crossorigin>
+{% endfor -%}
+<link rel="stylesheet" href="{{ u.assets }}site.css">
+</head>
+<body>
+<a class="skip" href="#main">{{ t.nav.skip }}</a>
+{% if hint_map -%}
+<div class="lang-hint" data-lang-hint hidden><a href="{{ u.home }}"></a></div>
+{% endif -%}
+{{ p.header(t, u, current, badge) }}
+{% if kind == 'home' -%}
+<main id="main">
+{{ p.home_sections(t, u, ids, fit, true) }}
+</main>
+{%- elif kind == 'legal' -%}
+<main id="main" class="legal">
+{{ p.legal_sections(t, heading, body, u.english) }}
+</main>
+{%- elif kind == 'notfound' -%}
+<main id="main" class="notfound">
+<div class="wrap">
+  <h1>{{ t.meta.notfound_title }}</h1>
+  <p>{{ t.meta.notfound_text }}</p>
+  <a class="btn" href="{{ u.home }}">{{ t.meta.notfound_link }}</a>
+</div>
+</main>
+{%- endif %}
+{{ p.footer(t, u, ids, langs) }}
+{% if hint_map -%}
+<script>
+/* If the reader's browser prefers another language that this site has, offer that version (no redirect). */
+(function () {
+  var m = {{ hint_map | tojson }}, here = {{ t.lang | tojson }};
+  function key(c) {
+    c = String(c).toLowerCase(); var p = c.split('-')[0];
+    if (p === 'zh') return (c.indexOf('hant') > -1 || /-(tw|hk|mo)$/.test(c)) ? null : 'zh-Hans';
+    if (p === 'pt') return 'pt-PT';
+    if (p === 'iw') return 'he';
+    if (p === 'in') return 'id';
+    return p;
+  }
+  var list = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ''];
+  for (var i = 0; i < list.length; i++) {
+    var k = key(list[i]);
+    if (!k) continue;
+    if (k === here) return;
+    if (m[k]) {
+      var bar = document.querySelector('[data-lang-hint]'), a = bar.firstElementChild;
+      a.textContent = m[k][0]; a.href = m[k][1]; a.lang = k; a.hreflang = k;
+      bar.hidden = false;
+      return;
+    }
+  }
+})();
+</script>
+{% endif -%}
+</body>
+</html>

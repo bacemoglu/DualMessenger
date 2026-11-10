@@ -1,0 +1,179 @@
+{
+  "lang": "zh-Hans",
+  "dir": "ltr",
+  "app": "Dual Messenger+",
+  "meta": {
+    "home_title": "Dual Messenger+ – 一部 iPhone，两个 WhatsApp 账号",
+    "home_description": "在随身携带的 iPhone 或 iPad 上使用你的第二个 WhatsApp 账号。还有 Face ID 应用锁、语音消息转文字、在设备上运行的 AI 机器人、笔记和提醒。",
+    "privacy_title": "隐私政策",
+    "privacy_description": "Dual Messenger+ 如何处理你的数据：无需账号，没有广告，没有跟踪器，你创建的内容都留在你的设备上。",
+    "terms_title": "使用条款",
+    "terms_description": "Dual Messenger+ 应用和网站的使用条款，包括订阅相关内容。",
+    "notfound_title": "找不到页面",
+    "notfound_text": "此页面不存在或已被移走。",
+    "notfound_link": "前往首页"
+  },
+  "nav": {
+    "label": "主导航",
+    "features": "功能",
+    "how": "使用方法",
+    "privacy": "隐私",
+    "terms": "条款",
+    "contact": "联系我们",
+    "get_app": "下载",
+    "skip": "跳到正文"
+  },
+  "hero": {
+    "title_1": "两个 WhatsApp 账号，",
+    "title_2": "一部 iPhone",
+    "lede": "几秒钟添加第二个账号，工作和私人聊天分开管理。",
+    "cta": "在 App Store 下载",
+    "how": "了解使用方法",
+    "fine": "免费下载。适用于 iPhone、iPad 和 iPhone Duo。",
+    "alt": "带有“登录”按钮的 Dual Messenger+ 起始屏幕"
+  },
+  "features": {
+    "title": "不只是第二个账号",
+    "lede": "为聊天加一把锁，再加上几个日常小工具，全都在同一个应用里。",
+    "items": [
+      {
+        "img": "lock",
+        "title": "用 Face ID 或密码锁定应用",
+        "text": "只有你能打开应用和你的聊天。可以选择立即锁定，或几分钟后再锁定。",
+        "alt": "显示“DualMessenger+ 已锁定”和“使用 Face ID”按钮的锁定屏幕"
+      },
+      {
+        "img": "voice",
+        "title": "语音消息一键转为文字",
+        "text": "用你的语言转写语音消息和音频文件，文字可复制到任何地方。",
+        "alt": "“语音转文字”屏幕，显示三条语音备忘及其转写文字"
+      },
+      {
+        "img": "bot",
+        "title": "在你设备上运行的 AI 机器人",
+        "text": "离线也能快速提问。你和机器人的对话不会离开你的手机。",
+        "alt": "“聊天机器人”屏幕，显示一段关于安排一天日程的对话"
+      },
+      {
+        "img": "notes",
+        "title": "笔记和提醒，就在聊天旁边",
+        "text": "随手记下要点，用搜索快速找到，提醒到点时还会收到通知。",
+        "alt": "“笔记”屏幕，显示搜索栏和四条笔记"
+      }
+    ],
+    "also_title": "应用里还有",
+    "also": [
+      {
+        "title": "贴纸包",
+        "text": "将现成的贴纸包添加到 WhatsApp，在任何聊天中使用。"
+      },
+      {
+        "title": "花式字体",
+        "text": "输入文字，从 8 种样式中选一种，然后复制到消息里。"
+      },
+      {
+        "title": "位置分享",
+        "text": "在地图上查看你的位置，并以链接的形式发送。"
+      },
+      {
+        "title": "iPad 多任务处理",
+        "text": "让 Dual Messenger+ 与日历、浏览器或任何其他应用并排使用。"
+      }
+    ]
+  },
+  "how": {
+    "title": "三步完成设置",
+    "lede": "你需要用一下装有第二个 WhatsApp 账号的那部手机，只要一小会儿。",
+    "steps": [
+      {
+        "title": "打开 Dual Messenger+",
+        "text": "轻点“登录”，屏幕上会出现一个二维码。"
+      },
+      {
+        "title": "在另一部手机上打开 WhatsApp",
+        "text": "前往“设置”，然后进入“已关联的设备”，再轻点“关联设备”。"
+      },
+      {
+        "title": "扫描二维码",
+        "text": "用那部手机对准二维码，你的聊天就会在 Dual Messenger+ 中打开。"
+      }
+    ],
+    "note": "只要你至少每 14 天在手机上使用一次 WhatsApp，WhatsApp 就会让已关联的设备保持登录状态。"
+  },
+  "privacy": {
+    "title": "你的聊天只在你和 WhatsApp 之间",
+    "lede": "Dual Messenger+ 没有任何能看到你消息的服务器。无需创建账号，应用里也没有广告和跟踪器。",
+    "facts": [
+      {
+        "title": "存储在你的设备上",
+        "text": "笔记、提醒、录音和与机器人的对话都保存在你的 iPhone 或 iPad 上。"
+      },
+      {
+        "title": "无需注册",
+        "text": "你不用向我们提供姓名、电子邮件地址或电话号码。"
+      },
+      {
+        "title": "Face ID 留在你的设备上",
+        "text": "Face ID 和 Touch ID 由你的设备处理。应用绝不会收到生物识别数据。"
+      }
+    ],
+    "cta": "阅读隐私政策"
+  },
+  "faq": {
+    "title": "常见问题",
+    "items": [
+      {
+        "q": "我还需要第二部手机吗？",
+        "a": "需要，但不必随身携带。你的第二个账号仍然留在那部手机上。你用它扫描一次二维码，之后至少每 14 天在那部手机上打开一次 WhatsApp，就能保持登录。"
+      },
+      {
+        "q": "Dual Messenger+ 是 WhatsApp 出品的吗？",
+        "a": "不是。Dual Messenger+ 是一款独立应用，与 WhatsApp 或 Meta 无任何关联，也未获得其认可或赞助。"
+      },
+      {
+        "q": "是免费的吗？",
+        "a": "应用可以免费下载。Premium 功能需要订阅，可按周、按月或按年购买。购买前应用内会显示价格，你可以随时在 App Store 账户设置中取消。"
+      },
+      {
+        "q": "支持哪些设备？",
+        "a": "支持运行 iOS 16 或更高版本的 iPhone、iPad 和 iPhone Duo。在应用内使用两个账号需要 iOS 17 或更高版本。"
+      },
+      {
+        "q": "如何退出登录？",
+        "a": "在手机上的 WhatsApp 中前往“设置”，进入“已关联的设备”，轻点相应设备，然后选择“退出”。你也可以在 Dual Messenger+ 中移除账号。"
+      },
+      {
+        "q": "应用支持哪些语言？",
+        "a": "15 种语言：简体中文、英语、阿拉伯语、荷兰语、法语、德语、希伯来语、印地语、印度尼西亚语、意大利语、日语、葡萄牙语、俄语、西班牙语和土耳其语。"
+      }
+    ]
+  },
+  "closing": {
+    "title": "第二个账号，轻点一下就到",
+    "text": "下载适用于 iPhone 和 iPad 的 Dual Messenger+。",
+    "cta": "在 App Store 下载",
+    "contact_title": "联系我们",
+    "contact_text": "对应用有疑问、想法或遇到了问题？欢迎写信给我们。"
+  },
+  "footer": {
+    "label": "页脚",
+    "privacy": "隐私政策",
+    "terms": "使用条款",
+    "contact": "联系我们",
+    "store": "App Store",
+    "disclaimer": "Dual Messenger+ 是一款独立应用，与 WhatsApp 或 Meta 无任何关联，也未获得其认可或赞助。WhatsApp 是其所有者的商标。",
+    "apple": "Apple、iPhone、iPad、Face ID 和 Touch ID 是 Apple Inc. 在美国及其他国家和地区注册的商标。App Store 是 Apple Inc. 的服务标记。",
+    "copyright": "© 2026 Dual Messenger+"
+  },
+  "legal": {
+    "updated_label": "最后更新",
+    "updated": "2026年11月9日",
+    "toc_title": "本页内容",
+    "translation_note": "本页面是英文原文的译文。如两个版本有出入，以英文版本为准。",
+    "english_link": "阅读英文版本"
+  },
+  "language": {
+    "label": "语言",
+    "hint": "阅读本页面的简体中文版"
+  }
+}

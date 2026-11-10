@@ -1,0 +1,179 @@
+{
+  "lang": "fr",
+  "dir": "ltr",
+  "app": "Dual Messenger+",
+  "meta": {
+    "home_title": "Dual Messenger+ – Deux comptes WhatsApp sur un seul iPhone",
+    "home_description": "Utilisez votre second compte WhatsApp sur l’iPhone ou l’iPad que vous avez déjà sur vous. Verrouillage de l’app avec Face ID, messages vocaux convertis en texte, bot IA intégré à l’appareil, notes et rappels.",
+    "privacy_title": "Politique de confidentialité",
+    "privacy_description": "Comment Dual Messenger+ traite vos données : pas de compte, pas de publicité, pas de traceurs, et ce que vous créez reste sur votre appareil.",
+    "terms_title": "Conditions d’utilisation",
+    "terms_description": "Les conditions d’utilisation de l’app et du site web Dual Messenger+, abonnements compris.",
+    "notfound_title": "Page introuvable",
+    "notfound_text": "Cette page n’existe pas ou a été déplacée.",
+    "notfound_link": "Aller à la page d’accueil"
+  },
+  "nav": {
+    "label": "Menu principal",
+    "features": "Fonctionnalités",
+    "how": "Comment ça marche",
+    "privacy": "Confidentialité",
+    "terms": "Conditions",
+    "contact": "Contact",
+    "get_app": "Télécharger",
+    "skip": "Aller au contenu"
+  },
+  "hero": {
+    "title_1": "Deux comptes WhatsApp,",
+    "title_2": "un seul iPhone",
+    "lede": "Ajoutez votre second compte en quelques secondes et séparez vos conversations pro et perso.",
+    "cta": "Télécharger dans l’App Store",
+    "how": "Voir comment ça marche",
+    "fine": "Téléchargement gratuit. Pour iPhone, iPad et iPhone Duo.",
+    "alt": "Écran d’accueil de Dual Messenger+ avec le bouton Se connecter"
+  },
+  "features": {
+    "title": "Bien plus qu’un second compte",
+    "lede": "Un verrou pour vos conversations et quelques outils du quotidien, réunis dans la même app.",
+    "items": [
+      {
+        "img": "lock",
+        "title": "Verrouillez avec Face ID ou votre code",
+        "text": "Vous seul pouvez ouvrir l’app et vos conversations. Choisissez un verrouillage immédiat ou au bout de quelques minutes.",
+        "alt": "Écran de verrouillage indiquant DualMessenger+ Verrouillé, avec le bouton Utiliser Face ID"
+      },
+      {
+        "img": "voice",
+        "title": "Les messages vocaux deviennent du texte",
+        "text": "Transcrivez vos messages vocaux et fichiers audio dans votre langue et copiez le texte où vous voulez.",
+        "alt": "Écran Voix en texte avec trois notes vocales et leur transcription"
+      },
+      {
+        "img": "bot",
+        "title": "Un bot IA qui fonctionne sur votre appareil",
+        "text": "Posez des questions rapides, même hors ligne. Vos échanges avec le bot ne quittent jamais votre téléphone.",
+        "alt": "Écran Bot de discussion avec une conversation sur l’organisation de la journée"
+      },
+      {
+        "img": "notes",
+        "title": "Notes et rappels à côté de vos conversations",
+        "text": "Notez ce qui compte, retrouvez-le grâce à la recherche et recevez une notification à l’heure du rappel.",
+        "alt": "Écran Notes avec un champ de recherche et quatre notes"
+      }
+    ],
+    "also_title": "Également dans l’app",
+    "also": [
+      {
+        "title": "Packs de stickers",
+        "text": "Ajoutez des packs de stickers prêts à l’emploi à WhatsApp et utilisez-les dans toutes vos conversations."
+      },
+      {
+        "title": "Polices fantaisie",
+        "text": "Saisissez votre texte, choisissez l’un des 8 styles et copiez-le dans un message."
+      },
+      {
+        "title": "Partage de position",
+        "text": "Repérez votre position sur la carte et envoyez-la sous forme de lien."
+      },
+      {
+        "title": "Multitâche sur iPad",
+        "text": "Gardez Dual Messenger+ ouvert à côté de votre calendrier, de votre navigateur ou de toute autre app."
+      }
+    ]
+  },
+  "how": {
+    "title": "Trois étapes pour commencer",
+    "lede": "Vous avez besoin du téléphone où se trouve votre second compte WhatsApp, juste un instant.",
+    "steps": [
+      {
+        "title": "Ouvrez Dual Messenger+",
+        "text": "Touchez Se connecter. Un code QR s’affiche à l’écran."
+      },
+      {
+        "title": "Ouvrez WhatsApp sur votre autre téléphone",
+        "text": "Allez dans Réglages, puis Appareils connectés, et touchez Connecter un appareil."
+      },
+      {
+        "title": "Scannez le code",
+        "text": "Pointez ce téléphone vers le code QR. Vos conversations s’ouvrent dans Dual Messenger+."
+      }
+    ],
+    "note": "WhatsApp garde un appareil connecté tant que vous utilisez WhatsApp sur votre téléphone au moins une fois tous les 14 jours."
+  },
+  "privacy": {
+    "title": "Vos conversations restent entre vous et WhatsApp",
+    "lede": "Dual Messenger+ n’a aucun serveur qui voit vos messages. Il n’y a pas de compte à créer, et l’app ne contient ni publicité ni traceurs.",
+    "facts": [
+      {
+        "title": "Stocké sur votre appareil",
+        "text": "Les notes, rappels, enregistrements et échanges avec le bot sont enregistrés sur votre iPhone ou iPad."
+      },
+      {
+        "title": "Aucune inscription",
+        "text": "Vous ne nous donnez ni nom, ni adresse e-mail, ni numéro de téléphone."
+      },
+      {
+        "title": "Face ID reste sur votre appareil",
+        "text": "Face ID et Touch ID sont gérés par votre appareil. L’app ne reçoit jamais de données biométriques."
+      }
+    ],
+    "cta": "Lire la politique de confidentialité"
+  },
+  "faq": {
+    "title": "Questions fréquentes",
+    "items": [
+      {
+        "q": "Ai-je encore besoin de mon second téléphone ?",
+        "a": "Oui, mais inutile de l’avoir sur vous. Votre second compte reste sur ce téléphone. Vous l’utilisez une fois pour scanner le code QR, puis vous y ouvrez WhatsApp au moins une fois tous les 14 jours pour rester connecté."
+      },
+      {
+        "q": "Dual Messenger+ est-il développé par WhatsApp ?",
+        "a": "Non. Dual Messenger+ est une app indépendante : elle n’est ni affiliée à WhatsApp ou Meta, ni approuvée ou sponsorisée par ces sociétés."
+      },
+      {
+        "q": "Est-ce gratuit ?",
+        "a": "Le téléchargement de l’app est gratuit. Les fonctionnalités Premium nécessitent un abonnement, proposé à la semaine, au mois ou à l’année. Les prix sont affichés dans l’app avant l’achat, et vous pouvez résilier à tout moment dans les réglages de votre compte App Store."
+      },
+      {
+        "q": "Sur quels appareils l’app fonctionne-t-elle ?",
+        "a": "Sur iPhone, iPad et iPhone Duo avec iOS 16 ou version ultérieure. L’utilisation de deux comptes dans l’app nécessite iOS 17 ou version ultérieure."
+      },
+      {
+        "q": "Comment me déconnecter ?",
+        "a": "Dans WhatsApp sur votre téléphone, allez dans Réglages, puis Appareils connectés, touchez l’appareil et choisissez Se déconnecter. Vous pouvez aussi supprimer un compte dans Dual Messenger+."
+      },
+      {
+        "q": "Dans quelles langues l’app est-elle disponible ?",
+        "a": "15 langues : français, allemand, anglais, arabe, chinois (simplifié), espagnol, hébreu, hindi, indonésien, italien, japonais, néerlandais, portugais, russe et turc."
+      }
+    ]
+  },
+  "closing": {
+    "title": "Votre second compte, à portée de main",
+    "text": "Téléchargez Dual Messenger+ pour iPhone et iPad.",
+    "cta": "Télécharger dans l’App Store",
+    "contact_title": "Contact",
+    "contact_text": "Une question, une idée ou un problème avec l’app ? Écrivez-nous."
+  },
+  "footer": {
+    "label": "Pied de page",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d’utilisation",
+    "contact": "Contact",
+    "store": "App Store",
+    "disclaimer": "Dual Messenger+ est une app indépendante : elle n’est ni affiliée à WhatsApp ou Meta, ni approuvée ou sponsorisée par ces sociétés. WhatsApp est une marque de son propriétaire.",
+    "apple": "Apple, iPhone, iPad, Face ID et Touch ID sont des marques d’Apple Inc., déposées aux États-Unis et dans d’autres pays et régions. App Store est une marque de service d’Apple Inc.",
+    "copyright": "© 2026 Dual Messenger+"
+  },
+  "legal": {
+    "updated_label": "Dernière mise à jour",
+    "updated": "9 novembre 2026",
+    "toc_title": "Sur cette page",
+    "translation_note": "Ce texte est une traduction de l’original anglais. En cas de divergence entre les deux versions, la version anglaise prévaut.",
+    "english_link": "Lire la version anglaise"
+  },
+  "language": {
+    "label": "Langue",
+    "hint": "Lire cette page en français"
+  }
+}

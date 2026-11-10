@@ -1,0 +1,179 @@
+{
+  "lang": "nl",
+  "dir": "ltr",
+  "app": "Dual Messenger+",
+  "meta": {
+    "home_title": "Dual Messenger+ – Twee WhatsApp-accounts op één iPhone",
+    "home_description": "Gebruik je tweede WhatsApp-account op de iPhone of iPad die je al bij je hebt. App-vergrendeling met Face ID, spraakberichten naar tekst, een AI-bot op je apparaat, notities en herinneringen.",
+    "privacy_title": "Privacybeleid",
+    "privacy_description": "Hoe Dual Messenger+ met je gegevens omgaat: geen account, geen advertenties, geen trackers, en wat je maakt blijft op je apparaat.",
+    "terms_title": "Gebruiksvoorwaarden",
+    "terms_description": "De voorwaarden voor het gebruik van de app en de website van Dual Messenger+, inclusief abonnementen.",
+    "notfound_title": "Pagina niet gevonden",
+    "notfound_text": "Deze pagina bestaat niet of is verplaatst.",
+    "notfound_link": "Ga naar de startpagina"
+  },
+  "nav": {
+    "label": "Hoofdmenu",
+    "features": "Functies",
+    "how": "Zo werkt het",
+    "privacy": "Privacy",
+    "terms": "Voorwaarden",
+    "contact": "Contact",
+    "get_app": "Download",
+    "skip": "Ga naar de inhoud"
+  },
+  "hero": {
+    "title_1": "Twee WhatsApp-accounts,",
+    "title_2": "één iPhone",
+    "lede": "Voeg je tweede account in seconden toe en houd werk en privé gescheiden.",
+    "cta": "Download in de App Store",
+    "how": "Bekijk hoe het werkt",
+    "fine": "Gratis te downloaden. Voor iPhone, iPad en iPhone Duo.",
+    "alt": "Startscherm van Dual Messenger+ met de knop Inloggen"
+  },
+  "features": {
+    "title": "Meer dan een tweede account",
+    "lede": "Een slot op je chats en een paar handige tools voor elke dag, ingebouwd in dezelfde app.",
+    "items": [
+      {
+        "img": "lock",
+        "title": "Vergrendel met Face ID of je toegangscode",
+        "text": "Alleen jij kunt de app en je chats openen. Kies of de app direct wordt vergrendeld of pas na een paar minuten.",
+        "alt": "Vergrendelscherm met de tekst DualMessenger+ Vergrendeld en de knop Gebruik Face ID"
+      },
+      {
+        "img": "voice",
+        "title": "Spraakberichten omgezet in tekst",
+        "text": "Transcribeer spraakberichten en audiobestanden in je eigen taal en kopieer de tekst waar je maar wilt.",
+        "alt": "Het scherm Transcriptie met drie spraakopnames en hun transcripties"
+      },
+      {
+        "img": "bot",
+        "title": "Een AI-bot die op je toestel draait",
+        "text": "Stel snelle vragen, ook offline. Je gesprekken met de bot verlaten je telefoon nooit.",
+        "alt": "Het scherm Chatbot met een gesprek over het plannen van de dag"
+      },
+      {
+        "img": "notes",
+        "title": "Notities en herinneringen naast je chats",
+        "text": "Schrijf dingen op, vind ze terug met de zoekfunctie en krijg een melding wanneer het tijd is voor een herinnering.",
+        "alt": "Het scherm Notities met een zoekveld en vier notities"
+      }
+    ],
+    "also_title": "Ook in de app",
+    "also": [
+      {
+        "title": "Stickerpakketten",
+        "text": "Voeg kant-en-klare stickerpakketten toe aan WhatsApp en gebruik ze in elke chat."
+      },
+      {
+        "title": "Speciale lettertypen",
+        "text": "Typ je tekst, kies een van de 8 stijlen en kopieer hem naar een bericht."
+      },
+      {
+        "title": "Locatie delen",
+        "text": "Bekijk op de kaart waar je bent en verstuur je locatie als link."
+      },
+      {
+        "title": "iPad-multitasking",
+        "text": "Houd Dual Messenger+ open naast je agenda, browser of elke andere app."
+      }
+    ]
+  },
+  "how": {
+    "title": "In drie stappen ingesteld",
+    "lede": "Je hebt de telefoon met je tweede WhatsApp-account alleen even nodig.",
+    "steps": [
+      {
+        "title": "Open Dual Messenger+",
+        "text": "Tik op Inloggen. Er verschijnt een QR-code op het scherm."
+      },
+      {
+        "title": "Open WhatsApp op je andere telefoon",
+        "text": "Ga naar Instellingen, dan naar Gekoppelde apparaten en tik op Apparaat koppelen."
+      },
+      {
+        "title": "Scan de code",
+        "text": "Richt die telefoon op de QR-code. Je chats worden geopend in Dual Messenger+."
+      }
+    ],
+    "note": "WhatsApp houdt een gekoppeld apparaat ingelogd zolang je WhatsApp minstens één keer per 14 dagen op je telefoon gebruikt."
+  },
+  "privacy": {
+    "title": "Je chats blijven tussen jou en WhatsApp",
+    "lede": "Dual Messenger+ heeft geen servers die je berichten zien. Je hoeft geen account aan te maken en de app bevat geen advertenties of trackers.",
+    "facts": [
+      {
+        "title": "Opgeslagen op je apparaat",
+        "text": "Notities, herinneringen, opnames en gesprekken met de bot worden op je iPhone of iPad bewaard."
+      },
+      {
+        "title": "Geen registratie nodig",
+        "text": "Je geeft ons geen naam, e-mailadres of telefoonnummer."
+      },
+      {
+        "title": "Face ID blijft op je apparaat",
+        "text": "Face ID en Touch ID worden door je apparaat afgehandeld. De app ontvangt nooit biometrische gegevens."
+      }
+    ],
+    "cta": "Lees het privacybeleid"
+  },
+  "faq": {
+    "title": "Vragen",
+    "items": [
+      {
+        "q": "Heb ik mijn tweede telefoon nog nodig?",
+        "a": "Ja, maar je hoeft hem niet mee te nemen. Je tweede account blijft op die telefoon staan. Je gebruikt hem één keer om de QR-code te scannen. Daarna open je WhatsApp op die telefoon minstens één keer per 14 dagen om ingelogd te blijven."
+      },
+      {
+        "q": "Is Dual Messenger+ gemaakt door WhatsApp?",
+        "a": "Nee. Dual Messenger+ is een onafhankelijke app. De app is niet verbonden aan, goedgekeurd door of gesponsord door WhatsApp of Meta."
+      },
+      {
+        "q": "Is de app gratis?",
+        "a": "De app is gratis te downloaden. Voor Premium-functies heb je een abonnement nodig, dat je per week, per maand of per jaar kunt afsluiten. De prijzen zie je in de app voordat je iets koopt, en je kunt op elk moment opzeggen via je accountinstellingen in de App Store."
+      },
+      {
+        "q": "Op welke apparaten werkt de app?",
+        "a": "Op iPhone, iPad en iPhone Duo met iOS 16 of nieuwer. Om twee accounts in de app te gebruiken, heb je iOS 17 of nieuwer nodig."
+      },
+      {
+        "q": "Hoe log ik uit?",
+        "a": "Ga in WhatsApp op je telefoon naar Instellingen en dan naar Gekoppelde apparaten, tik op het apparaat en kies Uitloggen. Je kunt een account ook in Dual Messenger+ zelf verwijderen."
+      },
+      {
+        "q": "Welke talen spreekt de app?",
+        "a": "15 talen: Nederlands, Engels, Arabisch, Chinees (vereenvoudigd), Duits, Frans, Hebreeuws, Hindi, Indonesisch, Italiaans, Japans, Portugees, Russisch, Spaans en Turks."
+      }
+    ]
+  },
+  "closing": {
+    "title": "Je tweede account, op één tik afstand",
+    "text": "Download Dual Messenger+ voor iPhone en iPad.",
+    "cta": "Download in de App Store",
+    "contact_title": "Contact",
+    "contact_text": "Een vraag, een idee of een probleem met de app? Mail ons."
+  },
+  "footer": {
+    "label": "Voettekst",
+    "privacy": "Privacybeleid",
+    "terms": "Gebruiksvoorwaarden",
+    "contact": "Contact",
+    "store": "App Store",
+    "disclaimer": "Dual Messenger+ is een onafhankelijke app. De app is niet verbonden aan, goedgekeurd door of gesponsord door WhatsApp of Meta. WhatsApp is een handelsmerk van de betreffende eigenaar.",
+    "apple": "Apple, iPhone, iPad, Face ID en Touch ID zijn handelsmerken van Apple Inc., die zijn gedeponeerd in de VS en andere landen en regio’s. App Store is een dienstmerk van Apple Inc.",
+    "copyright": "© 2026 Dual Messenger+"
+  },
+  "legal": {
+    "updated_label": "Laatst bijgewerkt",
+    "updated": "9 november 2026",
+    "toc_title": "Op deze pagina",
+    "translation_note": "Dit is een vertaling van het Engelse origineel. Als de twee versies van elkaar verschillen, geldt de Engelse versie.",
+    "english_link": "Lees de Engelse versie"
+  },
+  "language": {
+    "label": "Taal",
+    "hint": "Lees deze pagina in het Nederlands"
+  }
+}

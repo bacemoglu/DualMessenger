@@ -1,0 +1,179 @@
+{
+  "lang": "it",
+  "dir": "ltr",
+  "app": "Dual Messenger+",
+  "meta": {
+    "home_title": "Dual Messenger+ – Due account WhatsApp su un solo iPhone",
+    "home_description": "Usa il tuo secondo account WhatsApp sull’iPhone o sull’iPad che hai già con te. Blocco dell’app con Face ID, messaggi vocali trasformati in testo, un bot IA sul dispositivo, note e promemoria.",
+    "privacy_title": "Informativa sulla privacy",
+    "privacy_description": "Come Dual Messenger+ tratta i tuoi dati: nessun account, niente pubblicità, nessun tracker, e ciò che crei resta sul tuo dispositivo.",
+    "terms_title": "Termini di utilizzo",
+    "terms_description": "I termini di utilizzo dell’app e del sito web di Dual Messenger+, abbonamenti inclusi.",
+    "notfound_title": "Pagina non trovata",
+    "notfound_text": "Questa pagina non esiste o è stata spostata.",
+    "notfound_link": "Vai alla home page"
+  },
+  "nav": {
+    "label": "Principale",
+    "features": "Funzioni",
+    "how": "Come funziona",
+    "privacy": "Privacy",
+    "terms": "Termini",
+    "contact": "Contatti",
+    "get_app": "Scarica",
+    "skip": "Vai al contenuto"
+  },
+  "hero": {
+    "title_1": "Due account WhatsApp,",
+    "title_2": "un solo iPhone",
+    "lede": "Aggiungi il secondo account in pochi secondi e tieni separate le chat di lavoro da quelle personali.",
+    "cta": "Scarica su App Store",
+    "how": "Guarda come funziona",
+    "fine": "Download gratuito. Per iPhone, iPad e iPhone Duo.",
+    "alt": "Schermata iniziale di Dual Messenger+ con il pulsante Accedi"
+  },
+  "features": {
+    "title": "Più di un secondo account",
+    "lede": "Un blocco per le tue chat e qualche strumento per tutti i giorni, nella stessa app.",
+    "items": [
+      {
+        "img": "lock",
+        "title": "Blocca con Face ID o il tuo codice",
+        "text": "Solo tu puoi aprire l’app e le tue chat. Scegli se bloccarla subito o dopo qualche minuto.",
+        "alt": "Schermata di blocco con la scritta DualMessenger+ Bloccato e il pulsante Usa Face ID"
+      },
+      {
+        "img": "voice",
+        "title": "I messaggi vocali diventano testo",
+        "text": "Trascrivi messaggi vocali e file audio nella tua lingua e copia il testo dove vuoi.",
+        "alt": "Schermata Da Voce a Testo con tre note vocali e le relative trascrizioni"
+      },
+      {
+        "img": "bot",
+        "title": "Un bot IA che funziona sul tuo dispositivo",
+        "text": "Fai domande veloci, anche offline. Le tue conversazioni con il bot non lasciano mai il telefono.",
+        "alt": "Schermata Chat Bot con una conversazione su come organizzare la giornata"
+      },
+      {
+        "img": "notes",
+        "title": "Note e promemoria accanto alle tue chat",
+        "text": "Scrivi quello che ti serve, ritrovalo con la ricerca e ricevi una notifica quando scade un promemoria.",
+        "alt": "Schermata Note con un campo di ricerca e quattro note"
+      }
+    ],
+    "also_title": "Nell’app trovi anche",
+    "also": [
+      {
+        "title": "Pacchetti di sticker",
+        "text": "Aggiungi a WhatsApp pacchetti di sticker già pronti e usali in qualsiasi chat."
+      },
+      {
+        "title": "Font decorativi",
+        "text": "Scrivi il testo, scegli uno degli 8 stili e copialo in un messaggio."
+      },
+      {
+        "title": "Condivisione della posizione",
+        "text": "Guarda dove ti trovi sulla mappa e invia la posizione come link."
+      },
+      {
+        "title": "Multitasking su iPad",
+        "text": "Usa Dual Messenger+ accanto al calendario, al browser o a qualsiasi altra app."
+      }
+    ]
+  },
+  "how": {
+    "title": "Pronto in tre passaggi",
+    "lede": "Ti serve il telefono su cui hai il secondo account WhatsApp, solo per un momento.",
+    "steps": [
+      {
+        "title": "Apri Dual Messenger+",
+        "text": "Tocca Accedi. Sullo schermo compare un codice QR."
+      },
+      {
+        "title": "Apri WhatsApp sull’altro telefono",
+        "text": "Vai su Impostazioni, poi su Dispositivi collegati, e tocca Collega un dispositivo."
+      },
+      {
+        "title": "Scansiona il codice",
+        "text": "Inquadra il codice QR con quel telefono. Le tue chat si aprono in Dual Messenger+."
+      }
+    ],
+    "note": "WhatsApp mantiene l’accesso su un dispositivo collegato finché usi WhatsApp sul tuo telefono almeno una volta ogni 14 giorni."
+  },
+  "privacy": {
+    "title": "Le tue chat restano tra te e WhatsApp",
+    "lede": "Dual Messenger+ non ha server che vedono i tuoi messaggi. Non c’è nessun account da creare, e l’app non contiene pubblicità né tracker.",
+    "facts": [
+      {
+        "title": "Salvato sul tuo dispositivo",
+        "text": "Note, promemoria, registrazioni e conversazioni con il bot vengono salvati sul tuo iPhone o iPad."
+      },
+      {
+        "title": "Nessuna registrazione",
+        "text": "Non ci dai né un nome, né un indirizzo email, né un numero di telefono."
+      },
+      {
+        "title": "Face ID resta sul tuo dispositivo",
+        "text": "Face ID e Touch ID sono gestiti dal tuo dispositivo. L’app non riceve mai dati biometrici."
+      }
+    ],
+    "cta": "Leggi l’informativa sulla privacy"
+  },
+  "faq": {
+    "title": "Domande frequenti",
+    "items": [
+      {
+        "q": "Mi serve ancora il secondo telefono?",
+        "a": "Sì, ma non devi portarlo con te. Il tuo secondo account resta su quel telefono. Lo usi una volta per scansionare il codice QR, poi ci apri WhatsApp almeno una volta ogni 14 giorni per mantenere l’accesso."
+      },
+      {
+        "q": "Dual Messenger+ è un’app di WhatsApp?",
+        "a": "No. Dual Messenger+ è un’app indipendente e non è affiliata, approvata o sponsorizzata da WhatsApp o Meta."
+      },
+      {
+        "q": "È gratis?",
+        "a": "Scaricare l’app è gratis. Le funzioni Premium richiedono un abbonamento, che puoi acquistare con cadenza settimanale, mensile o annuale. I prezzi sono indicati nell’app prima dell’acquisto e puoi annullare in qualsiasi momento dalle impostazioni del tuo account App Store."
+      },
+      {
+        "q": "Su quali dispositivi funziona?",
+        "a": "Su iPhone, iPad e iPhone Duo con iOS 16 o versioni successive. Per usare due account nell’app serve iOS 17 o versioni successive."
+      },
+      {
+        "q": "Come faccio a disconnettermi?",
+        "a": "In WhatsApp, sul tuo telefono, vai su Impostazioni, poi su Dispositivi collegati, tocca il dispositivo e scegli Disconnetti. Puoi anche rimuovere un account da Dual Messenger+."
+      },
+      {
+        "q": "In quali lingue è disponibile l’app?",
+        "a": "15 lingue: italiano, arabo, cinese (semplificato), ebraico, francese, giapponese, hindi, indonesiano, inglese, olandese, portoghese, russo, spagnolo, tedesco e turco."
+      }
+    ]
+  },
+  "closing": {
+    "title": "Il tuo secondo account, a portata di tocco",
+    "text": "Scarica Dual Messenger+ per iPhone e iPad.",
+    "cta": "Scarica su App Store",
+    "contact_title": "Contatti",
+    "contact_text": "Una domanda, un’idea o un problema con l’app? Scrivici."
+  },
+  "footer": {
+    "label": "Piè di pagina",
+    "privacy": "Informativa sulla privacy",
+    "terms": "Termini di utilizzo",
+    "contact": "Contatti",
+    "store": "App Store",
+    "disclaimer": "Dual Messenger+ è un’app indipendente e non è affiliata, approvata o sponsorizzata da WhatsApp o Meta. WhatsApp è un marchio del rispettivo proprietario.",
+    "apple": "Apple, iPhone, iPad, Face ID e Touch ID sono marchi di Apple Inc., registrati negli Stati Uniti e in altri Paesi e regioni. App Store è un marchio di servizio di Apple Inc.",
+    "copyright": "© 2026 Dual Messenger+"
+  },
+  "legal": {
+    "updated_label": "Ultimo aggiornamento",
+    "updated": "9 novembre 2026",
+    "toc_title": "In questa pagina",
+    "translation_note": "Questo testo è una traduzione dell’originale inglese. In caso di differenze tra le due versioni, prevale la versione inglese.",
+    "english_link": "Leggi la versione inglese"
+  },
+  "language": {
+    "label": "Lingua",
+    "hint": "Leggi questa pagina in italiano"
+  }
+}

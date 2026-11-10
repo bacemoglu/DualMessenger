@@ -1,0 +1,90 @@
+{% import "_parts.j2" as p with context -%}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ title }}</title>
+<style>
+{{ css | safe }}
+</style>
+</head>
+<body>
+<div class="lang-hint" data-lang-hint hidden><a href="#home"></a></div>
+{% for s in sites -%}
+<div class="site" data-site="{{ s.t.lang }}" data-home="{{ s.ids.home }}" lang="{{ s.t.lang }}" dir="{{ s.t.dir }}"{% if not loop.first %} hidden{% endif %}>
+{{ p.header(s.t, s.u, '', s.badge) }}
+<main id="{{ s.ids.home }}" data-view="home">
+{{ p.home_sections(s.t, s.u, s.ids, s.fit, loop.first) }}
+</main>
+<main id="{{ s.ids.privacy }}" class="legal" data-view="privacy" hidden>
+{{ p.legal_sections(s.t, s.t.meta.privacy_title, s.privacy_body, s.u.english_privacy) }}
+</main>
+<main id="{{ s.ids.terms }}" class="legal" data-view="terms" hidden>
+{{ p.legal_sections(s.t, s.t.meta.terms_title, s.terms_body, s.u.english_terms) }}
+</main>
+{{ p.footer(s.t, s.u, s.ids, s.langs) }}
+</div>
+{% endfor -%}
+<script>
+/* Preview only: every language and page of the site lives in this one document and is switched by the hash.
+   On the real site they are separate pages: /, /privacy/, /terms/ and /tr/, /tr/privacy/ and so on. */
+(function () {
+  var slice = Array.prototype.slice;
+  var sites = slice.call(document.querySelectorAll('[data-site]'));
+  var views = slice.call(document.querySelectorAll('[data-view]'));
+  var hints = {{ hint_map | tojson }};
+  var current = null;
+  function target(home, kind) { return '#' + (kind === 'home' ? home : (home === 'home' ? '' : home + '-') + kind); }
+  function key(c) {
+    c = String(c).toLowerCase(); var p = c.split('-')[0];
+    if (p === 'zh') return (c.indexOf('hant') > -1 || /-(tw|hk|mo)$/.test(c)) ? null : 'zh-Hans';
+    if (p === 'pt') return 'pt-PT';
+    if (p === 'iw') return 'he';
+    if (p === 'in') return 'id';
+    return p;
+  }
+  function hint(here, kind) {
+    var bar = document.querySelector('[data-lang-hint]'), a = bar.firstElementChild;
+    var list = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ''];
+    bar.hidden = true;
+    for (var i = 0; i < list.length; i++) {
+      var k = key(list[i]);
+      if (!k) continue;
+      if (k === here) return;
+      if (hints[k]) { a.textContent = hints[k][0]; a.setAttribute('href', target(hints[k][1], kind)); a.lang = k; bar.hidden = false; return; }
+    }
+  }
+  function show() {
+    var id = '';
+    try { id = decodeURIComponent(location.hash.slice(1)); } catch (e) {}
+    var el = id ? document.getElementById(id) : null;
+    var view = el ? el.closest('[data-view]') : null;
+    var site = el ? el.closest('[data-site]') : null;
+    if (el && !view && site) {   /* something outside the pages, such as the language list: stay on the current page */
+      view = current && current.closest('[data-site]') === site ? current : site.querySelector('[data-view]');
+    }
+    if (!view) { view = views[0]; el = null; }
+    site = view.closest('[data-site]');
+    var kind = view.getAttribute('data-view');
+    sites.forEach(function (s) { s.hidden = s !== site; });
+    views.forEach(function (v) { v.hidden = v !== view; });
+    current = view;
+    document.documentElement.lang = site.lang;
+    document.documentElement.dir = site.dir || 'ltr';
+    slice.call(site.querySelectorAll('.site-nav a[data-nav]')).forEach(function (a) {
+      if (a.getAttribute('data-nav') === kind) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current');
+    });
+    slice.call(document.querySelectorAll('a[data-lang-home]')).forEach(function (a) {
+      a.setAttribute('href', target(a.getAttribute('data-lang-home'), kind));
+    });
+    hint(site.getAttribute('data-site'), kind);
+    if (el && el !== view) el.scrollIntoView();
+    else window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+  }
+  window.addEventListener('hashchange', show);
+  show();
+})();
+</script>
+</body>
+</html>

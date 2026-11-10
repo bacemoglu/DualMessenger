@@ -1,0 +1,179 @@
+{
+  "lang": "id",
+  "dir": "ltr",
+  "app": "Dual Messenger+",
+  "meta": {
+    "home_title": "Dual Messenger+ – Dua akun WhatsApp di satu iPhone",
+    "home_description": "Gunakan akun WhatsApp kedua Anda di iPhone atau iPad yang sudah Anda bawa. Kunci aplikasi dengan Face ID, pesan suara menjadi teks, bot AI di perangkat, catatan, dan pengingat.",
+    "privacy_title": "Kebijakan Privasi",
+    "privacy_description": "Cara Dual Messenger+ menangani data Anda: tanpa akun, tanpa iklan, tanpa pelacak, dan semua yang Anda buat tetap di perangkat Anda.",
+    "terms_title": "Ketentuan Penggunaan",
+    "terms_description": "Ketentuan penggunaan aplikasi dan situs web Dual Messenger+, termasuk langganan.",
+    "notfound_title": "Halaman tidak ditemukan",
+    "notfound_text": "Halaman ini tidak ada atau telah dipindahkan.",
+    "notfound_link": "Buka halaman utama"
+  },
+  "nav": {
+    "label": "Utama",
+    "features": "Fitur",
+    "how": "Cara kerja",
+    "privacy": "Privasi",
+    "terms": "Ketentuan",
+    "contact": "Kontak",
+    "get_app": "Unduh",
+    "skip": "Langsung ke konten"
+  },
+  "hero": {
+    "title_1": "Dua akun WhatsApp,",
+    "title_2": "satu iPhone",
+    "lede": "Tambahkan akun kedua dalam hitungan detik dan pisahkan chat kerja dari chat pribadi.",
+    "cta": "Unduh di App Store",
+    "how": "Lihat cara kerjanya",
+    "fine": "Gratis diunduh. Untuk iPhone, iPad, dan iPhone Duo.",
+    "alt": "Layar awal Dual Messenger+ dengan tombol Masuk"
+  },
+  "features": {
+    "title": "Lebih dari sekadar akun kedua",
+    "lede": "Kunci untuk chat Anda dan beberapa alat sehari-hari, semuanya dalam satu aplikasi.",
+    "items": [
+      {
+        "img": "lock",
+        "title": "Kunci dengan Face ID atau kode sandi",
+        "text": "Hanya Anda yang bisa membuka aplikasi dan chat Anda. Pilih apakah aplikasi terkunci seketika atau setelah beberapa menit.",
+        "alt": "Layar kunci bertuliskan DualMessenger+ Terkunci dengan tombol Gunakan Face ID"
+      },
+      {
+        "img": "voice",
+        "title": "Pesan suara menjadi teks",
+        "text": "Ubah pesan suara dan file audio menjadi teks dalam bahasa Anda, lalu salin teksnya ke mana saja.",
+        "alt": "Layar Suara ke Teks dengan tiga catatan suara beserta transkripsinya"
+      },
+      {
+        "img": "bot",
+        "title": "Bot AI yang berjalan di perangkat Anda",
+        "text": "Ajukan pertanyaan singkat, bahkan tanpa internet. Percakapan Anda dengan bot tidak pernah keluar dari ponsel.",
+        "alt": "Layar Bot Obrolan dengan percakapan tentang merencanakan hari"
+      },
+      {
+        "img": "notes",
+        "title": "Catatan dan pengingat di samping chat Anda",
+        "text": "Tulis hal-hal penting, temukan kembali lewat pencarian, dan dapatkan notifikasi saat pengingat tiba waktunya.",
+        "alt": "Layar Catatan dengan kolom pencarian dan empat catatan"
+      }
+    ],
+    "also_title": "Juga ada di aplikasi",
+    "also": [
+      {
+        "title": "Paket stiker",
+        "text": "Tambahkan paket stiker siap pakai ke WhatsApp dan gunakan di chat mana pun."
+      },
+      {
+        "title": "Font unik",
+        "text": "Ketik teks Anda, pilih salah satu dari 8 gaya, lalu salin ke pesan."
+      },
+      {
+        "title": "Berbagi lokasi",
+        "text": "Lihat posisi Anda di peta dan kirimkan sebagai tautan."
+      },
+      {
+        "title": "Multitasking iPad",
+        "text": "Gunakan Dual Messenger+ berdampingan dengan kalender, browser, atau aplikasi lainnya."
+      }
+    ]
+  },
+  "how": {
+    "title": "Siap dalam tiga langkah",
+    "lede": "Anda memerlukan ponsel yang berisi akun WhatsApp kedua Anda, hanya sebentar.",
+    "steps": [
+      {
+        "title": "Buka Dual Messenger+",
+        "text": "Ketuk Masuk. Kode QR akan muncul di layar."
+      },
+      {
+        "title": "Buka WhatsApp di ponsel Anda yang lain",
+        "text": "Buka Pengaturan, lalu Perangkat Tertaut, dan ketuk Tautkan Perangkat."
+      },
+      {
+        "title": "Pindai kodenya",
+        "text": "Arahkan ponsel itu ke kode QR. Chat Anda akan terbuka di Dual Messenger+."
+      }
+    ],
+    "note": "WhatsApp membuat perangkat tertaut tetap masuk selama Anda menggunakan WhatsApp di ponsel setidaknya sekali setiap 14 hari."
+  },
+  "privacy": {
+    "title": "Chat Anda tetap antara Anda dan WhatsApp",
+    "lede": "Dual Messenger+ tidak memiliki server yang melihat pesan Anda. Tidak ada akun yang perlu dibuat, dan aplikasi ini tidak memiliki iklan maupun pelacak.",
+    "facts": [
+      {
+        "title": "Disimpan di perangkat Anda",
+        "text": "Catatan, pengingat, rekaman, dan percakapan dengan bot disimpan di iPhone atau iPad Anda."
+      },
+      {
+        "title": "Tanpa pendaftaran",
+        "text": "Anda tidak perlu memberi kami nama, alamat email, atau nomor telepon."
+      },
+      {
+        "title": "Face ID tetap di perangkat Anda",
+        "text": "Face ID dan Touch ID ditangani oleh perangkat Anda. Aplikasi tidak pernah menerima data biometrik."
+      }
+    ],
+    "cta": "Baca kebijakan privasi"
+  },
+  "faq": {
+    "title": "Pertanyaan umum",
+    "items": [
+      {
+        "q": "Apakah saya masih perlu ponsel kedua saya?",
+        "a": "Ya, tetapi Anda tidak perlu membawanya. Akun kedua Anda tetap berada di ponsel itu. Anda memakainya sekali untuk memindai kode QR, lalu membuka WhatsApp di ponsel itu setidaknya sekali setiap 14 hari agar tetap masuk."
+      },
+      {
+        "q": "Apakah Dual Messenger+ dibuat oleh WhatsApp?",
+        "a": "Tidak. Dual Messenger+ adalah aplikasi independen dan tidak berafiliasi dengan, didukung oleh, atau disponsori oleh WhatsApp maupun Meta."
+      },
+      {
+        "q": "Apakah gratis?",
+        "a": "Aplikasi ini gratis diunduh. Fitur Premium memerlukan langganan, yang bisa Anda beli secara mingguan, bulanan, atau tahunan. Harga ditampilkan di aplikasi sebelum Anda membeli, dan Anda bisa membatalkan kapan saja di pengaturan akun App Store Anda."
+      },
+      {
+        "q": "Di perangkat apa saja aplikasi ini bisa digunakan?",
+        "a": "iPhone, iPad, dan iPhone Duo dengan iOS 16 atau lebih baru. Untuk menggunakan dua akun di dalam aplikasi diperlukan iOS 17 atau lebih baru."
+      },
+      {
+        "q": "Bagaimana cara keluar?",
+        "a": "Di WhatsApp pada ponsel Anda, buka Pengaturan, lalu Perangkat Tertaut, ketuk perangkatnya, dan pilih Keluar. Anda juga bisa menghapus akun di dalam Dual Messenger+."
+      },
+      {
+        "q": "Aplikasi ini tersedia dalam bahasa apa saja?",
+        "a": "15 bahasa: Indonesia, Arab, Belanda, Hindi, Ibrani, Inggris, Italia, Jepang, Jerman, Portugis, Prancis, Rusia, Spanyol, Tionghoa (Sederhana), dan Turki."
+      }
+    ]
+  },
+  "closing": {
+    "title": "Akun kedua Anda, cukup satu ketukan",
+    "text": "Unduh Dual Messenger+ untuk iPhone dan iPad.",
+    "cta": "Unduh di App Store",
+    "contact_title": "Kontak",
+    "contact_text": "Ada pertanyaan, ide, atau masalah dengan aplikasi? Tulis kepada kami."
+  },
+  "footer": {
+    "label": "Bagian bawah halaman",
+    "privacy": "Kebijakan Privasi",
+    "terms": "Ketentuan Penggunaan",
+    "contact": "Kontak",
+    "store": "App Store",
+    "disclaimer": "Dual Messenger+ adalah aplikasi independen dan tidak berafiliasi dengan, didukung oleh, atau disponsori oleh WhatsApp maupun Meta. WhatsApp adalah merek dagang milik pemiliknya.",
+    "apple": "Apple, iPhone, iPad, Face ID, dan Touch ID adalah merek dagang Apple Inc., yang terdaftar di AS serta negara dan wilayah lain. App Store adalah merek layanan Apple Inc.",
+    "copyright": "© 2026 Dual Messenger+"
+  },
+  "legal": {
+    "updated_label": "Terakhir diperbarui",
+    "updated": "9 November 2026",
+    "toc_title": "Di halaman ini",
+    "translation_note": "Ini adalah terjemahan dari versi asli berbahasa Inggris. Jika kedua versi berbeda, versi bahasa Inggris yang berlaku.",
+    "english_link": "Baca versi bahasa Inggris"
+  },
+  "language": {
+    "label": "Bahasa",
+    "hint": "Baca halaman ini dalam bahasa Indonesia"
+  }
+}

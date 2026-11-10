@@ -1,0 +1,179 @@
+{
+  "lang": "tr",
+  "dir": "ltr",
+  "app": "Dual Messenger+",
+  "meta": {
+    "home_title": "Dual Messenger+ – Tek iPhone’da iki WhatsApp hesabı",
+    "home_description": "İkinci WhatsApp hesabınızı zaten yanınızda taşıdığınız iPhone veya iPad’de kullanın. Face ID ile uygulama kilidi, sesli mesajları metne dönüştürme, cihazda çalışan yapay zekâ botu, notlar ve hatırlatıcılar.",
+    "privacy_title": "Gizlilik Politikası",
+    "privacy_description": "Dual Messenger+ verilerinizi nasıl ele alır: hesap yok, reklam yok, izleyici yok; oluşturduklarınız cihazınızda kalır.",
+    "terms_title": "Kullanım Koşulları",
+    "terms_description": "Dual Messenger+ uygulamasının ve web sitesinin kullanım koşulları; abonelikler dahil.",
+    "notfound_title": "Sayfa bulunamadı",
+    "notfound_text": "Bu sayfa yok ya da taşınmış.",
+    "notfound_link": "Ana sayfaya git"
+  },
+  "nav": {
+    "label": "Ana menü",
+    "features": "Özellikler",
+    "how": "Nasıl çalışır",
+    "privacy": "Gizlilik",
+    "terms": "Koşullar",
+    "contact": "İletişim",
+    "get_app": "İndir",
+    "skip": "İçeriğe geç"
+  },
+  "hero": {
+    "title_1": "İki WhatsApp hesabı,",
+    "title_2": "tek iPhone",
+    "lede": "İkinci hesabınızı saniyeler içinde ekleyin; iş ve özel sohbetlerinizi ayrı tutun.",
+    "cta": "App Store’dan indirin",
+    "how": "Nasıl çalıştığını görün",
+    "fine": "İndirmesi ücretsiz. iPhone, iPad ve iPhone Duo için.",
+    "alt": "Giriş Yap düğmesinin göründüğü Dual Messenger+ başlangıç ekranı"
+  },
+  "features": {
+    "title": "İkinci hesaptan fazlası",
+    "lede": "Sohbetleriniz için bir kilit ve her gün işinize yarayacak birkaç araç, hepsi aynı uygulamada.",
+    "items": [
+      {
+        "img": "lock",
+        "title": "Face ID veya şifreyle kilitleyin",
+        "text": "Uygulamayı ve sohbetlerinizi yalnızca siz açabilirsiniz. Hemen mi yoksa birkaç dakika sonra mı kilitleneceğini siz seçin.",
+        "alt": "DualMessenger+ Kilitli yazan ve Face ID Kullanın düğmesi bulunan kilit ekranı"
+      },
+      {
+        "img": "voice",
+        "title": "Sesli mesajlar metne dönüşsün",
+        "text": "Sesli mesajları ve ses dosyalarını kendi dilinizde yazıya dökün, metni istediğiniz yere kopyalayın.",
+        "alt": "Üç sesli not ve yazıya dökülmüş metinleriyle Sesten Metne ekranı"
+      },
+      {
+        "img": "bot",
+        "title": "Cihazınızda çalışan bir yapay zekâ botu",
+        "text": "Hızlı sorular sorun, internet olmadan bile. Botla yaptığınız sohbetler telefonunuzdan çıkmaz.",
+        "alt": "Günü planlamakla ilgili bir sohbetin göründüğü Sohbet Botu ekranı"
+      },
+      {
+        "img": "notes",
+        "title": "Notlar ve hatırlatıcılar sohbetlerinizin yanında",
+        "text": "Aklınızdakileri yazın, aramayla bulun; hatırlatıcının zamanı gelince bildirim alın.",
+        "alt": "Arama alanı ve dört notun göründüğü Notlar ekranı"
+      }
+    ],
+    "also_title": "Uygulamada ayrıca",
+    "also": [
+      {
+        "title": "Çıkartma paketleri",
+        "text": "Hazır çıkartma paketlerini WhatsApp’a ekleyin, istediğiniz sohbette kullanın."
+      },
+      {
+        "title": "Süslü yazı tipleri",
+        "text": "Metninizi yazın, 8 stilden birini seçin ve mesajınıza kopyalayın."
+      },
+      {
+        "title": "Konum paylaşımı",
+        "text": "Haritada nerede olduğunuzu görün ve konumunuzu bağlantı olarak gönderin."
+      },
+      {
+        "title": "iPad’de çoklu görev",
+        "text": "Dual Messenger+’ı takviminiz, tarayıcınız ya da başka bir uygulamayla yan yana açık tutun."
+      }
+    ]
+  },
+  "how": {
+    "title": "Üç adımda kurulum",
+    "lede": "İkinci WhatsApp hesabınızın bulunduğu telefon yalnızca kısa bir süreliğine gerekir.",
+    "steps": [
+      {
+        "title": "Dual Messenger+’ı açın",
+        "text": "Giriş Yap’a dokunun. Ekranda bir QR kodu belirir."
+      },
+      {
+        "title": "Diğer telefonunuzda WhatsApp’ı açın",
+        "text": "Ayarlar’a, ardından Bağlı Cihazlar’a gidin ve Cihaz Bağla’ya dokunun."
+      },
+      {
+        "title": "Kodu tarayın",
+        "text": "O telefonu QR koduna doğrultun. Sohbetleriniz Dual Messenger+’ta açılır."
+      }
+    ],
+    "note": "Telefonunuzda WhatsApp’ı en az 14 günde bir kullandığınız sürece WhatsApp, bağlı cihazdaki oturumu açık tutar."
+  },
+  "privacy": {
+    "title": "Sohbetleriniz sizinle WhatsApp arasında kalır",
+    "lede": "Dual Messenger+’ın mesajlarınızı gören sunucuları yoktur. Hesap oluşturmanız gerekmez; uygulamada reklam ya da izleyici bulunmaz.",
+    "facts": [
+      {
+        "title": "Cihazınızda saklanır",
+        "text": "Notlar, hatırlatıcılar, kayıtlar ve bot sohbetleri iPhone veya iPad’inizde saklanır."
+      },
+      {
+        "title": "Kayıt olmak yok",
+        "text": "Bize ad, e-posta adresi ya da telefon numarası vermezsiniz."
+      },
+      {
+        "title": "Face ID cihazınızda kalır",
+        "text": "Face ID ve Touch ID işlemlerini cihazınız yürütür. Uygulamaya hiçbir zaman biyometrik veri ulaşmaz."
+      }
+    ],
+    "cta": "Gizlilik politikasını okuyun"
+  },
+  "faq": {
+    "title": "Sık sorulan sorular",
+    "items": [
+      {
+        "q": "İkinci telefonum hâlâ gerekli mi?",
+        "a": "Evet, ama yanınızda taşımanız gerekmez. İkinci hesabınız o telefonda kalır. QR kodunu taramak için bir kez kullanırsınız; ardından oturumunuzun açık kalması için o telefonda WhatsApp’ı en az 14 günde bir açmanız yeterlidir."
+      },
+      {
+        "q": "Dual Messenger+’ı WhatsApp mı geliştiriyor?",
+        "a": "Hayır. Dual Messenger+ bağımsız bir uygulamadır; WhatsApp veya Meta ile bağlantılı değildir, onlar tarafından onaylanmamış ya da desteklenmemektedir."
+      },
+      {
+        "q": "Ücretsiz mi?",
+        "a": "Uygulamayı indirmek ücretsizdir. Premium özellikler için abonelik gerekir; haftalık, aylık veya yıllık olarak satın alabilirsiniz. Fiyatlar satın almadan önce uygulamada gösterilir ve aboneliğinizi App Store hesap ayarlarınızdan istediğiniz zaman iptal edebilirsiniz."
+      },
+      {
+        "q": "Hangi cihazlarda çalışır?",
+        "a": "iOS 16 veya sonraki bir sürümü kullanan iPhone, iPad ve iPhone Duo’da. Uygulamada iki hesap kullanmak için iOS 17 veya sonrası gerekir."
+      },
+      {
+        "q": "Oturumu nasıl kapatırım?",
+        "a": "Telefonunuzdaki WhatsApp’ta Ayarlar’a, ardından Bağlı Cihazlar’a gidin, cihaza dokunun ve Çıkış Yap’ı seçin. Hesabı Dual Messenger+ içinden de kaldırabilirsiniz."
+      },
+      {
+        "q": "Uygulama hangi dilleri destekliyor?",
+        "a": "15 dil: Türkçe, Almanca, Arapça, Çince (Basitleştirilmiş), Endonezce, Felemenkçe, Fransızca, Hintçe, İbranice, İngilizce, İspanyolca, İtalyanca, Japonca, Portekizce ve Rusça."
+      }
+    ]
+  },
+  "closing": {
+    "title": "İkinci hesabınız tek dokunuş uzağınızda",
+    "text": "Dual Messenger+’ı iPhone ve iPad’inize indirin.",
+    "cta": "App Store’dan indirin",
+    "contact_title": "İletişim",
+    "contact_text": "Uygulamayla ilgili bir sorunuz, fikriniz ya da sorununuz mu var? Bize yazın."
+  },
+  "footer": {
+    "label": "Alt bilgi",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Kullanım Koşulları",
+    "contact": "İletişim",
+    "store": "App Store",
+    "disclaimer": "Dual Messenger+ bağımsız bir uygulamadır; WhatsApp veya Meta ile bağlantılı değildir, onlar tarafından onaylanmamış ya da desteklenmemektedir. WhatsApp, sahibinin ticari markasıdır.",
+    "apple": "Apple, iPhone, iPad, Face ID ve Touch ID, Apple Inc.’in ABD’de ve diğer ülkelerde ve bölgelerde tescilli ticari markalarıdır. App Store, Apple Inc.’in hizmet markasıdır.",
+    "copyright": "© 2026 Dual Messenger+"
+  },
+  "legal": {
+    "updated_label": "Son güncelleme",
+    "updated": "9 Kasım 2026",
+    "toc_title": "Bu sayfada",
+    "translation_note": "Bu metin, İngilizce aslının çevirisidir. İki sürüm arasında fark olması hâlinde İngilizce sürüm geçerlidir.",
+    "english_link": "İngilizce sürümü okuyun"
+  },
+  "language": {
+    "label": "Dil",
+    "hint": "Bu sayfayı Türkçe okuyun"
+  }
+}

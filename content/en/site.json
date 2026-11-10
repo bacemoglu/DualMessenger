@@ -1,0 +1,179 @@
+{
+  "lang": "en",
+  "dir": "ltr",
+  "app": "Dual Messenger+",
+  "meta": {
+    "home_title": "Dual Messenger+ – Two WhatsApp accounts on one iPhone",
+    "home_description": "Use your second WhatsApp account on the iPhone or iPad you already carry. App lock with Face ID, voice messages to text, an on-device AI bot, notes and reminders.",
+    "privacy_title": "Privacy Policy",
+    "privacy_description": "How Dual Messenger+ handles your data: no account, no ads, no trackers, and what you create stays on your device.",
+    "terms_title": "Terms of Use",
+    "terms_description": "The terms for using the Dual Messenger+ app and website, including subscriptions.",
+    "notfound_title": "Page not found",
+    "notfound_text": "This page does not exist or has moved.",
+    "notfound_link": "Go to the home page"
+  },
+  "nav": {
+    "label": "Main",
+    "features": "Features",
+    "how": "How it works",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "contact": "Contact",
+    "get_app": "Get the app",
+    "skip": "Skip to content"
+  },
+  "hero": {
+    "title_1": "Two WhatsApp accounts,",
+    "title_2": "one iPhone",
+    "lede": "Add your second account in seconds and keep work and personal chats separate.",
+    "cta": "Download on the App Store",
+    "how": "See how it works",
+    "fine": "Free to download. For iPhone, iPad and iPhone Duo.",
+    "alt": "Dual Messenger+ start screen with the Log In button"
+  },
+  "features": {
+    "title": "More than a second account",
+    "lede": "A lock for your chats and a few everyday tools, built into the same app.",
+    "items": [
+      {
+        "img": "lock",
+        "title": "Lock it with Face ID or your passcode",
+        "text": "Only you can open the app and your chats. Choose whether it locks right away or after a few minutes.",
+        "alt": "Lock screen that says DualMessenger+ Locked, with a Use Face ID button"
+      },
+      {
+        "img": "voice",
+        "title": "Voice messages, turned into text",
+        "text": "Transcribe voice messages and audio files in your language, then copy the text anywhere.",
+        "alt": "Voice To Text screen with three voice notes and their transcriptions"
+      },
+      {
+        "img": "bot",
+        "title": "An AI bot that runs on your device",
+        "text": "Ask quick questions, even offline. Your conversations with the bot never leave your phone.",
+        "alt": "Chat Bot screen with a conversation about planning the day"
+      },
+      {
+        "img": "notes",
+        "title": "Notes and reminders next to your chats",
+        "text": "Write things down, find them with search, and get a notification when a reminder is due.",
+        "alt": "Notes screen with a search field and four notes"
+      }
+    ],
+    "also_title": "Also in the app",
+    "also": [
+      {
+        "title": "Sticker packs",
+        "text": "Add ready-made sticker packs to WhatsApp and use them in any chat."
+      },
+      {
+        "title": "Fancy fonts",
+        "text": "Type your text, pick one of 8 styles and copy it into a message."
+      },
+      {
+        "title": "Location sharing",
+        "text": "See where you are on the map and send it as a link."
+      },
+      {
+        "title": "iPad multitasking",
+        "text": "Keep Dual Messenger+ open side by side with your calendar, browser or any other app."
+      }
+    ]
+  },
+  "how": {
+    "title": "Set up in three steps",
+    "lede": "You need the phone that has your second WhatsApp account, just for a moment.",
+    "steps": [
+      {
+        "title": "Open Dual Messenger+",
+        "text": "Tap Log In. A QR code appears on the screen."
+      },
+      {
+        "title": "Open WhatsApp on your other phone",
+        "text": "Go to Settings, then Linked Devices, and tap Link a Device."
+      },
+      {
+        "title": "Scan the code",
+        "text": "Point that phone at the QR code. Your chats open in Dual Messenger+."
+      }
+    ],
+    "note": "WhatsApp keeps a linked device signed in as long as you use WhatsApp on your phone at least once every 14 days."
+  },
+  "privacy": {
+    "title": "Your chats stay between you and WhatsApp",
+    "lede": "Dual Messenger+ has no servers that see your messages. There is no account to create, and the app has no ads or trackers.",
+    "facts": [
+      {
+        "title": "Stored on your device",
+        "text": "Notes, reminders, recordings and bot conversations are saved on your iPhone or iPad."
+      },
+      {
+        "title": "Nothing to sign up for",
+        "text": "You don’t give us a name, an email address or a phone number."
+      },
+      {
+        "title": "Face ID stays on your device",
+        "text": "Face ID and Touch ID are handled by your device. The app never receives biometric data."
+      }
+    ],
+    "cta": "Read the privacy policy"
+  },
+  "faq": {
+    "title": "Questions",
+    "items": [
+      {
+        "q": "Do I still need my second phone?",
+        "a": "Yes, but you don’t have to carry it. Your second account stays on that phone. You use it once to scan the QR code, then open WhatsApp on it at least once every 14 days to stay signed in."
+      },
+      {
+        "q": "Is Dual Messenger+ made by WhatsApp?",
+        "a": "No. Dual Messenger+ is an independent app. It is not affiliated with, endorsed by or sponsored by WhatsApp or Meta."
+      },
+      {
+        "q": "Is it free?",
+        "a": "The app is free to download. Premium features need a subscription, which you can buy weekly, monthly or yearly. Prices are shown in the app before you buy, and you can cancel at any time in your App Store account settings."
+      },
+      {
+        "q": "Which devices does it work on?",
+        "a": "iPhone, iPad and iPhone Duo with iOS 16 or later. Using two accounts inside the app needs iOS 17 or later."
+      },
+      {
+        "q": "How do I sign out?",
+        "a": "In WhatsApp on your phone, go to Settings, then Linked Devices, tap the device and choose Log Out. You can also remove an account inside Dual Messenger+."
+      },
+      {
+        "q": "Which languages does the app speak?",
+        "a": "15 languages: English, Arabic, Chinese (Simplified), Dutch, French, German, Hebrew, Hindi, Indonesian, Italian, Japanese, Portuguese, Russian, Spanish and Turkish."
+      }
+    ]
+  },
+  "closing": {
+    "title": "Your second account, one tap away",
+    "text": "Download Dual Messenger+ for iPhone and iPad.",
+    "cta": "Download on the App Store",
+    "contact_title": "Contact",
+    "contact_text": "A question, an idea or a problem with the app? Write to us."
+  },
+  "footer": {
+    "label": "Footer",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "contact": "Contact",
+    "store": "App Store",
+    "disclaimer": "Dual Messenger+ is an independent app. It is not affiliated with, endorsed by or sponsored by WhatsApp or Meta. WhatsApp is a trademark of its owner.",
+    "apple": "Apple, iPhone, iPad, Face ID and Touch ID are trademarks of Apple Inc., registered in the U.S. and other countries and regions. App Store is a service mark of Apple Inc.",
+    "copyright": "© 2026 Dual Messenger+"
+  },
+  "legal": {
+    "updated_label": "Last updated",
+    "updated": "November 9, 2026",
+    "toc_title": "On this page",
+    "translation_note": "This is a translation of the English original. If the two versions differ, the English version applies.",
+    "english_link": "Read the English version"
+  },
+  "language": {
+    "label": "Language",
+    "hint": "Read this page in English"
+  }
+}

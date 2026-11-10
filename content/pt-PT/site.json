@@ -1,0 +1,179 @@
+{
+  "lang": "pt-PT",
+  "dir": "ltr",
+  "app": "Dual Messenger+",
+  "meta": {
+    "home_title": "Dual Messenger+ – Duas contas WhatsApp num só iPhone",
+    "home_description": "Use a sua segunda conta do WhatsApp no iPhone ou iPad que já traz consigo. Bloqueio da app com Face ID, mensagens de voz transformadas em texto, um bot de IA no dispositivo, notas e lembretes.",
+    "privacy_title": "Política de privacidade",
+    "privacy_description": "Como o Dual Messenger+ trata os seus dados: sem conta, sem anúncios, sem rastreadores, e o que cria fica no seu dispositivo.",
+    "terms_title": "Termos de utilização",
+    "terms_description": "Os termos de utilização da app e do site do Dual Messenger+, incluindo as subscrições.",
+    "notfound_title": "Página não encontrada",
+    "notfound_text": "Esta página não existe ou foi movida.",
+    "notfound_link": "Ir para a página inicial"
+  },
+  "nav": {
+    "label": "Principal",
+    "features": "Funcionalidades",
+    "how": "Como funciona",
+    "privacy": "Privacidade",
+    "terms": "Termos",
+    "contact": "Contacto",
+    "get_app": "Obter",
+    "skip": "Saltar para o conteúdo"
+  },
+  "hero": {
+    "title_1": "Duas contas WhatsApp,",
+    "title_2": "um só iPhone",
+    "lede": "Adicione a segunda conta em segundos e mantenha as conversas de trabalho separadas das pessoais.",
+    "cta": "Descarregar na App Store",
+    "how": "Ver como funciona",
+    "fine": "Descarregue gratuitamente. Para iPhone, iPad e iPhone Duo.",
+    "alt": "Ecrã inicial do Dual Messenger+ com o botão Iniciar sessão"
+  },
+  "features": {
+    "title": "Mais do que uma segunda conta",
+    "lede": "Um bloqueio para as suas conversas e algumas ferramentas para o dia a dia, tudo na mesma app.",
+    "items": [
+      {
+        "img": "lock",
+        "title": "Bloqueie com Face ID ou com o seu código",
+        "text": "Mais ninguém consegue abrir a app nem as suas conversas. Escolha se bloqueia de imediato ou ao fim de alguns minutos.",
+        "alt": "Ecrã de bloqueio com o texto DualMessenger+ Bloqueado e o botão Usar Face ID"
+      },
+      {
+        "img": "voice",
+        "title": "Mensagens de voz transformadas em texto",
+        "text": "Transcreva mensagens de voz e ficheiros de áudio no seu idioma e copie o texto para onde quiser.",
+        "alt": "Ecrã Voz para texto com três notas de voz e as respetivas transcrições"
+      },
+      {
+        "img": "bot",
+        "title": "Um bot de IA que funciona no seu dispositivo",
+        "text": "Faça perguntas rápidas, mesmo sem internet. As suas conversas com o bot nunca saem do telemóvel.",
+        "alt": "Ecrã Chat Bot com uma conversa sobre como organizar o dia"
+      },
+      {
+        "img": "notes",
+        "title": "Notas e lembretes ao lado das suas conversas",
+        "text": "Aponte o que precisar, encontre-o com a pesquisa e receba uma notificação à hora do lembrete.",
+        "alt": "Ecrã Notas com um campo de pesquisa e quatro notas"
+      }
+    ],
+    "also_title": "Também na app",
+    "also": [
+      {
+        "title": "Pacotes de autocolantes",
+        "text": "Adicione pacotes de autocolantes já prontos ao WhatsApp e use-os em qualquer conversa."
+      },
+      {
+        "title": "Letras decorativas",
+        "text": "Escreva o texto, escolha um dos 8 estilos e copie-o para uma mensagem."
+      },
+      {
+        "title": "Partilha de localização",
+        "text": "Veja onde está no mapa e envie a sua localização como ligação."
+      },
+      {
+        "title": "Multitasking no iPad",
+        "text": "Use o Dual Messenger+ lado a lado com o seu calendário, navegador ou qualquer outra aplicação."
+      }
+    ]
+  },
+  "how": {
+    "title": "Pronto em três passos",
+    "lede": "Precisa do telemóvel onde tem a sua segunda conta do WhatsApp, só por um momento.",
+    "steps": [
+      {
+        "title": "Abra o Dual Messenger+",
+        "text": "Toque em Iniciar sessão. Aparece um código QR no ecrã."
+      },
+      {
+        "title": "Abra o WhatsApp no outro telemóvel",
+        "text": "Vá a Definições, depois a Dispositivos associados, e toque em Associar um dispositivo."
+      },
+      {
+        "title": "Leia o código",
+        "text": "Aponte esse telemóvel para o código QR. As suas conversas abrem-se no Dual Messenger+."
+      }
+    ],
+    "note": "O WhatsApp mantém a sessão iniciada num dispositivo associado desde que use o WhatsApp no seu telemóvel pelo menos uma vez a cada 14 dias."
+  },
+  "privacy": {
+    "title": "As suas conversas ficam entre si e o WhatsApp",
+    "lede": "O Dual Messenger+ não tem servidores que vejam as suas mensagens. Não há nenhuma conta para criar, e a app não tem anúncios nem rastreadores.",
+    "facts": [
+      {
+        "title": "Guardado no seu dispositivo",
+        "text": "As notas, os lembretes, as gravações e as conversas com o bot ficam guardados no seu iPhone ou iPad."
+      },
+      {
+        "title": "Sem registo",
+        "text": "Não nos dá um nome, um endereço de e-mail nem um número de telefone."
+      },
+      {
+        "title": "O Face ID fica no seu dispositivo",
+        "text": "O Face ID e o Touch ID são geridos pelo seu dispositivo. A app nunca recebe dados biométricos."
+      }
+    ],
+    "cta": "Ler a política de privacidade"
+  },
+  "faq": {
+    "title": "Perguntas frequentes",
+    "items": [
+      {
+        "q": "Continuo a precisar do meu segundo telemóvel?",
+        "a": "Sim, mas não tem de andar com ele. A sua segunda conta continua nesse telemóvel. Usa-o uma vez para ler o código QR e, depois, abre lá o WhatsApp pelo menos uma vez a cada 14 dias para manter a sessão iniciada."
+      },
+      {
+        "q": "O Dual Messenger+ é feito pelo WhatsApp?",
+        "a": "Não. O Dual Messenger+ é uma app independente e não tem qualquer ligação ao WhatsApp nem à Meta, nem é aprovado ou patrocinado por estas empresas."
+      },
+      {
+        "q": "É gratuito?",
+        "a": "Descarregar a app é gratuito. As funcionalidades Premium requerem uma subscrição, que pode comprar à semana, ao mês ou ao ano. Os preços são apresentados na app antes da compra, e pode cancelar em qualquer altura nas definições da sua conta da App Store."
+      },
+      {
+        "q": "Em que dispositivos funciona?",
+        "a": "No iPhone, iPad e iPhone Duo com iOS 16 ou posterior. Para usar duas contas dentro da app é necessário o iOS 17 ou posterior."
+      },
+      {
+        "q": "Como termino a sessão?",
+        "a": "No WhatsApp, no seu telemóvel, vá a Definições, depois a Dispositivos associados, toque no dispositivo e escolha Terminar sessão. Também pode remover uma conta no Dual Messenger+."
+      },
+      {
+        "q": "Em que idiomas está disponível a app?",
+        "a": "15 idiomas: português, alemão, árabe, chinês (simplificado), espanhol, francês, hebraico, hindi, indonésio, inglês, italiano, japonês, neerlandês, russo e turco."
+      }
+    ]
+  },
+  "closing": {
+    "title": "A sua segunda conta, à distância de um toque",
+    "text": "Descarregue o Dual Messenger+ para iPhone e iPad.",
+    "cta": "Descarregar na App Store",
+    "contact_title": "Contacto",
+    "contact_text": "Uma pergunta, uma ideia ou um problema com a app? Escreva-nos."
+  },
+  "footer": {
+    "label": "Rodapé",
+    "privacy": "Política de privacidade",
+    "terms": "Termos de utilização",
+    "contact": "Contacto",
+    "store": "App Store",
+    "disclaimer": "O Dual Messenger+ é uma app independente e não tem qualquer ligação ao WhatsApp nem à Meta, nem é aprovado ou patrocinado por estas empresas. WhatsApp é uma marca comercial do respetivo proprietário.",
+    "apple": "Apple, iPhone, iPad, Face ID e Touch ID são marcas comerciais da Apple Inc., registadas nos EUA e noutros países e regiões. App Store é uma marca de serviço da Apple Inc.",
+    "copyright": "© 2026 Dual Messenger+"
+  },
+  "legal": {
+    "updated_label": "Última atualização",
+    "updated": "9 de novembro de 2026",
+    "toc_title": "Nesta página",
+    "translation_note": "Este texto é uma tradução do original em inglês. Se houver diferenças entre as duas versões, prevalece a versão em inglês.",
+    "english_link": "Ler a versão em inglês"
+  },
+  "language": {
+    "label": "Idioma",
+    "hint": "Ler esta página em português"
+  }
+}

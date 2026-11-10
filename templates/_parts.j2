@@ -1,0 +1,173 @@
+{% macro phone(u, img, alt, eager=false) -%}
+<div class="phone"><div class="screen"><img src="{{ u.img }}screen-{{ img }}.webp" alt="{{ alt }}" width="640" height="1391"{% if eager %} fetchpriority="high"{% else %} loading="lazy" decoding="async"{% endif %}><span class="island" aria-hidden="true"></span></div></div>
+{%- endmacro %}
+
+{% macro header(t, u, current, badge) -%}
+<header class="site-header">
+  <div class="wrap header-row">
+    <a class="brand" href="{{ u.home }}"><img src="{{ u.assets }}img/icon-192.png" alt="" width="36" height="36"><span dir="ltr">{{ t.app }}</span></a>
+    <nav class="site-nav" aria-label="{{ t.nav.label }}">
+      <div class="nav-links">
+      <a href="{{ u.features }}">{{ t.nav.features }}</a>
+      <a class="nav-wide" href="{{ u.how }}">{{ t.nav.how }}</a>
+      <a href="{{ u.privacy }}" data-nav="privacy"{% if current == 'privacy' %} aria-current="page"{% endif %}>{{ t.nav.privacy }}</a>
+      <a href="{{ u.terms }}" data-nav="terms"{% if current == 'terms' %} aria-current="page"{% endif %}>{{ t.nav.terms }}</a>
+      <a href="{{ u.contact }}">{{ t.nav.contact }}</a>
+      </div>
+      <a class="nav-lang" href="{{ u.languages }}" aria-label="{{ t.language.label }}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.500 2.600 3.800 5.600 3.800 9s-1.300 6.400-3.800 9c-2.500-2.600-3.800-5.600-3.800-9s1.300-6.400 3.800-9z"/></svg><span aria-hidden="true">{{ badge }}</span></a>
+    </nav>
+    <a class="btn btn-small" href="{{ u.store }}">{{ t.nav.get_app }}</a>
+  </div>
+</header>
+{%- endmacro %}
+
+{% macro footer(t, u, ids, langs) -%}
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <a class="brand" href="{{ u.home }}"><img src="{{ u.assets }}img/icon-192.png" alt="" width="36" height="36" loading="lazy"><span dir="ltr">{{ t.app }}</span></a>
+      <nav class="footer-nav" aria-label="{{ t.footer.label }}">
+        <a href="{{ u.privacy }}">{{ t.footer.privacy }}</a>
+        <a href="{{ u.terms }}">{{ t.footer.terms }}</a>
+        <a href="{{ u.contact }}">{{ t.footer.contact }}</a>
+        <a href="{{ u.store }}">{{ t.footer.store }}</a>
+      </nav>
+    </div>
+    <p class="fine">{{ t.footer.disclaimer }}</p>
+    <p class="fine">{{ t.footer.apple }}</p>
+    <p class="fine">{{ t.footer.copyright }}</p>
+    <nav class="lang-nav" id="{{ ids.languages }}" aria-labelledby="{{ ids.languages }}-title">
+      <h2 id="{{ ids.languages }}-title">{{ t.language.label }}</h2>
+      <ul>
+        {%- for l in langs %}
+        <li><a href="{{ l.href }}" lang="{{ l.hreflang }}" hreflang="{{ l.hreflang }}"{% if l.current %} aria-current="true"{% endif %}{% if l.home_key %} data-lang-home="{{ l.home_key }}"{% endif %}>{{ l.name }}</a></li>
+        {%- endfor %}
+      </ul>
+    </nav>
+  </div>
+</footer>
+{%- endmacro %}
+
+{% macro home_sections(t, u, ids, fit, eager) -%}
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <h1{% if fit %} style="--fit: {{ fit }}"{% endif %}>{{ t.hero.title_1 }}<br>{{ t.hero.title_2 }}</h1>
+      <p class="lede">{{ t.hero.lede }}</p>
+      <div class="hero-actions">
+        <a class="btn" href="{{ u.store }}">{{ t.hero.cta }}</a>
+        <a class="text-link" href="{{ u.how }}">{{ t.hero.how }}</a>
+      </div>
+      <p class="fine">{{ t.hero.fine }}</p>
+    </div>
+    <div class="hero-art">
+      <svg class="bubbles" viewBox="0 0 560 640" preserveAspectRatio="xMidYMid meet" aria-hidden="true" focusable="false">
+        <g fill="#FFDDBB"><ellipse cx="385" cy="420" rx="175" ry="155"/><path d="M521 516c3 40 13 68 27 90-34-2-66-20-84-48z"/></g>
+        <g fill="#C9EBD5"><ellipse cx="190" cy="250" rx="190" ry="170"/><path d="M42 355c-2 45-12 75-28 97 36-2 71-22 90-51z"/></g>
+      </svg>
+      {{ phone(u, 'main', t.hero.alt, eager) }}
+    </div>
+  </div>
+</section>
+
+<section class="section section-paper" id="{{ ids.features }}">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>{{ t.features.title }}</h2>
+      <p>{{ t.features.lede }}</p>
+    </div>
+    <div class="feature-grid">
+      {%- for f in t.features['items'] %}
+      <article class="feature">
+        {{ phone(u, f.img, f.alt) }}
+        <div>
+          <h3>{{ f.title }}</h3>
+          <p>{{ f.text }}</p>
+        </div>
+      </article>
+      {%- endfor %}
+    </div>
+    <div class="also">
+      <h3>{{ t.features.also_title }}</h3>
+      <dl class="also-grid">
+        {%- for a in t.features.also %}
+        <div><dt>{{ a.title }}</dt><dd>{{ a.text }}</dd></div>
+        {%- endfor %}
+      </dl>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="{{ ids.how }}">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>{{ t.how.title }}</h2>
+      <p>{{ t.how.lede }}</p>
+    </div>
+    <ol class="steps">
+      {%- for s in t.how.steps %}
+      <li><h3>{{ s.title }}</h3><p>{{ s.text }}</p></li>
+      {%- endfor %}
+    </ol>
+    <p class="fine steps-note">{{ t.how.note }}</p>
+  </div>
+</section>
+
+<section class="section band">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>{{ t.privacy.title }}</h2>
+      <p>{{ t.privacy.lede }}</p>
+    </div>
+    <div class="facts">
+      {%- for f in t.privacy.facts %}
+      <div><h3>{{ f.title }}</h3><p>{{ f.text }}</p></div>
+      {%- endfor %}
+    </div>
+    <a class="btn btn-light" href="{{ u.privacy }}">{{ t.privacy.cta }}</a>
+  </div>
+</section>
+
+<section class="section section-paper" id="{{ ids.questions }}">
+  <div class="wrap">
+    <div class="section-head"><h2>{{ t.faq.title }}</h2></div>
+    <dl class="faq">
+      {%- for q in t.faq['items'] %}
+      <div><dt>{{ q.q }}</dt><dd>{{ q.a }}</dd></div>
+      {%- endfor %}
+    </dl>
+  </div>
+</section>
+
+<section class="section closing" id="{{ ids.contact }}">
+  <div class="wrap closing-grid">
+    <div>
+      <h2>{{ t.closing.title }}</h2>
+      <p>{{ t.closing.text }}</p>
+      <a class="btn" href="{{ u.store }}">{{ t.closing.cta }}</a>
+    </div>
+    <div class="contact">
+      <h2>{{ t.closing.contact_title }}</h2>
+      <p>{{ t.closing.contact_text }}</p>
+      <a class="mail" href="mailto:{{ email }}" dir="ltr">{{ email }}</a>
+    </div>
+  </div>
+</section>
+{%- endmacro %}
+
+{% macro legal_sections(t, title, body, english_url) -%}
+<div class="wrap">
+  <div class="legal-wrap">
+    <header class="legal-head">
+      <h1>{{ title }}</h1>
+      <p class="fine">{{ t.legal.updated_label }}: {{ t.legal.updated }}</p>
+      {%- if english_url %}
+      <p class="fine legal-note">{{ t.legal.translation_note }} <a href="{{ english_url }}" hreflang="en">{{ t.legal.english_link }}</a></p>
+      {%- endif %}
+    </header>
+    <div class="legal-body">
+{{ body | safe }}
+    </div>
+  </div>
+</div>
+{%- endmacro %}
