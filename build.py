@@ -212,6 +212,8 @@ def build_dist():
           '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
           + ''.join('  <url><loc>%s</loc></url>\n' % x for x in urls) + '</urlset>\n')
     write(os.path.join(out, '.nojekyll'), '')
+    # GitHub Pages reads the custom domain from this file
+    write(os.path.join(out, 'CNAME'), SITE.split('://', 1)[1].strip('/') + '\n')
     return out, len(langs)
 
 
