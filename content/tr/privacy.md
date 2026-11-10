@@ -14,7 +14,7 @@ Bu politika, iPhone ve iPad için Dual Messenger+ uygulamasını kullandığın�
 
 ## 1. Biz kimiz
 
-Dual Messenger+ bağımsız bir uygulamadır. Bu politikada “biz” ve “bize” ifadeleri Dual Messenger+’ın geliştiricisi anlamına gelir. Bize [info@dualmessenger.com](mailto:info@dualmessenger.com) adresinden ulaşabilirsiniz.
+Dual Messenger+ bağımsız bir uygulamadır. Bu politikada “biz” ve “bize” ifadeleri Dual Messenger+’ın geliştiricisi anlamına gelir. Bize [info@dualmessengerplus.com](mailto:info@dualmessengerplus.com) adresinden ulaşabilirsiniz.
 
 Dual Messenger+; WhatsApp veya Meta ile bağlantılı değildir, onlar tarafından onaylanmamış ya da desteklenmemektedir.
 
@@ -78,7 +78,7 @@ Dual Messenger+ 13 yaşın altındaki çocuklara yönelik değildir ve çocuklar
 
 Uygulama kişisel veri toplamadığı için genellikle size verebileceğimiz, düzeltebileceğimiz ya da silebileceğimiz bir şey yoktur. Cihazınızda nelerin saklandığını siz denetlersiniz.
 
-Yaşadığınız yere bağlı olarak, örneğin Avrupa Birliği’nde, Birleşik Krallık’ta veya Türkiye’de, kişisel verilere erişme, bunları düzeltme veya silme, kullanılmalarına itiraz etme ve yerel veri koruma kurumunuza şikâyette bulunma hakkınız olabilir. Bu hakları kullanmak için [info@dualmessenger.com](mailto:info@dualmessenger.com) adresine yazın. 30 gün içinde yanıt veririz.
+Yaşadığınız yere bağlı olarak, örneğin Avrupa Birliği’nde, Birleşik Krallık’ta veya Türkiye’de, kişisel verilere erişme, bunları düzeltme veya silme, kullanılmalarına itiraz etme ve yerel veri koruma kurumunuza şikâyette bulunma hakkınız olabilir. Bu hakları kullanmak için [info@dualmessengerplus.com](mailto:info@dualmessengerplus.com) adresine yazın. 30 gün içinde yanıt veririz.
 
 Veri koruma mevzuatının hukuki dayanak gerektirdiği durumlarda, uygulamayı ve aboneliğinizi sağlamak için sizinle aramızdaki sözleşmeye ve mesajlarınızı yanıtlamaktaki meşru menfaatimize dayanırız.
 
@@ -88,4 +88,4 @@ Bu politikayı değiştirirsek yeni sürümü bu sayfada yayımlar ve üstteki t
 
 ## 10. İletişim
 
-Gizlilikle ilgili sorularınız mı var? [info@dualmessenger.com](mailto:info@dualmessenger.com) adresine yazın.
+Gizlilikle ilgili sorularınız mı var? [info@dualmessengerplus.com](mailto:info@dualmessengerplus.com) adresine yazın.

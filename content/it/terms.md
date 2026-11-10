@@ -15,7 +15,7 @@ Questi termini si applicano quando usi l’app Dual Messenger+ e questo sito web
 
 Dual Messenger+ è un’app per iPhone e iPad. Ti permette di usare un secondo account WhatsApp sullo stesso dispositivo e aggiunge strumenti come il blocco dell’app, le note, i promemoria, Da Voce a Testo e un chat bot IA che funziona sul dispositivo.
 
-L’app è fornita dal suo sviluppatore indipendente («noi»). Puoi contattarci all’indirizzo [info@dualmessenger.com](mailto:info@dualmessenger.com).
+L’app è fornita dal suo sviluppatore indipendente («noi»). Puoi contattarci all’indirizzo [info@dualmessengerplus.com](mailto:info@dualmessengerplus.com).
 
 ## 2. La tua licenza
 
@@ -105,4 +105,4 @@ Possiamo aggiornare questi termini. In tal caso, pubblicheremo la nuova versione
 
 ## 16. Contatti
 
-Domande su questi termini? Scrivi a [info@dualmessenger.com](mailto:info@dualmessenger.com).
+Domande su questi termini? Scrivi a [info@dualmessengerplus.com](mailto:info@dualmessengerplus.com).

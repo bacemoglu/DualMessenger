@@ -15,7 +15,7 @@ Bu koşullar, Dual Messenger+ uygulamasını ve bu web sitesini kullandığını
 
 Dual Messenger+, iPhone ve iPad için bir uygulamadır. Aynı cihazda ikinci bir WhatsApp hesabı kullanmanızı sağlar; buna uygulama kilidi, notlar, hatırlatıcılar, Sesten Metne ve cihazda çalışan bir yapay zekâ sohbet botu gibi araçlar ekler.
 
-Uygulamayı bağımsız geliştiricisi (“biz”) sunar. Bize [info@dualmessenger.com](mailto:info@dualmessenger.com) adresinden ulaşabilirsiniz.
+Uygulamayı bağımsız geliştiricisi (“biz”) sunar. Bize [info@dualmessengerplus.com](mailto:info@dualmessengerplus.com) adresinden ulaşabilirsiniz.
 
 ## 2. Lisansınız
 
@@ -105,4 +105,4 @@ Bu koşulları güncelleyebiliriz. Güncellediğimizde yeni sürümü bu sayfada
 
 ## 16. İletişim
 
-Bu koşullarla ilgili sorularınız mı var? [info@dualmessenger.com](mailto:info@dualmessenger.com) adresine yazın.
+Bu koşullarla ilgili sorularınız mı var? [info@dualmessengerplus.com](mailto:info@dualmessengerplus.com) adresine yazın.

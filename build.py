@@ -15,7 +15,7 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 SITE = 'https://www.dualmessengerplus.com/'
 APP_ID = '1131873369'
 STORE = 'https://apps.apple.com/app/id' + APP_ID
-EMAIL = 'info@dualmessenger.com'
+EMAIL = 'info@dualmessengerplus.com'
 
 # code (content folder), slug (URL folder), hreflang, name in the language itself: in menu order
 LANGS = [

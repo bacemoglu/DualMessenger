@@ -14,7 +14,7 @@ Kebijakan ini menjelaskan apa yang terjadi pada data Anda saat Anda menggunakan 
 
 ## 1. Siapa kami
 
-Dual Messenger+ adalah aplikasi independen. Dalam kebijakan ini, “kami” berarti pengembang Dual Messenger+. Anda bisa menghubungi kami di [info@dualmessenger.com](mailto:info@dualmessenger.com).
+Dual Messenger+ adalah aplikasi independen. Dalam kebijakan ini, “kami” berarti pengembang Dual Messenger+. Anda bisa menghubungi kami di [info@dualmessengerplus.com](mailto:info@dualmessengerplus.com).
 
 Dual Messenger+ tidak berafiliasi dengan, didukung oleh, atau disponsori oleh WhatsApp maupun Meta.
 
@@ -78,7 +78,7 @@ Dual Messenger+ tidak ditujukan untuk anak-anak di bawah 13 tahun, dan kami tida
 
 Karena aplikasi tidak mengumpulkan data pribadi, biasanya tidak ada yang bisa kami serahkan, perbaiki, atau hapus. Anda yang mengendalikan apa yang disimpan di perangkat Anda.
 
-Bergantung pada tempat tinggal Anda, misalnya di Uni Eropa, Inggris Raya, atau Turki, Anda mungkin berhak mengakses, memperbaiki, atau menghapus data pribadi, menolak penggunaannya, dan mengajukan keluhan kepada otoritas perlindungan data setempat. Untuk menggunakan hak-hak ini, kirim email ke [info@dualmessenger.com](mailto:info@dualmessenger.com). Kami akan membalas dalam 30 hari.
+Bergantung pada tempat tinggal Anda, misalnya di Uni Eropa, Inggris Raya, atau Turki, Anda mungkin berhak mengakses, memperbaiki, atau menghapus data pribadi, menolak penggunaannya, dan mengajukan keluhan kepada otoritas perlindungan data setempat. Untuk menggunakan hak-hak ini, kirim email ke [info@dualmessengerplus.com](mailto:info@dualmessengerplus.com). Kami akan membalas dalam 30 hari.
 
 Jika undang-undang perlindungan data mensyaratkan dasar hukum, kami mengandalkan kontrak kami dengan Anda untuk menyediakan aplikasi dan langganan Anda, serta kepentingan sah kami dalam menjawab pesan Anda.
 
@@ -88,4 +88,4 @@ Jika kami mengubah kebijakan ini, kami akan menerbitkan versi baru di halaman in
 
 ## 10. Kontak
 
-Ada pertanyaan tentang privasi? Kirim email ke [info@dualmessenger.com](mailto:info@dualmessenger.com).
+Ada pertanyaan tentang privasi? Kirim email ke [info@dualmessengerplus.com](mailto:info@dualmessengerplus.com).

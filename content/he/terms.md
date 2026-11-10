@@ -15,7 +15,7 @@
 
 Dual Messenger+ היא אפליקציה ל-iPhone ול-iPad. היא מאפשרת לכם להשתמש בחשבון WhatsApp שני באותו מכשיר, ומוסיפה כלים כמו נעילת אפליקציה, פתקים, תזכורות, ״קול לטקסט״ וצ׳אטבוט AI שפועל על המכשיר.
 
-האפליקציה מסופקת על ידי המפתח העצמאי שלה (״אנחנו״). אפשר לפנות אלינו בכתובת [info@dualmessenger.com](mailto:info@dualmessenger.com).
+האפליקציה מסופקת על ידי המפתח העצמאי שלה (״אנחנו״). אפשר לפנות אלינו בכתובת [info@dualmessengerplus.com](mailto:info@dualmessengerplus.com).
 
 ## 2. הרישיון שלכם
 
@@ -105,4 +105,4 @@ WhatsApp הוא סימן מסחרי של בעליו. Apple, iPhone, iPad, Face I
 
 ## 16. יצירת קשר
 
-יש לכם שאלות על התנאים האלה? כתבו אל [info@dualmessenger.com](mailto:info@dualmessenger.com).
+יש לכם שאלות על התנאים האלה? כתבו אל [info@dualmessengerplus.com](mailto:info@dualmessengerplus.com).

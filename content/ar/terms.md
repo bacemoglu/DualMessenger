@@ -15,7 +15,7 @@
 
 Dual Messenger+ تطبيق لـ iPhone وiPad. يتيح لك استخدام حساب WhatsApp ثانٍ على الجهاز نفسه، ويضيف أدوات مثل قفل التطبيق والملاحظات والتذكيرات و«الصوت إلى نص» وروبوت دردشة بالذكاء الاصطناعي يعمل على الجهاز.
 
-يقدّم هذا التطبيق مطوّره المستقل (ويُشار إليه بكلمة «نحن» وبضمير المتكلمين «نا»). يمكنك التواصل معنا على [info@dualmessenger.com](mailto:info@dualmessenger.com).
+يقدّم هذا التطبيق مطوّره المستقل (ويُشار إليه بكلمة «نحن» وبضمير المتكلمين «نا»). يمكنك التواصل معنا على [info@dualmessengerplus.com](mailto:info@dualmessengerplus.com).
 
 ## 2. ترخيصك
 
@@ -105,4 +105,4 @@ WhatsApp علامة تجارية لمالكها. Apple وiPhone وiPad وFace ID
 
 ## 16. تواصل معنا
 
-لديك أسئلة عن هذه الشروط؟ راسلنا على [info@dualmessenger.com](mailto:info@dualmessenger.com).
+لديك أسئلة عن هذه الشروط؟ راسلنا على [info@dualmessengerplus.com](mailto:info@dualmessengerplus.com).

@@ -14,7 +14,7 @@
 
 ## 1. 我们是谁
 
-Dual Messenger+ 是一款独立应用。在本政策中，“我们”指 Dual Messenger+ 的开发者。您可以通过 [info@dualmessenger.com](mailto:info@dualmessenger.com) 联系我们。
+Dual Messenger+ 是一款独立应用。在本政策中，“我们”指 Dual Messenger+ 的开发者。您可以通过 [info@dualmessengerplus.com](mailto:info@dualmessengerplus.com) 联系我们。
 
 Dual Messenger+ 与 WhatsApp 或 Meta 无任何关联，也未获得其认可或赞助。
 
@@ -78,7 +78,7 @@ Dual Messenger+ 不面向 13 岁以下的儿童，我们也不会在知情的情
 
 由于应用不收集个人数据，我们通常没有可以向您提供、更正或删除的内容。存储在您设备上的内容由您自己掌控。
 
-根据您的居住地（例如欧盟、英国或土耳其），您可能有权访问、更正或删除个人数据，反对其使用，并向当地数据保护机构投诉。如需行使这些权利，请写信至 [info@dualmessenger.com](mailto:info@dualmessenger.com)。我们将在 30 天内回复。
+根据您的居住地（例如欧盟、英国或土耳其），您可能有权访问、更正或删除个人数据，反对其使用，并向当地数据保护机构投诉。如需行使这些权利，请写信至 [info@dualmessengerplus.com](mailto:info@dualmessengerplus.com)。我们将在 30 天内回复。
 
 在数据保护法要求具备法律依据的情况下，我们的依据是为您提供应用和订阅而与您订立的合同，以及我们在回复您消息方面的合法利益。
 
@@ -88,4 +88,4 @@ Dual Messenger+ 不面向 13 岁以下的儿童，我们也不会在知情的情
 
 ## 10. 联系方式
 
-对隐私有疑问？请写信至 [info@dualmessenger.com](mailto:info@dualmessenger.com)。
+对隐私有疑问？请写信至 [info@dualmessengerplus.com](mailto:info@dualmessengerplus.com)。

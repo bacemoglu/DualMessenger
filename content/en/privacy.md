@@ -14,7 +14,7 @@ This policy explains what happens to your data when you use the Dual Messenger+ 
 
 ## 1. Who we are
 
-Dual Messenger+ is an independent app. In this policy, "we" and "us" mean the developer of Dual Messenger+. You can reach us at [info@dualmessenger.com](mailto:info@dualmessenger.com).
+Dual Messenger+ is an independent app. In this policy, "we" and "us" mean the developer of Dual Messenger+. You can reach us at [info@dualmessengerplus.com](mailto:info@dualmessengerplus.com).
 
 Dual Messenger+ is not affiliated with, endorsed by or sponsored by WhatsApp or Meta.
 
@@ -78,7 +78,7 @@ Dual Messenger+ is not directed to children under 13, and we do not knowingly co
 
 Because the app does not collect personal data, there is usually nothing for us to hand over, correct or delete. You control what is stored on your device.
 
-Depending on where you live, for example in the European Union, the United Kingdom or Türkiye, you may have the right to access, correct or delete personal data, to object to its use, and to complain to your local data protection authority. To use these rights, write to [info@dualmessenger.com](mailto:info@dualmessenger.com). We will reply within 30 days.
+Depending on where you live, for example in the European Union, the United Kingdom or Türkiye, you may have the right to access, correct or delete personal data, to object to its use, and to complain to your local data protection authority. To use these rights, write to [info@dualmessengerplus.com](mailto:info@dualmessengerplus.com). We will reply within 30 days.
 
 Where data protection law requires a legal basis, we rely on our contract with you to provide the app and your subscription, and on our legitimate interest in answering your messages.
 
@@ -88,4 +88,4 @@ If we change this policy, we will publish the new version on this page and updat
 
 ## 10. Contact
 
-Questions about privacy? Write to [info@dualmessenger.com](mailto:info@dualmessenger.com).
+Questions about privacy? Write to [info@dualmessengerplus.com](mailto:info@dualmessengerplus.com).

@@ -14,7 +14,7 @@ In dit beleid lees je wat er met je gegevens gebeurt wanneer je de app Dual Mess
 
 ## 1. Wie wij zijn
 
-Dual Messenger+ is een onafhankelijke app. Met ‘wij’ en ‘ons’ bedoelen we in dit beleid de ontwikkelaar van Dual Messenger+. Je kunt ons bereiken via [info@dualmessenger.com](mailto:info@dualmessenger.com).
+Dual Messenger+ is een onafhankelijke app. Met ‘wij’ en ‘ons’ bedoelen we in dit beleid de ontwikkelaar van Dual Messenger+. Je kunt ons bereiken via [info@dualmessengerplus.com](mailto:info@dualmessengerplus.com).
 
 Dual Messenger+ is niet verbonden aan, goedgekeurd door of gesponsord door WhatsApp of Meta.
 
@@ -78,7 +78,7 @@ Dual Messenger+ is niet gericht op kinderen jonger dan 13 jaar, en we verzamelen
 
 Omdat de app geen persoonsgegevens verzamelt, is er meestal niets wat wij kunnen verstrekken, corrigeren of verwijderen. Je bepaalt zelf wat er op je apparaat is opgeslagen.
 
-Afhankelijk van waar je woont, bijvoorbeeld in de Europese Unie, het Verenigd Koninkrijk of Türkiye, heb je mogelijk het recht om persoonsgegevens in te zien, te corrigeren of te verwijderen, om bezwaar te maken tegen het gebruik ervan en om een klacht in te dienen bij de gegevensbeschermingsautoriteit in je land. Wil je deze rechten uitoefenen, mail dan naar [info@dualmessenger.com](mailto:info@dualmessenger.com). We antwoorden binnen 30 dagen.
+Afhankelijk van waar je woont, bijvoorbeeld in de Europese Unie, het Verenigd Koninkrijk of Türkiye, heb je mogelijk het recht om persoonsgegevens in te zien, te corrigeren of te verwijderen, om bezwaar te maken tegen het gebruik ervan en om een klacht in te dienen bij de gegevensbeschermingsautoriteit in je land. Wil je deze rechten uitoefenen, mail dan naar [info@dualmessengerplus.com](mailto:info@dualmessengerplus.com). We antwoorden binnen 30 dagen.
 
 Waar de wetgeving voor gegevensbescherming een rechtsgrond vereist, baseren we ons op onze overeenkomst met jou om de app en je abonnement te leveren, en op ons gerechtvaardigd belang bij het beantwoorden van je berichten.
 
@@ -88,4 +88,4 @@ Als we dit beleid wijzigen, publiceren we de nieuwe versie op deze pagina en pas
 
 ## 10. Contact
 
-Vragen over privacy? Mail naar [info@dualmessenger.com](mailto:info@dualmessenger.com).
+Vragen over privacy? Mail naar [info@dualmessengerplus.com](mailto:info@dualmessengerplus.com).

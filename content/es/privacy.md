@@ -14,7 +14,7 @@ Esta política explica qué ocurre con tus datos cuando usas la app Dual Messeng
 
 ## 1. Quiénes somos
 
-Dual Messenger+ es una app independiente. En esta política, «nosotros» se refiere al desarrollador de Dual Messenger+. Puedes escribirnos a [info@dualmessenger.com](mailto:info@dualmessenger.com).
+Dual Messenger+ es una app independiente. En esta política, «nosotros» se refiere al desarrollador de Dual Messenger+. Puedes escribirnos a [info@dualmessengerplus.com](mailto:info@dualmessengerplus.com).
 
 Dual Messenger+ no está afiliada, respaldada ni patrocinada por WhatsApp ni por Meta.
 
@@ -78,7 +78,7 @@ Dual Messenger+ no está dirigida a niños menores de 13 años, y no recopilamos
 
 Como la app no recopila datos personales, normalmente no hay nada que podamos entregarte, corregir o eliminar. Tú controlas lo que se guarda en tu dispositivo.
 
-Según dónde vivas, por ejemplo en la Unión Europea, el Reino Unido o Turquía, puedes tener derecho a acceder a tus datos personales, a rectificarlos o suprimirlos, a oponerte a su uso y a presentar una reclamación ante tu autoridad local de protección de datos. Para ejercer estos derechos, escribe a [info@dualmessenger.com](mailto:info@dualmessenger.com). Te responderemos en un plazo de 30 días.
+Según dónde vivas, por ejemplo en la Unión Europea, el Reino Unido o Turquía, puedes tener derecho a acceder a tus datos personales, a rectificarlos o suprimirlos, a oponerte a su uso y a presentar una reclamación ante tu autoridad local de protección de datos. Para ejercer estos derechos, escribe a [info@dualmessengerplus.com](mailto:info@dualmessengerplus.com). Te responderemos en un plazo de 30 días.
 
 Cuando la normativa de protección de datos exige una base jurídica, nos basamos en nuestro contrato contigo para ofrecerte la app y tu suscripción, y en nuestro interés legítimo en responder a tus mensajes.
 
@@ -88,4 +88,4 @@ Si cambiamos esta política, publicaremos la nueva versión en esta página y ac
 
 ## 10. Contacto
 
-¿Tienes preguntas sobre privacidad? Escribe a [info@dualmessenger.com](mailto:info@dualmessenger.com).
+¿Tienes preguntas sobre privacidad? Escribe a [info@dualmessengerplus.com](mailto:info@dualmessengerplus.com).

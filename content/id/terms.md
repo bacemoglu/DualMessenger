@@ -15,7 +15,7 @@ Ketentuan ini berlaku saat Anda menggunakan aplikasi Dual Messenger+ dan situs w
 
 Dual Messenger+ adalah aplikasi untuk iPhone dan iPad. Aplikasi ini memungkinkan Anda menggunakan akun WhatsApp kedua di perangkat yang sama dan menambahkan alat seperti kunci aplikasi, catatan, pengingat, Suara ke Teks, dan bot obrolan AI yang berjalan di perangkat.
 
-Aplikasi ini disediakan oleh pengembang independennya (“kami”). Anda bisa menghubungi kami di [info@dualmessenger.com](mailto:info@dualmessenger.com).
+Aplikasi ini disediakan oleh pengembang independennya (“kami”). Anda bisa menghubungi kami di [info@dualmessengerplus.com](mailto:info@dualmessengerplus.com).
 
 ## 2. Lisensi Anda
 
@@ -105,4 +105,4 @@ Kami dapat memperbarui ketentuan ini. Jika kami melakukannya, kami akan menerbit
 
 ## 16. Kontak
 
-Ada pertanyaan tentang ketentuan ini? Kirim email ke [info@dualmessenger.com](mailto:info@dualmessenger.com).
+Ada pertanyaan tentang ketentuan ini? Kirim email ke [info@dualmessengerplus.com](mailto:info@dualmessengerplus.com).

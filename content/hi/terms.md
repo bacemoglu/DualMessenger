@@ -15,7 +15,7 @@
 
 Dual Messenger+ iPhone और iPad के लिए एक ऐप है। यह आपको उसी डिवाइस पर दूसरा WhatsApp अकाउंट इस्तेमाल करने देता है और ऐप लॉक, नोट्स, रिमाइंडर, वॉयस टू टेक्स्ट और डिवाइस पर चलने वाले AI चैट बॉट जैसे टूल जोड़ता है।
 
-यह ऐप इसका स्वतंत्र डेवलपर (“हम”) उपलब्ध कराता है। आप हमसे [info@dualmessenger.com](mailto:info@dualmessenger.com) पर संपर्क कर सकते हैं।
+यह ऐप इसका स्वतंत्र डेवलपर (“हम”) उपलब्ध कराता है। आप हमसे [info@dualmessengerplus.com](mailto:info@dualmessengerplus.com) पर संपर्क कर सकते हैं।
 
 ## 2. आपका लाइसेंस
 
@@ -105,4 +105,4 @@ WhatsApp अपने स्वामी का ट्रेडमार्क �
 
 ## 16. संपर्क
 
-इन शर्तों के बारे में कोई सवाल है? [info@dualmessenger.com](mailto:info@dualmessenger.com) पर लिखें।
+इन शर्तों के बारे में कोई सवाल है? [info@dualmessengerplus.com](mailto:info@dualmessengerplus.com) पर लिखें।

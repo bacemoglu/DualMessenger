@@ -14,7 +14,7 @@ Diese Datenschutzerklärung beschreibt, was mit deinen Daten geschieht, wenn du 
 
 ## 1. Wer wir sind
 
-Dual Messenger+ ist eine unabhängige App. In dieser Datenschutzerklärung bezeichnen „wir“ und „uns“ den Entwickler von Dual Messenger+. Du erreichst uns unter [info@dualmessenger.com](mailto:info@dualmessenger.com).
+Dual Messenger+ ist eine unabhängige App. In dieser Datenschutzerklärung bezeichnen „wir“ und „uns“ den Entwickler von Dual Messenger+. Du erreichst uns unter [info@dualmessengerplus.com](mailto:info@dualmessengerplus.com).
 
 Dual Messenger+ steht in keiner Verbindung zu WhatsApp oder Meta und wird von diesen weder unterstützt noch gesponsert.
 
@@ -78,7 +78,7 @@ Dual Messenger+ richtet sich nicht an Kinder unter 13 Jahren, und wir erheben ni
 
 Da die App keine personenbezogenen Daten erhebt, gibt es für uns in der Regel nichts, was wir herausgeben, berichtigen oder löschen könnten. Was auf deinem Gerät gespeichert ist, bestimmst du selbst.
 
-Je nachdem, wo du lebst, zum Beispiel in der Europäischen Union, im Vereinigten Königreich oder in der Türkei, hast du möglicherweise das Recht, Auskunft über personenbezogene Daten zu erhalten, sie berichtigen oder löschen zu lassen, ihrer Verwendung zu widersprechen und dich bei deiner örtlichen Datenschutzbehörde zu beschweren. Um diese Rechte wahrzunehmen, schreibe uns an [info@dualmessenger.com](mailto:info@dualmessenger.com). Wir antworten innerhalb von 30 Tagen.
+Je nachdem, wo du lebst, zum Beispiel in der Europäischen Union, im Vereinigten Königreich oder in der Türkei, hast du möglicherweise das Recht, Auskunft über personenbezogene Daten zu erhalten, sie berichtigen oder löschen zu lassen, ihrer Verwendung zu widersprechen und dich bei deiner örtlichen Datenschutzbehörde zu beschweren. Um diese Rechte wahrzunehmen, schreibe uns an [info@dualmessengerplus.com](mailto:info@dualmessengerplus.com). Wir antworten innerhalb von 30 Tagen.
 
 Soweit das Datenschutzrecht eine Rechtsgrundlage verlangt, stützen wir uns auf unseren Vertrag mit dir über die Bereitstellung der App und deines Abos sowie auf unser berechtigtes Interesse daran, deine Nachrichten zu beantworten.
 
@@ -88,4 +88,4 @@ Wenn wir diese Datenschutzerklärung ändern, veröffentlichen wir die neue Fass
 
 ## 10. Kontakt
 
-Fragen zum Datenschutz? Schreibe uns an [info@dualmessenger.com](mailto:info@dualmessenger.com).
+Fragen zum Datenschutz? Schreibe uns an [info@dualmessengerplus.com](mailto:info@dualmessengerplus.com).

@@ -14,7 +14,7 @@ Cette politique explique ce qu’il advient de vos données lorsque vous utilise
 
 ## 1. Qui sommes-nous
 
-Dual Messenger+ est une app indépendante. Dans cette politique, « nous » désigne le développeur de Dual Messenger+. Vous pouvez nous joindre à l’adresse [info@dualmessenger.com](mailto:info@dualmessenger.com).
+Dual Messenger+ est une app indépendante. Dans cette politique, « nous » désigne le développeur de Dual Messenger+. Vous pouvez nous joindre à l’adresse [info@dualmessengerplus.com](mailto:info@dualmessengerplus.com).
 
 Dual Messenger+ n’est ni affiliée à WhatsApp ou Meta, ni approuvée ou sponsorisée par ces sociétés.
 
@@ -78,7 +78,7 @@ Dual Messenger+ ne s’adresse pas aux enfants de moins de 13 ans, et nous ne co
 
 Comme l’app ne collecte pas de données personnelles, nous n’avons généralement rien à vous communiquer, à corriger ou à supprimer. C’est vous qui contrôlez ce qui est stocké sur votre appareil.
 
-Selon l’endroit où vous vivez, par exemple dans l’Union européenne, au Royaume-Uni ou en Turquie, vous pouvez avoir le droit d’accéder à vos données personnelles, de les faire rectifier ou supprimer, de vous opposer à leur utilisation et d’introduire une réclamation auprès de votre autorité locale de protection des données. Pour exercer ces droits, écrivez à [info@dualmessenger.com](mailto:info@dualmessenger.com). Nous vous répondrons dans un délai de 30 jours.
+Selon l’endroit où vous vivez, par exemple dans l’Union européenne, au Royaume-Uni ou en Turquie, vous pouvez avoir le droit d’accéder à vos données personnelles, de les faire rectifier ou supprimer, de vous opposer à leur utilisation et d’introduire une réclamation auprès de votre autorité locale de protection des données. Pour exercer ces droits, écrivez à [info@dualmessengerplus.com](mailto:info@dualmessengerplus.com). Nous vous répondrons dans un délai de 30 jours.
 
 Lorsque le droit de la protection des données exige une base légale, nous nous fondons sur le contrat conclu avec vous pour fournir l’app et votre abonnement, et sur notre intérêt légitime à répondre à vos messages.
 
@@ -88,4 +88,4 @@ Si nous modifions cette politique, nous publierons la nouvelle version sur cette
 
 ## 10. Contact
 
-Des questions sur la confidentialité ? Écrivez à [info@dualmessenger.com](mailto:info@dualmessenger.com).
+Des questions sur la confidentialité ? Écrivez à [info@dualmessengerplus.com](mailto:info@dualmessengerplus.com).

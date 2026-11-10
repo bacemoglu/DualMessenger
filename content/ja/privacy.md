@@ -14,7 +14,7 @@
 
 ## 1. 私たちについて
 
-Dual Messenger+は独立したアプリです。このポリシーで「私たち」とは、Dual Messenger+の開発者を指します。お問い合わせは[info@dualmessenger.com](mailto:info@dualmessenger.com)までお願いします。
+Dual Messenger+は独立したアプリです。このポリシーで「私たち」とは、Dual Messenger+の開発者を指します。お問い合わせは[info@dualmessengerplus.com](mailto:info@dualmessengerplus.com)までお願いします。
 
 Dual Messenger+は、WhatsAppおよびMetaとは提携しておらず、承認や後援も受けていません。
 
@@ -78,7 +78,7 @@ Dual Messenger+は13歳未満のお子様を対象としておらず、私たち
 
 アプリは個人データを収集しないため、通常、私たちがお渡ししたり、訂正したり、削除したりできるものはありません。デバイスに何を保存するかは、お客様ご自身が管理できます。
 
-お住まいの地域（たとえば欧州連合、英国、トルコ）によっては、個人データへのアクセス、訂正、削除を求める権利、その利用に異議を唱える権利、お住まいの地域のデータ保護機関に苦情を申し立てる権利が認められる場合があります。これらの権利を行使するには、[info@dualmessenger.com](mailto:info@dualmessenger.com)までご連絡ください。30日以内にご返信します。
+お住まいの地域（たとえば欧州連合、英国、トルコ）によっては、個人データへのアクセス、訂正、削除を求める権利、その利用に異議を唱える権利、お住まいの地域のデータ保護機関に苦情を申し立てる権利が認められる場合があります。これらの権利を行使するには、[info@dualmessengerplus.com](mailto:info@dualmessengerplus.com)までご連絡ください。30日以内にご返信します。
 
 データ保護法で法的根拠が求められる場合、私たちは、アプリとサブスクリプションを提供するためのお客様との契約、およびお客様のメッセージにお答えするという正当な利益を根拠とします。
 
@@ -88,4 +88,4 @@ Dual Messenger+は13歳未満のお子様を対象としておらず、私たち
 
 ## 10. お問い合わせ
 
-プライバシーについてのご質問は、[info@dualmessenger.com](mailto:info@dualmessenger.com)までご連絡ください。
+プライバシーについてのご質問は、[info@dualmessengerplus.com](mailto:info@dualmessengerplus.com)までご連絡ください。

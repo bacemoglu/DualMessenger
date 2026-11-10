@@ -15,7 +15,7 @@ Ces conditions s’appliquent lorsque vous utilisez l’app Dual Messenger+ et c
 
 Dual Messenger+ est une app pour iPhone et iPad. Elle vous permet d’utiliser un second compte WhatsApp sur le même appareil et y ajoute des outils tels qu’un verrouillage de l’app, des notes, des rappels, Voix en texte et un bot de discussion IA qui fonctionne sur l’appareil.
 
-L’app est fournie par son développeur indépendant (« nous »). Vous pouvez nous joindre à l’adresse [info@dualmessenger.com](mailto:info@dualmessenger.com).
+L’app est fournie par son développeur indépendant (« nous »). Vous pouvez nous joindre à l’adresse [info@dualmessengerplus.com](mailto:info@dualmessengerplus.com).
 
 ## 2. Votre licence
 
@@ -105,4 +105,4 @@ Nous pouvons mettre à jour ces conditions. Dans ce cas, nous publierons la nouv
 
 ## 16. Contact
 
-Des questions sur ces conditions ? Écrivez à [info@dualmessenger.com](mailto:info@dualmessenger.com).
+Des questions sur ces conditions ? Écrivez à [info@dualmessengerplus.com](mailto:info@dualmessengerplus.com).
