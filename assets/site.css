@@ -1,0 +1,288 @@
+/* Dual Messenger+ website
+   Layout idea: one start-aligned column on mint. The hero phone stands on two overlapping
+   chat bubbles, green and orange, one per account. Real app screens carry the features. */
+:root {
+  --mint: #F3F9F4;          /* page */
+  --mint-deep: #C9EBD5;     /* first-account bubble, hint bar */
+  --ink: #0B1F14;           /* text, primary buttons */
+  --moss: #4A6354;          /* secondary text */
+  --leaf: #1B7A3D;          /* links, step numbers */
+  --orange: #FF8D28;        /* the app's own accent: focus ring, link underline */
+  --orange-soft: #FFDDBB;   /* second-account bubble */
+  --forest: #0B3327;        /* dark band */
+  --paper: #FFFFFF;
+  --line: #DCE8E0;
+  --font-display: "Inter Display", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  /* type metrics; scripts that Inter does not cover override these below */
+  --lh-body: 1.6;
+  --lh-h1: 1.02;  --track-h1: -0.035em;
+  --lh-h2: 1.08;  --track-h2: -0.03em;
+  --lh-h3: 1.25;  --track-h3: -0.015em;
+  --track-ui: -0.01em;
+  color-scheme: light;
+}
+
+/* Inter, self-hosted. Latin and Cyrillic are separate files; the browser fetches only what a page uses. */
+@font-face { font-family: "Inter Display"; font-style: normal; font-weight: 700; font-display: swap; src: url("fonts/inter-display-700.woff2") format("woff2"); unicode-range: U+0000-017F, U+02BC-02DC, U+2010-2044, U+20AC, U+20BA, U+2122, U+2190-2193, U+2212; }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 400; font-display: swap; src: url("fonts/inter-400.woff2") format("woff2"); unicode-range: U+0000-017F, U+02BC-02DC, U+2010-2044, U+20AC, U+20BA, U+2122, U+2190-2193, U+2212; }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 500; font-display: swap; src: url("fonts/inter-500.woff2") format("woff2"); unicode-range: U+0000-017F, U+02BC-02DC, U+2010-2044, U+20AC, U+20BA, U+2122, U+2190-2193, U+2212; }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 600; font-display: swap; src: url("fonts/inter-600.woff2") format("woff2"); unicode-range: U+0000-017F, U+02BC-02DC, U+2010-2044, U+20AC, U+20BA, U+2122, U+2190-2193, U+2212; }
+@font-face { font-family: "Inter Display"; font-style: normal; font-weight: 700; font-display: swap; src: url("fonts/inter-display-700-cyr.woff2") format("woff2"); unicode-range: U+0400-04FF, U+2116; }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 400; font-display: swap; src: url("fonts/inter-400-cyr.woff2") format("woff2"); unicode-range: U+0400-04FF, U+2116; }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 500; font-display: swap; src: url("fonts/inter-500-cyr.woff2") format("woff2"); unicode-range: U+0400-04FF, U+2116; }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 600; font-display: swap; src: url("fonts/inter-600-cyr.woff2") format("woff2"); unicode-range: U+0400-04FF, U+2116; }
+
+/* Arabic, Hebrew, Hindi, Japanese and Chinese use the reader's system typeface, with looser leading and no tracking */
+:lang(ar) {
+  --font-display: -apple-system, BlinkMacSystemFont, "SF Arabic", "Geeza Pro", "Segoe UI", "Noto Sans Arabic", Tahoma, "DejaVu Sans", sans-serif;
+  --font-body: -apple-system, BlinkMacSystemFont, "SF Arabic", "Geeza Pro", "Segoe UI", "Noto Sans Arabic", Tahoma, "DejaVu Sans", sans-serif;
+  --lh-body: 1.85; --lh-h1: 1.3; --lh-h2: 1.35; --lh-h3: 1.5; --track-h1: 0; --track-h2: 0; --track-h3: 0; --track-ui: 0;
+}
+:lang(he) {
+  --font-display: -apple-system, BlinkMacSystemFont, "Arial Hebrew", "Segoe UI", "Noto Sans Hebrew", "Liberation Sans", Arial, sans-serif;
+  --font-body: -apple-system, BlinkMacSystemFont, "Arial Hebrew", "Segoe UI", "Noto Sans Hebrew", "Liberation Sans", Arial, sans-serif;
+  --lh-body: 1.7; --lh-h1: 1.15; --lh-h2: 1.2; --lh-h3: 1.35; --track-h1: 0; --track-h2: 0; --track-h3: 0; --track-ui: 0;
+}
+:lang(hi) {
+  --font-display: -apple-system, BlinkMacSystemFont, "Kohinoor Devanagari", "Segoe UI", "Nirmala UI", "Noto Sans Devanagari", "FreeSans", sans-serif;
+  --font-body: -apple-system, BlinkMacSystemFont, "Kohinoor Devanagari", "Segoe UI", "Nirmala UI", "Noto Sans Devanagari", "FreeSans", sans-serif;
+  --lh-body: 1.8; --lh-h1: 1.32; --lh-h2: 1.36; --lh-h3: 1.5; --track-h1: 0; --track-h2: 0; --track-h3: 0; --track-ui: 0;
+}
+:lang(ja) {
+  --font-display: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans JP", "Noto Sans CJK JP", Meiryo, sans-serif;
+  --font-body: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans JP", "Noto Sans CJK JP", Meiryo, sans-serif;
+  --lh-body: 1.8; --lh-h1: 1.25; --lh-h2: 1.32; --lh-h3: 1.45; --track-h1: 0; --track-h2: 0; --track-h3: 0; --track-ui: 0;
+}
+:lang(zh) {
+  --font-display: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "Noto Sans SC", "Noto Sans CJK SC", sans-serif;
+  --font-body: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "Noto Sans SC", "Noto Sans CJK SC", sans-serif;
+  --lh-body: 1.8; --lh-h1: 1.25; --lh-h2: 1.32; --lh-h3: 1.45; --track-h1: 0; --track-h2: 0; --track-h3: 0; --track-ui: 0;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: radial-gradient(60rem 40rem at 0 0, rgba(190, 235, 205, 0.9), rgba(190, 235, 205, 0) 70%) no-repeat, var(--mint);
+  color: var(--ink);
+  font: 400 1.0625rem/1.6 var(--font-body);
+  overflow-wrap: break-word;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body, .site { font-family: var(--font-body); line-height: var(--lh-body); }
+img, svg { display: block; max-width: 100%; }
+h1, h2, h3, p, ul, ol, dl, dd, figure { margin: 0; }
+ul, ol { padding: 0; }
+a { color: var(--leaf); text-underline-offset: 0.18em; }
+:focus-visible { outline: 3px solid var(--orange); outline-offset: 3px; border-radius: 6px; }
+[hidden] { display: none !important; }
+:lang(ja) :is(h1, h2, h3, dt), :lang(zh) :is(h1, h2, h3, dt) { word-break: auto-phrase; line-break: strict; }
+
+.wrap { width: min(100% - 40px, 1120px); margin-inline: auto; }
+.skip { position: absolute; inset-inline-start: 16px; top: -64px; z-index: 10; padding: 10px 16px; border-radius: 10px; background: var(--ink); color: #fff; }
+.skip:focus { top: 12px; }
+
+/* ---------- type ---------- */
+h1 { font: 700 clamp(2.625rem, 9.6vw, 4.75rem) var(--font-display); line-height: var(--lh-h1); letter-spacing: var(--track-h1); text-wrap: balance; }
+h2 { font: 700 clamp(1.875rem, 5vw, 2.875rem) var(--font-display); line-height: var(--lh-h2); letter-spacing: var(--track-h2); text-wrap: balance; }
+h3 { font: 600 1.25rem var(--font-body); line-height: var(--lh-h3); letter-spacing: var(--track-h3); }
+.fine { font-size: 0.875rem; line-height: 1.55; color: var(--moss); }
+:lang(ar) .fine, :lang(hi) .fine, :lang(ja) .fine, :lang(zh) .fine { line-height: 1.75; }
+
+/* ---------- buttons ---------- */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-height: 52px; padding: 8px 26px; border-radius: 14px;
+  background: var(--ink); color: #fff;
+  font: 600 1rem/1.2 var(--font-body); letter-spacing: var(--track-ui); text-align: center; text-decoration: none;
+}
+.btn:hover { background: #17382A; }
+.btn-small { min-height: 44px; padding: 6px 18px; border-radius: 12px; font-size: 0.9375rem; }
+.btn-light { background: #fff; color: var(--ink); }
+.btn-light:hover { background: #E4F3EA; }
+.text-link {
+  display: inline-flex; align-items: center; min-height: 44px;
+  color: var(--ink); font-weight: 600;
+  text-decoration: underline; text-decoration-color: var(--orange); text-decoration-thickness: 2px; text-underline-offset: 0.32em;
+}
+
+/* ---------- "this page in your language" hint ---------- */
+.lang-hint { background: var(--mint-deep); text-align: center; font-size: 0.9375rem; font-weight: 500; }
+.lang-hint a { display: inline-flex; align-items: center; min-height: 44px; padding-inline: 20px; color: var(--ink); }
+
+/* ---------- header ---------- */
+.site-header { padding-block: 12px; }
+.header-row { display: flex; flex-wrap: wrap; align-items: center; gap: 2px 12px; }
+.brand {
+  display: inline-flex; align-items: center; gap: 10px; min-height: 44px; margin-inline-end: auto;
+  color: var(--ink); font: 600 1.0625rem/1 var(--font-body); letter-spacing: -0.015em; text-decoration: none;
+}
+.brand img { width: 36px; height: 36px; border-radius: 9px; box-shadow: 0 0 0 1px var(--line), 0 4px 10px -4px rgba(11, 60, 35, 0.3); }
+.site-nav { display: flex; align-items: center; gap: 0 8px; order: 3; flex-basis: 100%; min-width: 0; font-size: 0.9375rem; font-weight: 500; }
+/* small screens: the text links sit on one line that scrolls sideways when a language needs more room; the language link stays put */
+.nav-links {
+  display: flex; align-items: center; gap: 0 20px; flex: 1 1 auto; min-width: 0; padding-inline-end: 20px;
+  overflow-x: auto; white-space: nowrap; scrollbar-width: none; overscroll-behavior-x: contain;
+  -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 20px), transparent); mask-image: linear-gradient(to right, #000 calc(100% - 20px), transparent);
+}
+.nav-links::-webkit-scrollbar { display: none; }
+[dir="rtl"] .nav-links { -webkit-mask-image: linear-gradient(to left, #000 calc(100% - 20px), transparent); mask-image: linear-gradient(to left, #000 calc(100% - 20px), transparent); }
+.nav-links a { flex: none; }
+.nav-links a:focus-visible { outline-offset: -3px; }
+.site-nav a { display: inline-flex; align-items: center; min-height: 44px; color: var(--moss); text-decoration: none; }
+.site-nav a:hover, .site-nav a[aria-current="page"] { color: var(--ink); }
+.site-nav a[aria-current="page"] { font-weight: 600; }
+.site-nav .nav-wide { display: none; }
+.site-nav .nav-lang { gap: 6px; flex: none; }
+.site-nav .nav-lang svg { width: 18px; height: 18px; flex: none; }
+
+/* ---------- hero ---------- */
+.hero { padding-block: clamp(24px, 5vw, 56px) clamp(56px, 8vw, 96px); overflow: hidden; }
+.hero-grid { display: grid; gap: 44px; align-items: center; }
+.hero-copy { container-type: inline-size; min-width: 0; }
+/* Japanese and Chinese: size the headline so that each of its two lines fits the column (--fit = longest line in em) */
+:lang(ja) .hero h1, :lang(zh) .hero h1 { font-size: clamp(1.5rem, calc(100cqi / var(--fit, 12)), 3.75rem); text-wrap: wrap; }
+/* Arabic, Hebrew and Hindi: the same idea with the reader's system typeface, which runs wider and taller than Inter */
+:lang(ar) .hero h1, :lang(he) .hero h1, :lang(hi) .hero h1 { font-size: clamp(1.75rem, calc(100cqi / var(--fit, 12)), 4rem); }
+.lede { margin-top: 20px; max-width: 30em; color: var(--moss); font-size: clamp(1.125rem, 2.3vw, 1.3125rem); font-weight: 500; line-height: 1.5; text-wrap: pretty; }
+:lang(ar) .lede, :lang(hi) .lede, :lang(ja) .lede, :lang(zh) .lede { line-height: 1.75; }
+.hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 24px; margin-top: 28px; }
+.hero .fine { margin-top: 16px; }
+.hero-art { position: relative; display: grid; place-items: center; }
+.bubbles { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+.hero-art .phone { --w: min(64vw, 264px); }
+
+/* ---------- phone frame (same proportions as the App Store screenshots) ---------- */
+.phone {
+  --w: 264px;
+  position: relative; flex: none; width: var(--w);
+  padding: calc(var(--w) * 0.0241); border-radius: calc(var(--w) * 0.1707);
+  background: linear-gradient(145deg, #4a4a4e 0%, #232326 30%, #141416 70%, #2e2e31 100%);
+  box-shadow: 0 calc(var(--w) * 0.066) calc(var(--w) * 0.13) rgba(11, 60, 35, 0.26), 0 calc(var(--w) * 0.022) calc(var(--w) * 0.044) rgba(11, 60, 35, 0.14);
+}
+.phone::before { content: ""; position: absolute; inset: calc(var(--w) * 0.0055); border-radius: calc(var(--w) * 0.1652); background: #000; }
+.phone .screen { position: relative; overflow: hidden; aspect-ratio: 1206 / 2622; border-radius: calc(var(--w) * 0.1466); background: #fff; }
+.phone .screen img { width: 100%; height: 100%; object-fit: cover; }
+.phone .island { position: absolute; top: calc(var(--w) * 0.0263); left: 50%; width: calc(var(--w) * 0.2976); height: calc(var(--w) * 0.0875); border-radius: 999px; background: #000; transform: translateX(-50%); }
+
+/* ---------- sections ---------- */
+.section { padding-block: clamp(56px, 9vw, 104px); }
+.section-paper { background: var(--paper); }
+.section-head { max-width: 40rem; margin-bottom: clamp(32px, 5vw, 56px); }
+.section-head p { margin-top: 14px; color: var(--moss); font-size: 1.125rem; text-wrap: pretty; }
+
+.feature-grid { display: grid; gap: 44px 56px; }
+.feature { display: grid; grid-template-columns: auto minmax(0, 1fr); align-items: center; gap: clamp(18px, 4.5vw, 36px); }
+.feature .phone { --w: clamp(132px, 38vw, 172px); }
+.feature h3 { font-size: clamp(1.1875rem, 2.4vw, 1.375rem); text-wrap: balance; }
+.feature p { margin-top: 10px; color: var(--moss); font-size: 1rem; }
+
+.also { margin-top: clamp(48px, 7vw, 80px); padding-top: 28px; border-top: 1px solid var(--line); }
+.also-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 24px 40px; margin-top: 20px; }
+.also dt { font-weight: 600; letter-spacing: var(--track-ui); }
+.also dd { margin-top: 4px; color: var(--moss); font-size: 0.9375rem; }
+
+.steps { display: grid; gap: 28px 40px; list-style: none; counter-reset: step; }
+.steps li { display: grid; grid-template-columns: 2.5rem minmax(0, 1fr); gap: 6px 8px; align-content: start; counter-increment: step; }
+.steps li::before { content: counter(step); grid-row: 1 / span 2; color: var(--leaf); font: 700 2.75rem/0.9 "Inter Display", "Inter", -apple-system, sans-serif; letter-spacing: -0.04em; }
+.steps p { grid-column: 2; color: var(--moss); }
+.steps-note { margin-top: clamp(28px, 4vw, 44px); max-width: 44rem; }
+
+.band { background: var(--forest); color: #EAF4EE; }
+.band h2 { color: #fff; }
+.band .section-head p { color: #B9D3C4; }
+.facts { display: grid; gap: 24px 40px; }
+.facts > div { padding-top: 18px; border-top: 1px solid rgba(255, 255, 255, 0.2); }
+.facts h3 { color: #fff; font-size: 1.125rem; }
+.facts p { margin-top: 6px; color: #B9D3C4; font-size: 1rem; }
+.band .btn { margin-top: clamp(32px, 4vw, 44px); }
+
+.faq { display: grid; gap: 0 56px; }
+.faq > div { padding-block: 22px; border-top: 1px solid var(--line); }
+.faq dt { font: 600 1.125rem var(--font-body); line-height: max(1.35, var(--lh-h3)); letter-spacing: var(--track-ui); }
+.faq dd { margin-top: 8px; color: var(--moss); }
+
+.closing-grid { display: grid; gap: 36px; }
+.closing p { margin-top: 12px; color: var(--moss); font-size: 1.125rem; }
+.closing .btn { margin-top: 24px; }
+.contact { padding-top: 32px; border-top: 1px solid var(--line); }
+.contact h2 { font-size: 1.5rem; letter-spacing: var(--track-h3); }
+.contact p { font-size: 1rem; }
+.mail { display: inline-flex; align-items: center; min-height: 44px; margin-top: 6px; color: var(--ink); font: 600 1.1875rem/1.2 var(--font-body); letter-spacing: -0.01em; overflow-wrap: anywhere; }
+
+/* ---------- footer ---------- */
+.site-footer { padding-block: 32px 44px; border-top: 1px solid var(--line); background: var(--paper); }
+.footer-top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 4px 32px; }
+.footer-top .brand { margin-inline-end: 0; }
+.footer-nav { display: flex; flex-wrap: wrap; gap: 0 24px; font-size: 0.9375rem; font-weight: 500; }
+.footer-nav a { display: inline-flex; align-items: center; min-height: 44px; color: var(--ink); }
+.site-footer .fine { max-width: 62em; margin-top: 14px; }
+.lang-nav { margin-top: 18px; padding-top: 18px; border-top: 1px solid var(--line); scroll-margin-top: 16px; }
+.lang-nav h2 { font: 600 0.9375rem var(--font-body); line-height: 1.4; letter-spacing: var(--track-ui); }
+.lang-nav ul { display: flex; flex-wrap: wrap; gap: 0 20px; margin-top: 2px; list-style: none; }
+.lang-nav a { display: inline-flex; align-items: center; min-height: 40px; color: var(--moss); font-size: 0.9375rem; text-decoration: none; }
+.lang-nav a:hover { color: var(--ink); text-decoration: underline; }
+.lang-nav a[aria-current="true"] { color: var(--ink); font-weight: 600; }
+
+/* ---------- legal pages ---------- */
+.legal { padding-block: clamp(20px, 5vw, 56px) clamp(56px, 8vw, 96px); }
+.legal-wrap { max-width: 45rem; margin-inline: 0; }
+.legal h1 { font-size: clamp(2.25rem, 7.5vw, 3.5rem); }
+.legal-head .fine { margin-top: 12px; }
+.legal-head .legal-note { max-width: 40rem; }
+.legal-body { margin-top: 28px; }
+.legal-body > * + * { margin-top: 1em; }
+.legal-body > p:first-child { color: var(--moss); font-size: 1.125rem; font-weight: 500; }
+.legal-body h2 { margin-top: 2.1em; font: 700 1.5rem var(--font-display); line-height: max(1.2, var(--lh-h2)); letter-spacing: var(--track-h3); scroll-margin-top: 16px; }
+.legal-body ul { display: grid; gap: 0.45em; padding-inline-start: 1.2em; }
+.legal-body li { padding-inline-start: 0.15em; }
+.legal-body li::marker { color: var(--leaf); }
+.legal-body a { overflow-wrap: anywhere; }
+.summary { padding: 20px 22px 22px; border: 1px solid var(--line); border-radius: 18px; background: var(--paper); }
+.summary > * + * { margin-top: 0.7em; }
+.toc { padding-block: 18px; border-block: 1px solid var(--line); }
+.toctitle { display: block; margin-bottom: 6px; font-weight: 600; letter-spacing: var(--track-ui); }
+.toc ul { display: block; padding: 0; list-style: none; }
+.toc li { padding: 0; break-inside: avoid; }
+.toc a { display: inline-flex; align-items: center; min-height: 40px; color: var(--ink); text-decoration: none; }
+.toc a:hover { text-decoration: underline; text-decoration-color: var(--orange); text-decoration-thickness: 2px; }
+
+.notfound { padding-block: clamp(48px, 12vw, 140px); }
+.notfound p { margin-top: 16px; color: var(--moss); font-size: 1.125rem; }
+.notfound .btn { margin-top: 28px; }
+
+/* ---------- small screens: let long words break at syllables instead of overflowing ---------- */
+@media (max-width: 719px) {
+  h1, h2, h3, p, li, dt, dd { hyphens: auto; -webkit-hyphens: auto; hyphenate-limit-chars: 12 5 5; }
+}
+
+/* ---------- wider screens ---------- */
+@media (min-width: 640px) {
+  .toc ul { columns: 2; column-gap: 40px; }
+}
+@media (min-width: 720px) {
+  .wrap { width: min(100% - 64px, 1120px); }
+  .facts { grid-template-columns: repeat(3, 1fr); }
+  .steps { grid-template-columns: repeat(3, 1fr); }
+  .steps li { grid-template-columns: minmax(0, 1fr); }
+  .steps li::before { grid-row: auto; margin-bottom: 6px; }
+  .steps p { grid-column: auto; }
+}
+@media (min-width: 900px) {
+  .header-row { gap: 2px 24px; }
+  .site-nav { order: 0; flex-basis: auto; gap: 0 26px; }
+  .nav-links { display: contents; }
+  .site-nav .nav-wide { display: inline-flex; }
+  .hero-grid { grid-template-columns: minmax(0, 1.08fr) minmax(0, 0.92fr); gap: 48px; }
+  .hero-art .phone { --w: 300px; }
+  .feature-grid { grid-template-columns: 1fr 1fr; gap: 64px 64px; }
+  .feature .phone { --w: 188px; }
+  .faq { grid-template-columns: 1fr 1fr; }
+  .closing-grid { grid-template-columns: 1.25fr 0.75fr; gap: 64px; align-items: start; }
+  .contact { padding-block: 4px; padding-inline: 56px 0; border-top: 0; border-inline-start: 1px solid var(--line); }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
