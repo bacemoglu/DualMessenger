@@ -28,6 +28,8 @@ Sebagian besar hal yang ditangani aplikasi tidak pernah keluar dari iPhone atau 
 
 **Rekaman suara dan transkripsi.** Audio yang Anda rekam atau impor, beserta teks yang dibuat darinya, disimpan di perangkat Anda.
 
+**Suara Lucu.** Rekaman Anda diubah menjadi suara pilihan Anda di perangkat Anda. Rekaman tidak dikirim ke kami dan hanya keluar dari perangkat Anda jika Anda membagikannya.
+
 **Bot obrolan AI.** Bot ini menggunakan model bahasa yang disimpan di perangkat Anda. Pertanyaan Anda dan jawabannya diproses di perangkat dan tidak dikirim kepada kami atau siapa pun.
 
 **Kunci aplikasi.** Face ID dan Touch ID ditangani oleh iOS. Aplikasi hanya mengetahui apakah pemeriksaan berhasil dan tidak pernah menerima data wajah atau sidik jari Anda. Jika Anda mengatur kode sandi di aplikasi, kode itu disimpan di perangkat Anda.
@@ -42,7 +44,7 @@ Aplikasi hanya meminta izin saat sebuah fitur memerlukannya:
 
 - **Kamera:** untuk mengambil foto dan video yang Anda kirim di chat.
 - **Foto:** untuk menyimpan foto dan video dari chat ke perpustakaan Anda.
-- **Mikrofon:** untuk merekam pesan suara dan audio untuk Suara ke Teks.
+- **Mikrofon:** untuk merekam pesan suara dan audio untuk Suara ke Teks, serta suara Anda untuk Suara Lucu.
 - **Pengenalan Ucapan:** untuk mengubah audio menjadi teks.
 - **Face ID:** untuk membuka kunci aplikasi.
 - **Lokasi:** untuk menampilkan posisi Anda dan membuat tautan yang Anda bagikan.

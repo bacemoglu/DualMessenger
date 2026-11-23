@@ -4,7 +4,7 @@
   "app": "Dual Messenger+",
   "meta": {
     "home_title": "Dual Messenger+ – Duas contas WhatsApp num só iPhone",
-    "home_description": "Use a sua segunda conta do WhatsApp no iPhone ou iPad que já traz consigo. Bloqueio da app com Face ID, mensagens de voz transformadas em texto, um bot de IA no dispositivo, notas e lembretes.",
+    "home_description": "Use a sua segunda conta do WhatsApp no iPhone ou iPad que já traz consigo. Bloqueio da app com Face ID, mensagens de voz transformadas em texto, vozes divertidas, um bot de IA no dispositivo, notas e lembretes.",
     "privacy_title": "Política de privacidade",
     "privacy_description": "Como o Dual Messenger+ trata os seus dados: sem conta, sem anúncios, sem rastreadores, e o que cria fica no seu dispositivo.",
     "terms_title": "Termos de utilização",
@@ -37,6 +37,13 @@
     "lede": "Um bloqueio para as suas conversas e algumas ferramentas para o dia a dia, tudo na mesma app.",
     "items": [
       {
+        "img": "funny",
+        "badge": "Novo",
+        "title": "Transforme a sua voz em 10 vozes divertidas",
+        "text": "Grave até 30 segundos e ouça-se como robô, esquilo, fantasma e muito mais. Partilhe a que mais gostar como ficheiro de áudio.",
+        "alt": "Ecrã Vozes divertidas com uma gravação e botões de vozes como Esquilo, Monstro, Robô e Extraterrestre"
+      },
+      {
         "img": "lock",
         "title": "Bloqueie com Face ID ou com o seu código",
         "text": "Mais ninguém consegue abrir a app nem as suas conversas. Escolha se bloqueia de imediato ou ao fim de alguns minutos.",
@@ -58,7 +65,7 @@
         "img": "notes",
         "title": "Notas e lembretes ao lado das suas conversas",
         "text": "Aponte o que precisar, encontre-o com a pesquisa e receba uma notificação à hora do lembrete.",
-        "alt": "Ecrã Notas com um campo de pesquisa e quatro notas"
+        "alt": "Ecrã Notas com uma lista de notas como a lista de compras, uma reunião e ideias de presentes"
       }
     ],
     "also_title": "Também na app",
@@ -168,6 +175,8 @@
   "legal": {
     "updated_label": "Última atualização",
     "updated": "9 de novembro de 2026",
+    "updated_privacy": "23 de novembro de 2026",
+    "updated_terms": "23 de novembro de 2026",
     "toc_title": "Nesta página",
     "translation_note": "Este texto é uma tradução do original em inglês. Se houver diferenças entre as duas versões, prevalece a versão em inglês.",
     "english_link": "Ler a versão em inglês"

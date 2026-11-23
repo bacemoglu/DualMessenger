@@ -4,7 +4,7 @@
   "app": "Dual Messenger+",
   "meta": {
     "home_title": "Dual Messenger+ – Deux comptes WhatsApp sur un seul iPhone",
-    "home_description": "Utilisez votre second compte WhatsApp sur l’iPhone ou l’iPad que vous avez déjà sur vous. Verrouillage de l’app avec Face ID, messages vocaux convertis en texte, bot IA intégré à l’appareil, notes et rappels.",
+    "home_description": "Utilisez votre second compte WhatsApp sur l’iPhone ou l’iPad que vous avez déjà sur vous. Verrouillage de l’app avec Face ID, messages vocaux convertis en texte, voix amusantes, bot IA intégré à l’appareil, notes et rappels.",
     "privacy_title": "Politique de confidentialité",
     "privacy_description": "Comment Dual Messenger+ traite vos données : pas de compte, pas de publicité, pas de traceurs, et ce que vous créez reste sur votre appareil.",
     "terms_title": "Conditions d’utilisation",
@@ -37,6 +37,13 @@
     "lede": "Un verrou pour vos conversations et quelques outils du quotidien, réunis dans la même app.",
     "items": [
       {
+        "img": "funny",
+        "badge": "Nouveau",
+        "title": "Transformez votre voix en 10 voix amusantes",
+        "text": "Enregistrez jusqu’à 30 secondes, puis écoutez-vous en robot, en écureuil, en fantôme et plus encore. Partagez celle qui vous plaît sous forme de fichier audio.",
+        "alt": "Écran Voix amusantes avec un enregistrement et des boutons de voix comme Écureuil, Monstre, Robot et Extraterrestre"
+      },
+      {
         "img": "lock",
         "title": "Verrouillez avec Face ID ou votre code",
         "text": "Vous seul pouvez ouvrir l’app et vos conversations. Choisissez un verrouillage immédiat ou au bout de quelques minutes.",
@@ -58,7 +65,7 @@
         "img": "notes",
         "title": "Notes et rappels à côté de vos conversations",
         "text": "Notez ce qui compte, retrouvez-le grâce à la recherche et recevez une notification à l’heure du rappel.",
-        "alt": "Écran Notes avec un champ de recherche et quatre notes"
+        "alt": "Écran Notes avec une liste de notes comme une liste de courses, une réunion et des idées cadeaux"
       }
     ],
     "also_title": "Également dans l’app",
@@ -168,6 +175,8 @@
   "legal": {
     "updated_label": "Dernière mise à jour",
     "updated": "9 novembre 2026",
+    "updated_privacy": "23 novembre 2026",
+    "updated_terms": "23 novembre 2026",
     "toc_title": "Sur cette page",
     "translation_note": "Ce texte est une traduction de l’original anglais. En cas de divergence entre les deux versions, la version anglaise prévaut.",
     "english_link": "Lire la version anglaise"

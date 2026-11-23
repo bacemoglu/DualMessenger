@@ -13,7 +13,7 @@ Ketentuan ini berlaku saat Anda menggunakan aplikasi Dual Messenger+ dan situs w
 
 ## 1. Tentang Dual Messenger+
 
-Dual Messenger+ adalah aplikasi untuk iPhone dan iPad. Aplikasi ini memungkinkan Anda menggunakan akun WhatsApp kedua di perangkat yang sama dan menambahkan alat seperti kunci aplikasi, catatan, pengingat, Suara ke Teks, dan bot obrolan AI yang berjalan di perangkat.
+Dual Messenger+ adalah aplikasi untuk iPhone dan iPad. Aplikasi ini memungkinkan Anda menggunakan akun WhatsApp kedua di perangkat yang sama dan menambahkan alat seperti kunci aplikasi, catatan, pengingat, Suara ke Teks, Suara Lucu, dan bot obrolan AI yang berjalan di perangkat.
 
 Aplikasi ini disediakan oleh pengembang independennya (“kami”). Anda bisa menghubungi kami di [info@dualmessengerplus.com](mailto:info@dualmessengerplus.com).
 

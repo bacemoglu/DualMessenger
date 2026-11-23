@@ -28,6 +28,8 @@ Uygulamanın işlediği verilerin çoğu iPhone veya iPad’inizden hiç çıkma
 
 **Ses kayıtları ve dökümler.** Kaydettiğiniz veya içe aktardığınız sesler ve bunlardan oluşturulan metinler cihazınıza kaydedilir.
 
+**Komik Sesler.** Kaydınız, seçtiğiniz sese cihazınızda dönüştürülür. Bize gönderilmez; yalnızca siz paylaşırsanız cihazınızdan çıkar.
+
 **Yapay zekâ sohbet botu.** Bot, cihazınızda saklanan bir dil modeli kullanır. Sorularınız ve botun yanıtları cihazda işlenir; bize ya da başka birine gönderilmez.
 
 **Uygulama kilidi.** Face ID ve Touch ID işlemlerini iOS yürütür. Uygulama yalnızca doğrulamanın başarılı olup olmadığını öğrenir; yüz veya parmak izi verileriniz uygulamaya hiçbir zaman ulaşmaz. Uygulamada bir şifre belirlerseniz bu şifre cihazınızda saklanır.
@@ -42,7 +44,7 @@ Uygulama bir izni yalnızca bir özellik gerektirdiğinde ister:
 
 - **Kamera:** sohbetlerinizde gönderdiğiniz fotoğraf ve videoları çekmek için.
 - **Fotoğraflar:** sohbetlerinizdeki fotoğraf ve videoları arşivinize kaydetmek için.
-- **Mikrofon:** sesli mesajları ve Sesten Metne için sesleri kaydetmek için.
+- **Mikrofon:** sesli mesajları ve Sesten Metne için sesleri, Komik Sesler için de kendi sesinizi kaydetmek için.
 - **Konuşma Tanıma:** sesi metne dönüştürmek için.
 - **Face ID:** uygulamanın kilidini açmak için.
 - **Konum:** bulunduğunuz yeri göstermek ve paylaştığınız bağlantıyı oluşturmak için.

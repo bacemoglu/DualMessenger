@@ -13,7 +13,7 @@ Bu koşullar, Dual Messenger+ uygulamasını ve bu web sitesini kullandığını
 
 ## 1. Dual Messenger+ hakkında
 
-Dual Messenger+, iPhone ve iPad için bir uygulamadır. Aynı cihazda ikinci bir WhatsApp hesabı kullanmanızı sağlar; buna uygulama kilidi, notlar, hatırlatıcılar, Sesten Metne ve cihazda çalışan bir yapay zekâ sohbet botu gibi araçlar ekler.
+Dual Messenger+, iPhone ve iPad için bir uygulamadır. Aynı cihazda ikinci bir WhatsApp hesabı kullanmanızı sağlar; buna uygulama kilidi, notlar, hatırlatıcılar, Sesten Metne, Komik Sesler ve cihazda çalışan bir yapay zekâ sohbet botu gibi araçlar ekler.
 
 Uygulamayı bağımsız geliştiricisi (“biz”) sunar. Bize [info@dualmessengerplus.com](mailto:info@dualmessengerplus.com) adresinden ulaşabilirsiniz.
 

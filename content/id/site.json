@@ -4,7 +4,7 @@
   "app": "Dual Messenger+",
   "meta": {
     "home_title": "Dual Messenger+ – Dua akun WhatsApp di satu iPhone",
-    "home_description": "Gunakan akun WhatsApp kedua Anda di iPhone atau iPad yang sudah Anda bawa. Kunci aplikasi dengan Face ID, pesan suara menjadi teks, bot AI di perangkat, catatan, dan pengingat.",
+    "home_description": "Gunakan akun WhatsApp kedua Anda di iPhone atau iPad yang sudah Anda bawa. Kunci aplikasi dengan Face ID, pesan suara menjadi teks, suara lucu, bot AI di perangkat, catatan, dan pengingat.",
     "privacy_title": "Kebijakan Privasi",
     "privacy_description": "Cara Dual Messenger+ menangani data Anda: tanpa akun, tanpa iklan, tanpa pelacak, dan semua yang Anda buat tetap di perangkat Anda.",
     "terms_title": "Ketentuan Penggunaan",
@@ -37,6 +37,13 @@
     "lede": "Kunci untuk chat Anda dan beberapa alat sehari-hari, semuanya dalam satu aplikasi.",
     "items": [
       {
+        "img": "funny",
+        "badge": "Baru",
+        "title": "Ubah suara Anda menjadi 10 suara lucu",
+        "text": "Rekam hingga 30 detik, lalu dengarkan sebagai robot, tupai, hantu, dan lainnya. Bagikan yang Anda suka sebagai file audio.",
+        "alt": "Layar Suara Lucu dengan sebuah rekaman dan tombol suara seperti Tupai, Monster, Robot, dan Alien"
+      },
+      {
         "img": "lock",
         "title": "Kunci dengan Face ID atau kode sandi",
         "text": "Hanya Anda yang bisa membuka aplikasi dan chat Anda. Pilih apakah aplikasi terkunci seketika atau setelah beberapa menit.",
@@ -58,7 +65,7 @@
         "img": "notes",
         "title": "Catatan dan pengingat di samping chat Anda",
         "text": "Tulis hal-hal penting, temukan kembali lewat pencarian, dan dapatkan notifikasi saat pengingat tiba waktunya.",
-        "alt": "Layar Catatan dengan kolom pencarian dan empat catatan"
+        "alt": "Layar Catatan dengan daftar catatan seperti daftar belanja, rapat, dan ide hadiah"
       }
     ],
     "also_title": "Juga ada di aplikasi",
@@ -168,6 +175,8 @@
   "legal": {
     "updated_label": "Terakhir diperbarui",
     "updated": "9 November 2026",
+    "updated_privacy": "23 November 2026",
+    "updated_terms": "23 November 2026",
     "toc_title": "Di halaman ini",
     "translation_note": "Ini adalah terjemahan dari versi asli berbahasa Inggris. Jika kedua versi berbeda, versi bahasa Inggris yang berlaku.",
     "english_link": "Baca versi bahasa Inggris"

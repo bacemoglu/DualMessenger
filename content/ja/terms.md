@@ -13,7 +13,7 @@
 
 ## 1. Dual Messenger+について
 
-Dual Messenger+は、iPhoneおよびiPad向けのアプリです。同じデバイスで2つ目のWhatsAppアカウントを使えるようにし、アプリのロック、メモ、リマインダー、「音声からテキストへ」、デバイス上で動くAIチャットボットなどのツールを追加します。
+Dual Messenger+は、iPhoneおよびiPad向けのアプリです。同じデバイスで2つ目のWhatsAppアカウントを使えるようにし、アプリのロック、メモ、リマインダー、「音声からテキストへ」、「おもしろボイス」、デバイス上で動くAIチャットボットなどのツールを追加します。
 
 アプリは、独立した開発者（以下「私たち」）が提供しています。お問い合わせは[info@dualmessengerplus.com](mailto:info@dualmessengerplus.com)までお願いします。
 

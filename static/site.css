@@ -178,6 +178,9 @@ h3 { font: 600 1.25rem var(--font-body); line-height: var(--lh-h3); letter-spaci
 .feature .phone { --w: clamp(132px, 38vw, 172px); }
 .feature h3 { font-size: clamp(1.1875rem, 2.4vw, 1.375rem); text-wrap: balance; }
 .feature p { margin-top: 10px; color: var(--moss); font-size: 1rem; }
+.feature .tag { display: inline-block; margin: 0 0 10px; padding: 2px 10px; border-radius: 999px; background: var(--orange-soft); color: var(--ink); font-size: 0.8125rem; font-weight: 600; letter-spacing: var(--track-ui); }
+/* the newest feature sits on a mint card; on phones the card reaches into the gutter so its content lines up with the rest */
+.feature-new { margin-inline: -12px; padding: 20px 12px; border-radius: 24px; background: var(--mint); }
 
 .also { margin-top: clamp(48px, 7vw, 80px); padding-top: 28px; border-top: 1px solid var(--line); }
 .also-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 24px 40px; margin-top: 20px; }
@@ -264,6 +267,16 @@ h3 { font: 600 1.25rem var(--font-body); line-height: var(--lh-h3); letter-spaci
 }
 @media (min-width: 720px) {
   .wrap { width: min(100% - 64px, 1120px); }
+  /* features: the newest one is a wide card, text on one half and the phone centred on the other;
+     the rest are equal tiles with the phone above the text, so the phones and titles line up */
+  .feature-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 56px 40px; }
+  .feature:not(.feature-new) { grid-template-columns: minmax(0, 1fr); align-items: start; align-content: start; gap: 24px; }
+  .feature:not(.feature-new) .phone { --w: 168px; }
+  .feature-new { grid-column: 1 / -1; grid-template-columns: repeat(2, minmax(0, 1fr)); margin-inline: 0; padding: 40px 48px; border-radius: 28px; }
+  .feature-new .phone { --w: 208px; grid-column: 2; grid-row: 1; justify-self: center; }
+  .feature-new > div { grid-column: 1; grid-row: 1; max-width: 26rem; }
+  .feature-new h3 { font-size: clamp(1.5rem, 2.6vw, 1.875rem); }
+  .feature-new p { font-size: 1.0625rem; }
   .facts { grid-template-columns: repeat(3, 1fr); }
   .steps { grid-template-columns: repeat(3, 1fr); }
   .steps li { grid-template-columns: minmax(0, 1fr); }
@@ -277,11 +290,15 @@ h3 { font: 600 1.25rem var(--font-body); line-height: var(--lh-h3); letter-spaci
   .site-nav .nav-wide { display: inline-flex; }
   .hero-grid { grid-template-columns: minmax(0, 1.08fr) minmax(0, 0.92fr); gap: 48px; }
   .hero-art .phone { --w: 300px; }
-  .feature-grid { grid-template-columns: 1fr 1fr; gap: 64px 64px; }
-  .feature .phone { --w: 188px; }
   .faq { grid-template-columns: 1fr 1fr; }
   .closing-grid { grid-template-columns: 1.25fr 0.75fr; gap: 64px; align-items: start; }
   .contact { padding-block: 4px; padding-inline: 56px 0; border-top: 0; border-inline-start: 1px solid var(--line); }
+}
+@media (min-width: 1040px) {
+  .feature-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 64px 36px; }
+  .feature:not(.feature-new) .phone { --w: 176px; }
+  .feature-new { padding: 48px 64px; }
+  .feature-new .phone { --w: 232px; }
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }

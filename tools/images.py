@@ -58,29 +58,42 @@ def relabel(im, box, text, font_path, center_x=None, size=None, baseline=None):
 
 INTER = '/usr/share/fonts/opentype/inter/'
 LANGS = ['en', 'tr', 'de', 'nl', 'fr', 'es', 'it', 'pt-PT', 'ru', 'id', 'ja', 'zh-Hans', 'ar', 'he', 'hi']
-shots = {'main': '01.png', 'lock': '02.png', 'voice': '03.png', 'bot': '04.png', 'notes': '05.png'}
+import sys
+ONLY = sys.argv[1:]          # e.g. `python3 tools/images.py en` rebuilds only English (and leaves the icons alone)
+if ONLY: LANGS = [c for c in LANGS if c in ONLY]
+
+
+def source(code, name):
+    """Phone screens of version 1.4.1: the Messenger+ page and Notes were captured again for 1.4.1,
+    Voice To Text and Chat Bot come from the 1.4.0 sets (same tab bar), the lock screen did not change."""
+    if name == 'main': return S + f'iphone_v3_{code}/01.png'
+    if name == 'notes': return S + f'iphone_v3_{code}/05.png'
+    if name == 'voice': return S + f'iphone_v2_{code}/03.png'
+    if name == 'bot': return S + f'iphone_v2_{code}/04.png'
+    if name == 'funny': return S + f'voices_{code}/06.png'
+    return (S if code == 'en' else S + code + '/') + '02.png'       # lock
+
+
+shots = ['main', 'lock', 'voice', 'bot', 'notes', 'funny']
 import shutil
 for old in [f for f in os.listdir(OUT) if f.startswith('screen-')]:
     os.remove(os.path.join(OUT, old))
 total = 0
 for code in LANGS:
-    src = S if code == 'en' else S + code + '/'
     d = os.path.join(OUT, code); os.makedirs(d, exist_ok=True)
-    for name, f in shots.items():
-        im = Image.open(src + f).convert('RGB')
+    for name in shots:
+        f = source(code, name)
+        im = Image.open(f).convert('RGB')
         assert im.size == (1206, 2622), (code, f, im.size)
-        if name == 'notes' and code in ('en', 'nl'): im = notes_title_fix(im)
-        if name == 'notes' and code == 'zh-Hans': im = zh_notes_title(im)
-        # labels that changed in the app after these screenshots were taken
-        if name == 'main' and code == 'pt-PT': im = relabel(im, (330, 1700, 880, 1900), 'Iniciar sess\u00e3o', INTER + 'Inter-Regular.otf')
-        if name == 'voice' and code == 'nl': im = relabel(im, (200, 215, 632, 300), 'Transcriptie', INTER + 'Inter-SemiBold.otf', center_x=410, size=51, baseline=270)
+        # (the 1.4.0 site needed label fixes here: notes_title_fix, zh_notes_title and relabel; the 1.4.1 captures
+        #  already show the current labels, so check each language visually before adding a fix back)
         o = os.path.join(d, f'screen-{name}.webp')
         im.resize((640, 1391), Image.LANCZOS).save(o, 'WEBP', quality=84, method=6)
         total += os.path.getsize(o)
     print(code, sum(os.path.getsize(os.path.join(d, x)) for x in os.listdir(d)) // 1024, 'KB')
 print('all screens', total // 1024, 'KB')
 
-if os.path.exists(ICON):
+if os.path.exists(ICON) and not ONLY:
     ic = Image.open(ICON).convert('RGB')
     ic.resize((192, 192), Image.LANCZOS).save(os.path.join(OUT, 'icon-192.png'), optimize=True)
     ic.resize((180, 180), Image.LANCZOS).save(os.path.join(OUT, 'apple-touch-icon.png'), optimize=True)

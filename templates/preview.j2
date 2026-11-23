@@ -18,10 +18,10 @@
 {{ p.home_sections(s.t, s.u, s.ids, s.fit, loop.first) }}
 </main>
 <main id="{{ s.ids.privacy }}" class="legal" data-view="privacy" hidden>
-{{ p.legal_sections(s.t, s.t.meta.privacy_title, s.privacy_body, s.u.english_privacy) }}
+{{ p.legal_sections(s.t, s.t.meta.privacy_title, s.privacy_body, s.u.english_privacy, 'privacy') }}
 </main>
 <main id="{{ s.ids.terms }}" class="legal" data-view="terms" hidden>
-{{ p.legal_sections(s.t, s.t.meta.terms_title, s.terms_body, s.u.english_terms) }}
+{{ p.legal_sections(s.t, s.t.meta.terms_title, s.terms_body, s.u.english_terms, 'terms') }}
 </main>
 {{ p.footer(s.t, s.u, s.ids, s.langs) }}
 </div>

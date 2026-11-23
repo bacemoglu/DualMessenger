@@ -28,6 +28,8 @@ Das meiste, womit die App arbeitet, verlässt dein iPhone oder iPad nie.
 
 **Sprachaufnahmen und Transkripte.** Audio, das du aufnimmst oder importierst, und der daraus erstellte Text werden auf deinem Gerät gespeichert.
 
+**Lustige Stimmen.** Deine Aufnahme wird auf deinem Gerät in die Stimme umgewandelt, die du auswählst. Sie wird nicht an uns gesendet und verlässt dein Gerät nur, wenn du sie teilst.
+
 **KI-Chat-Bot.** Der Bot nutzt ein Sprachmodell, das auf deinem Gerät gespeichert ist. Deine Fragen und seine Antworten werden auf dem Gerät verarbeitet und weder an uns noch an andere gesendet.
 
 **App-Sperre.** Face ID und Touch ID übernimmt iOS. Die App erfährt nur, ob die Prüfung erfolgreich war, und erhält niemals deine Gesichts- oder Fingerabdruckdaten. Wenn du in der App einen Code festlegst, wird er auf deinem Gerät gespeichert.
@@ -42,7 +44,7 @@ Die App fragt nur dann nach einer Berechtigung, wenn eine Funktion sie braucht:
 
 - **Kamera:** um Fotos und Videos aufzunehmen, die du in deinen Chats sendest.
 - **Fotos:** um Fotos und Videos aus deinen Chats in deiner Mediathek zu speichern.
-- **Mikrofon:** um Sprachnachrichten und Audio für „Sprache in Text“ aufzunehmen.
+- **Mikrofon:** um Sprachnachrichten und Audio für „Sprache in Text“ sowie deine Stimme für „Lustige Stimmen“ aufzunehmen.
 - **Spracherkennung:** um Audio in Text umzuwandeln.
 - **Face ID:** um die App zu entsperren.
 - **Standort:** um deine Position anzuzeigen und den Link zu erstellen, den du teilst.

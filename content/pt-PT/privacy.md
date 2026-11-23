@@ -28,6 +28,8 @@ A maior parte daquilo que a app trata nunca sai do seu iPhone ou iPad.
 
 **Gravações de voz e transcrições.** O áudio que grava ou importa, e o texto criado a partir dele, ficam guardados no seu dispositivo.
 
+**Vozes divertidas.** A sua gravação é transformada na voz que escolher, no seu dispositivo. Não nos é enviada e só sai do seu dispositivo se a partilhar.
+
 **Chat bot de IA.** O bot usa um modelo de linguagem guardado no seu dispositivo. As suas perguntas e as respostas do bot são processadas no dispositivo e não são enviadas para nós nem para mais ninguém.
 
 **Bloqueio da app.** O Face ID e o Touch ID são geridos pelo iOS. A app apenas fica a saber se a verificação foi bem-sucedida e nunca recebe os dados do seu rosto ou da sua impressão digital. Se definir um código na app, este fica guardado no seu dispositivo.
@@ -42,7 +44,7 @@ A app só pede uma permissão quando uma funcionalidade precisa dela:
 
 - **Câmara:** para tirar as fotografias e gravar os vídeos que envia nas suas conversas.
 - **Fotografias:** para guardar na sua fototeca as fotografias e os vídeos das suas conversas.
-- **Microfone:** para gravar mensagens de voz e áudio para o Voz para texto.
+- **Microfone:** para gravar mensagens de voz e áudio para o Voz para texto, e a sua voz para as Vozes divertidas.
 - **Reconhecimento de voz:** para transformar o áudio em texto.
 - **Face ID:** para desbloquear a app.
 - **Localização:** para mostrar onde está e criar a ligação que partilha.

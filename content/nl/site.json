@@ -4,7 +4,7 @@
   "app": "Dual Messenger+",
   "meta": {
     "home_title": "Dual Messenger+ – Twee WhatsApp-accounts op één iPhone",
-    "home_description": "Gebruik je tweede WhatsApp-account op de iPhone of iPad die je al bij je hebt. App-vergrendeling met Face ID, spraakberichten naar tekst, een AI-bot op je apparaat, notities en herinneringen.",
+    "home_description": "Gebruik je tweede WhatsApp-account op de iPhone of iPad die je al bij je hebt. App-vergrendeling met Face ID, spraakberichten naar tekst, grappige stemmen, een AI-bot op je apparaat, notities en herinneringen.",
     "privacy_title": "Privacybeleid",
     "privacy_description": "Hoe Dual Messenger+ met je gegevens omgaat: geen account, geen advertenties, geen trackers, en wat je maakt blijft op je apparaat.",
     "terms_title": "Gebruiksvoorwaarden",
@@ -37,6 +37,13 @@
     "lede": "Een slot op je chats en een paar handige tools voor elke dag, ingebouwd in dezelfde app.",
     "items": [
       {
+        "img": "funny",
+        "badge": "Nieuw",
+        "title": "Maak van je stem 10 grappige stemmen",
+        "text": "Neem tot 30 seconden op en hoor jezelf daarna als robot, eekhoorn, spook en meer. Deel de versie die je leuk vindt als audiobestand.",
+        "alt": "Het scherm Grappige stemmen met een opname en stemknoppen zoals Eekhoorn, Monster, Robot en Alien"
+      },
+      {
         "img": "lock",
         "title": "Vergrendel met Face ID of je toegangscode",
         "text": "Alleen jij kunt de app en je chats openen. Kies of de app direct wordt vergrendeld of pas na een paar minuten.",
@@ -58,7 +65,7 @@
         "img": "notes",
         "title": "Notities en herinneringen naast je chats",
         "text": "Schrijf dingen op, vind ze terug met de zoekfunctie en krijg een melding wanneer het tijd is voor een herinnering.",
-        "alt": "Het scherm Notities met een zoekveld en vier notities"
+        "alt": "Het scherm Notities met een lijst notities zoals een boodschappenlijst, een vergadering en cadeau-ideeën"
       }
     ],
     "also_title": "Ook in de app",
@@ -168,6 +175,8 @@
   "legal": {
     "updated_label": "Laatst bijgewerkt",
     "updated": "9 november 2026",
+    "updated_privacy": "23 november 2026",
+    "updated_terms": "23 november 2026",
     "toc_title": "Op deze pagina",
     "translation_note": "Dit is een vertaling van het Engelse origineel. Als de twee versies van elkaar verschillen, geldt de Engelse versie.",
     "english_link": "Lees de Engelse versie"

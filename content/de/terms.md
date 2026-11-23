@@ -13,7 +13,7 @@ Diese Nutzungsbedingungen gelten, wenn du die App Dual Messenger+ und diese Webs
 
 ## 1. Über Dual Messenger+
 
-Dual Messenger+ ist eine App für iPhone und iPad. Mit ihr kannst du ein zweites WhatsApp-Konto auf demselben Gerät nutzen, und sie bietet zusätzlich Werkzeuge wie eine App-Sperre, Notizen, Erinnerungen, „Sprache in Text“ und einen KI-Chat-Bot, der auf dem Gerät läuft.
+Dual Messenger+ ist eine App für iPhone und iPad. Mit ihr kannst du ein zweites WhatsApp-Konto auf demselben Gerät nutzen, und sie bietet zusätzlich Werkzeuge wie eine App-Sperre, Notizen, Erinnerungen, „Sprache in Text“, „Lustige Stimmen“ und einen KI-Chat-Bot, der auf dem Gerät läuft.
 
 Die App wird von ihrem unabhängigen Entwickler („wir“, „uns“) bereitgestellt. Du erreichst uns unter [info@dualmessengerplus.com](mailto:info@dualmessengerplus.com).
 

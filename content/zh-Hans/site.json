@@ -4,7 +4,7 @@
   "app": "Dual Messenger+",
   "meta": {
     "home_title": "Dual Messenger+ – 一部 iPhone，两个 WhatsApp 账号",
-    "home_description": "在随身携带的 iPhone 或 iPad 上使用你的第二个 WhatsApp 账号。还有 Face ID 应用锁、语音消息转文字、在设备上运行的 AI 机器人、笔记和提醒。",
+    "home_description": "在随身携带的 iPhone 或 iPad 上使用你的第二个 WhatsApp 账号。还有 Face ID 应用锁、语音消息转文字、趣味变声、在设备上运行的 AI 机器人、笔记和提醒。",
     "privacy_title": "隐私政策",
     "privacy_description": "Dual Messenger+ 如何处理你的数据：无需账号，没有广告，没有跟踪器，你创建的内容都留在你的设备上。",
     "terms_title": "使用条款",
@@ -37,6 +37,13 @@
     "lede": "为聊天加一把锁，再加上几个日常小工具，全都在同一个应用里。",
     "items": [
       {
+        "img": "funny",
+        "badge": "新功能",
+        "title": "把你的声音变成 10 种趣味声音",
+        "text": "录制最长 30 秒的声音，然后用机器人、花栗鼠、幽灵等声音来听。喜欢哪一种，就把它作为音频文件分享出去。",
+        "alt": "“趣味变声”屏幕，显示一段录音和花栗鼠、怪兽、机器人、外星人等声音按钮"
+      },
+      {
         "img": "lock",
         "title": "用 Face ID 或密码锁定应用",
         "text": "只有你能打开应用和你的聊天。可以选择立即锁定，或几分钟后再锁定。",
@@ -58,7 +65,7 @@
         "img": "notes",
         "title": "笔记和提醒，就在聊天旁边",
         "text": "随手记下要点，用搜索快速找到，提醒到点时还会收到通知。",
-        "alt": "“笔记”屏幕，显示搜索栏和四条笔记"
+        "alt": "“笔记”屏幕，显示购物清单、会议记录、礼物点子等笔记"
       }
     ],
     "also_title": "应用里还有",
@@ -168,6 +175,8 @@
   "legal": {
     "updated_label": "最后更新",
     "updated": "2026年11月9日",
+    "updated_privacy": "2026年11月23日",
+    "updated_terms": "2026年11月23日",
     "toc_title": "本页内容",
     "translation_note": "本页面是英文原文的译文。如两个版本有出入，以英文版本为准。",
     "english_link": "阅读英文版本"

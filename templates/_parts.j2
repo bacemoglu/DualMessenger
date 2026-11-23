@@ -78,9 +78,12 @@
     </div>
     <div class="feature-grid">
       {%- for f in t.features['items'] %}
-      <article class="feature">
+      <article class="feature{% if f.badge is defined %} feature-new{% endif %}">
         {{ phone(u, f.img, f.alt) }}
         <div>
+          {%- if f.badge is defined %}
+          <p class="tag">{{ f.badge }}</p>
+          {%- endif %}
           <h3>{{ f.title }}</h3>
           <p>{{ f.text }}</p>
         </div>
@@ -155,12 +158,12 @@
 </section>
 {%- endmacro %}
 
-{% macro legal_sections(t, title, body, english_url) -%}
+{% macro legal_sections(t, title, body, english_url, which='') -%}
 <div class="wrap">
   <div class="legal-wrap">
     <header class="legal-head">
       <h1>{{ title }}</h1>
-      <p class="fine">{{ t.legal.updated_label }}: {{ t.legal.updated }}</p>
+      <p class="fine">{{ t.legal.updated_label }}: {{ t.legal['updated_' ~ which] if (which and ('updated_' ~ which) in t.legal) else t.legal.updated }}</p>
       {%- if english_url %}
       <p class="fine legal-note">{{ t.legal.translation_note }} <a href="{{ english_url }}" hreflang="en">{{ t.legal.english_link }}</a></p>
       {%- endif %}

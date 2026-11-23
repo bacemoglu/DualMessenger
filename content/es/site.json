@@ -4,7 +4,7 @@
   "app": "Dual Messenger+",
   "meta": {
     "home_title": "Dual Messenger+ – Dos cuentas de WhatsApp en un solo iPhone",
-    "home_description": "Usa tu segunda cuenta de WhatsApp en el iPhone o iPad que ya llevas contigo. Bloqueo de la app con Face ID, mensajes de voz convertidos en texto, un bot de IA en el dispositivo, notas y recordatorios.",
+    "home_description": "Usa tu segunda cuenta de WhatsApp en el iPhone o iPad que ya llevas contigo. Bloqueo de la app con Face ID, mensajes de voz convertidos en texto, voces divertidas, un bot de IA en el dispositivo, notas y recordatorios.",
     "privacy_title": "Política de privacidad",
     "privacy_description": "Cómo trata Dual Messenger+ tus datos: sin cuenta, sin anuncios, sin rastreadores, y lo que creas se queda en tu dispositivo.",
     "terms_title": "Condiciones de uso",
@@ -37,6 +37,13 @@
     "lede": "Un bloqueo para tus chats y unas cuantas herramientas para el día a día, todo en la misma app.",
     "items": [
       {
+        "img": "funny",
+        "badge": "Nuevo",
+        "title": "Convierte tu voz en 10 voces divertidas",
+        "text": "Graba hasta 30 segundos y escúchate como un robot, una ardilla, un fantasma y más. Comparte la que más te guste como archivo de audio.",
+        "alt": "Pantalla Voces divertidas con una grabación y botones de voz como Ardilla, Monstruo, Robot y Alienígena"
+      },
+      {
         "img": "lock",
         "title": "Bloquea con Face ID o con tu código",
         "text": "Solo tú puedes abrir la app y tus chats. Elige si se bloquea al instante o al cabo de unos minutos.",
@@ -58,7 +65,7 @@
         "img": "notes",
         "title": "Notas y recordatorios junto a tus chats",
         "text": "Apunta lo que necesites, encuéntralo con la búsqueda y recibe una notificación cuando llegue la hora del recordatorio.",
-        "alt": "Pantalla Notas con un campo de búsqueda y cuatro notas"
+        "alt": "Pantalla Notas con una lista de notas como la lista de la compra, una reunión e ideas de regalo"
       }
     ],
     "also_title": "También en la app",
@@ -168,6 +175,8 @@
   "legal": {
     "updated_label": "Última actualización",
     "updated": "9 de noviembre de 2026",
+    "updated_privacy": "23 de noviembre de 2026",
+    "updated_terms": "23 de noviembre de 2026",
     "toc_title": "En esta página",
     "translation_note": "Este texto es una traducción del original en inglés. Si hay diferencias entre las dos versiones, prevalece la versión en inglés.",
     "english_link": "Leer la versión en inglés"

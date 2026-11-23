@@ -28,6 +28,8 @@ La maggior parte di ciò che l’app gestisce non lascia mai il tuo iPhone o iPa
 
 **Registrazioni vocali e trascrizioni.** L’audio che registri o importi e il testo che ne viene ricavato sono salvati sul tuo dispositivo.
 
+**Voci divertenti.** La tua registrazione viene trasformata nella voce che scegli sul tuo dispositivo. Non viene inviata a noi ed esce dal tuo dispositivo solo se la condividi.
+
 **Chat bot IA.** Il bot usa un modello linguistico salvato sul tuo dispositivo. Le tue domande e le sue risposte vengono elaborate sul dispositivo e non vengono inviate né a noi né a nessun altro.
 
 **Blocco dell’app.** Face ID e Touch ID sono gestiti da iOS. L’app viene a sapere soltanto se la verifica è riuscita e non riceve mai i dati del tuo volto o della tua impronta. Se imposti un codice nell’app, viene salvato sul tuo dispositivo.
@@ -42,7 +44,7 @@ L’app chiede un’autorizzazione solo quando una funzione ne ha bisogno:
 
 - **Fotocamera:** per scattare le foto e girare i video che invii nelle tue chat.
 - **Foto:** per salvare nella tua libreria le foto e i video delle tue chat.
-- **Microfono:** per registrare messaggi vocali e audio per Da Voce a Testo.
+- **Microfono:** per registrare messaggi vocali e audio per Da Voce a Testo, e la tua voce per Voci divertenti.
 - **Riconoscimento vocale:** per trasformare l’audio in testo.
 - **Face ID:** per sbloccare l’app.
 - **Posizione:** per mostrare dove ti trovi e creare il link che condividi.

@@ -4,7 +4,7 @@
   "app": "Dual Messenger+",
   "meta": {
     "home_title": "Dual Messenger+ – Two WhatsApp accounts on one iPhone",
-    "home_description": "Use your second WhatsApp account on the iPhone or iPad you already carry. App lock with Face ID, voice messages to text, an on-device AI bot, notes and reminders.",
+    "home_description": "Use your second WhatsApp account on the iPhone or iPad you already carry. App lock with Face ID, voice messages to text, funny voices, an on-device AI bot, notes and reminders.",
     "privacy_title": "Privacy Policy",
     "privacy_description": "How Dual Messenger+ handles your data: no account, no ads, no trackers, and what you create stays on your device.",
     "terms_title": "Terms of Use",
@@ -37,6 +37,13 @@
     "lede": "A lock for your chats and a few everyday tools, built into the same app.",
     "items": [
       {
+        "img": "funny",
+        "badge": "New",
+        "title": "Turn your voice into 10 funny voices",
+        "text": "Record up to 30 seconds, then hear it as a robot, a chipmunk, a ghost and more. Share the one you like as an audio file.",
+        "alt": "Funny Voices screen with a recording and voice buttons such as Chipmunk, Monster, Robot and Alien"
+      },
+      {
         "img": "lock",
         "title": "Lock it with Face ID or your passcode",
         "text": "Only you can open the app and your chats. Choose whether it locks right away or after a few minutes.",
@@ -58,7 +65,7 @@
         "img": "notes",
         "title": "Notes and reminders next to your chats",
         "text": "Write things down, find them with search, and get a notification when a reminder is due.",
-        "alt": "Notes screen with a search field and four notes"
+        "alt": "Notes screen with a list of notes such as a grocery list, meeting notes and gift ideas"
       }
     ],
     "also_title": "Also in the app",
@@ -168,6 +175,8 @@
   "legal": {
     "updated_label": "Last updated",
     "updated": "November 9, 2026",
+    "updated_privacy": "November 23, 2026",
+    "updated_terms": "November 23, 2026",
     "toc_title": "On this page",
     "translation_note": "This is a translation of the English original. If the two versions differ, the English version applies.",
     "english_link": "Read the English version"

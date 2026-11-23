@@ -4,7 +4,7 @@
   "app": "Dual Messenger+",
   "meta": {
     "home_title": "Dual Messenger+ – Due account WhatsApp su un solo iPhone",
-    "home_description": "Usa il tuo secondo account WhatsApp sull’iPhone o sull’iPad che hai già con te. Blocco dell’app con Face ID, messaggi vocali trasformati in testo, un bot IA sul dispositivo, note e promemoria.",
+    "home_description": "Usa il tuo secondo account WhatsApp sull’iPhone o sull’iPad che hai già con te. Blocco dell’app con Face ID, messaggi vocali trasformati in testo, voci divertenti, un bot IA sul dispositivo, note e promemoria.",
     "privacy_title": "Informativa sulla privacy",
     "privacy_description": "Come Dual Messenger+ tratta i tuoi dati: nessun account, niente pubblicità, nessun tracker, e ciò che crei resta sul tuo dispositivo.",
     "terms_title": "Termini di utilizzo",
@@ -37,6 +37,13 @@
     "lede": "Un blocco per le tue chat e qualche strumento per tutti i giorni, nella stessa app.",
     "items": [
       {
+        "img": "funny",
+        "badge": "Novità",
+        "title": "Trasforma la tua voce in 10 voci divertenti",
+        "text": "Registra fino a 30 secondi, poi riascoltati come robot, scoiattolo, fantasma e altro ancora. Condividi quella che preferisci come file audio.",
+        "alt": "Schermata Voci divertenti con una registrazione e pulsanti delle voci come Scoiattolo, Mostro, Robot e Alieno"
+      },
+      {
         "img": "lock",
         "title": "Blocca con Face ID o il tuo codice",
         "text": "Solo tu puoi aprire l’app e le tue chat. Scegli se bloccarla subito o dopo qualche minuto.",
@@ -58,7 +65,7 @@
         "img": "notes",
         "title": "Note e promemoria accanto alle tue chat",
         "text": "Scrivi quello che ti serve, ritrovalo con la ricerca e ricevi una notifica quando scade un promemoria.",
-        "alt": "Schermata Note con un campo di ricerca e quattro note"
+        "alt": "Schermata Note con un elenco di note come la lista della spesa, una riunione e idee regalo"
       }
     ],
     "also_title": "Nell’app trovi anche",
@@ -168,6 +175,8 @@
   "legal": {
     "updated_label": "Ultimo aggiornamento",
     "updated": "9 novembre 2026",
+    "updated_privacy": "23 novembre 2026",
+    "updated_terms": "23 novembre 2026",
     "toc_title": "In questa pagina",
     "translation_note": "Questo testo è una traduzione dell’originale inglese. In caso di differenze tra le due versioni, prevale la versione inglese.",
     "english_link": "Leggi la versione inglese"

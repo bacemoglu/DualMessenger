@@ -28,6 +28,8 @@ L’essentiel de ce que l’app traite ne quitte jamais votre iPhone ou iPad.
 
 **Enregistrements vocaux et transcriptions.** L’audio que vous enregistrez ou importez, ainsi que le texte qui en est tiré, sont enregistrés sur votre appareil.
 
+**Voix amusantes.** Votre enregistrement est transformé sur votre appareil dans la voix que vous choisissez. Il ne nous est pas envoyé et ne quitte votre appareil que si vous le partagez.
+
 **Bot de discussion IA.** Le bot utilise un modèle de langage stocké sur votre appareil. Vos questions et ses réponses sont traitées sur l’appareil et ne sont envoyées ni à nous ni à qui que ce soit.
 
 **Verrouillage de l’app.** Face ID et Touch ID sont gérés par iOS. L’app sait uniquement si la vérification a réussi et ne reçoit jamais les données de votre visage ou de vos empreintes. Si vous définissez un code dans l’app, il est stocké sur votre appareil.
@@ -42,7 +44,7 @@ L’app ne demande une autorisation que lorsqu’une fonctionnalité en a besoin
 
 - **Appareil photo :** pour prendre les photos et vidéos que vous envoyez dans vos conversations.
 - **Photos :** pour enregistrer dans votre photothèque les photos et vidéos de vos conversations.
-- **Micro :** pour enregistrer des messages vocaux et l’audio destiné à Voix en texte.
+- **Micro :** pour enregistrer des messages vocaux et l’audio destiné à Voix en texte, ainsi que votre voix pour Voix amusantes.
 - **Reconnaissance vocale :** pour convertir l’audio en texte.
 - **Face ID :** pour déverrouiller l’app.
 - **Position :** pour afficher votre position et créer le lien que vous partagez.

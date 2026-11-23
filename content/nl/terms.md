@@ -13,7 +13,7 @@ Deze voorwaarden gelden wanneer je de app Dual Messenger+ en deze website gebrui
 
 ## 1. Over Dual Messenger+
 
-Dual Messenger+ is een app voor iPhone en iPad. Je kunt er een tweede WhatsApp-account mee gebruiken op hetzelfde apparaat, en de app voegt hulpmiddelen toe zoals een app-vergrendeling, notities, herinneringen, Transcriptie en een AI-chatbot die op je apparaat draait.
+Dual Messenger+ is een app voor iPhone en iPad. Je kunt er een tweede WhatsApp-account mee gebruiken op hetzelfde apparaat, en de app voegt hulpmiddelen toe zoals een app-vergrendeling, notities, herinneringen, Transcriptie, Grappige stemmen en een AI-chatbot die op je apparaat draait.
 
 De app wordt aangeboden door de onafhankelijke ontwikkelaar ervan (‘wij’, ‘ons’). Je kunt ons bereiken via [info@dualmessengerplus.com](mailto:info@dualmessengerplus.com).
 

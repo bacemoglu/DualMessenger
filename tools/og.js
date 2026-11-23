@@ -1,7 +1,7 @@
 // Renders one 1200x630 link-preview image per language.  usage: node og.js '<json list of {code,lang,dir,l1,l2}>'
 const { chromium } = require('playwright');
 const fs = require('fs');
-const ROOT = '/home/claude/site/web/';
+const ROOT = require('path').resolve(__dirname, '..') + '/';   // the source checkout this script lives in
 const page = (j) => `<!DOCTYPE html><html lang="${j.lang}" dir="${j.dir}"><head><meta charset="utf-8">
 <link rel="stylesheet" href="${ROOT}static/site.css">
 <style>
@@ -53,5 +53,6 @@ const page = (j) => `<!DOCTYPE html><html lang="${j.lang}" dir="${j.dir}"><head>
     console.log(j.code, 'headline', size + 'px');
     await p.close();
   }
+  fs.rmSync(ROOT + 'tools/_og_tmp.html', { force: true });
   await b.close();
 })();

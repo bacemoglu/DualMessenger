@@ -4,7 +4,7 @@
   "app": "Dual Messenger+",
   "meta": {
     "home_title": "Dual Messenger+ – Zwei WhatsApp-Konten auf einem iPhone",
-    "home_description": "Nutze dein zweites WhatsApp-Konto auf dem iPhone oder iPad, das du ohnehin dabeihast. App-Sperre mit Face ID, Sprachnachrichten als Text, ein KI-Bot direkt auf dem Gerät, Notizen und Erinnerungen.",
+    "home_description": "Nutze dein zweites WhatsApp-Konto auf dem iPhone oder iPad, das du ohnehin dabeihast. App-Sperre mit Face ID, Sprachnachrichten als Text, lustige Stimmen, ein KI-Bot direkt auf dem Gerät, Notizen und Erinnerungen.",
     "privacy_title": "Datenschutzerklärung",
     "privacy_description": "So geht Dual Messenger+ mit deinen Daten um: kein Konto, keine Werbung, keine Tracker, und was du erstellst, bleibt auf deinem Gerät.",
     "terms_title": "Nutzungsbedingungen",
@@ -37,6 +37,13 @@
     "lede": "Eine Sperre für deine Chats und ein paar praktische Helfer für den Alltag, direkt in derselben App.",
     "items": [
       {
+        "img": "funny",
+        "badge": "Neu",
+        "title": "Mach aus deiner Stimme 10 lustige Stimmen",
+        "text": "Nimm bis zu 30 Sekunden auf und hör dich dann als Roboter, Streifenhörnchen, Geist und mehr. Teile die Stimme, die dir gefällt, als Audiodatei.",
+        "alt": "Bildschirm „Lustige Stimmen“ mit einer Aufnahme und Tasten für Stimmen wie Streifenhörnchen, Monster, Roboter und Alien"
+      },
+      {
         "img": "lock",
         "title": "Sperren mit Face ID oder deinem Code",
         "text": "Nur du kannst die App und deine Chats öffnen. Wähle, ob sie sofort oder erst nach ein paar Minuten gesperrt wird.",
@@ -58,7 +65,7 @@
         "img": "notes",
         "title": "Notizen und Erinnerungen direkt neben deinen Chats",
         "text": "Schreibe dir Dinge auf, finde sie über die Suche wieder und erhalte eine Mitteilung, wenn eine Erinnerung fällig ist.",
-        "alt": "Bildschirm „Notizen“ mit einem Suchfeld und vier Notizen"
+        "alt": "Bildschirm „Notizen“ mit einer Liste von Notizen wie Einkaufsliste, Besprechung und Geschenkideen"
       }
     ],
     "also_title": "Außerdem in der App",
@@ -168,6 +175,8 @@
   "legal": {
     "updated_label": "Zuletzt aktualisiert",
     "updated": "9. November 2026",
+    "updated_privacy": "23. November 2026",
+    "updated_terms": "23. November 2026",
     "toc_title": "Auf dieser Seite",
     "translation_note": "Dies ist eine Übersetzung des englischen Originals. Weichen die beiden Fassungen voneinander ab, gilt die englische Fassung.",
     "english_link": "Englische Fassung lesen"

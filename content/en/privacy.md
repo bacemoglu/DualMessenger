@@ -28,6 +28,8 @@ Most of what the app handles never leaves your iPhone or iPad.
 
 **Voice recordings and transcriptions.** Audio that you record or import, and the text created from it, are saved on your device.
 
+**Funny Voices.** Your recording is changed into the voice you choose on your device. It is not sent to us, and it leaves your device only if you share it.
+
 **AI chat bot.** The bot uses a language model that is stored on your device. Your questions and its answers are processed on the device and are not sent to us or to anyone else.
 
 **App lock.** Face ID and Touch ID are handled by iOS. The app only learns whether the check succeeded and never receives your face or fingerprint data. If you set a passcode in the app, it is stored on your device.
@@ -42,7 +44,7 @@ The app asks for a permission only when a feature needs it:
 
 - **Camera:** to take photos and videos that you send in your chats.
 - **Photos:** to save photos and videos from your chats to your library.
-- **Microphone:** to record voice messages and audio for Voice To Text.
+- **Microphone:** to record voice messages and audio for Voice To Text, and your voice for Funny Voices.
 - **Speech Recognition:** to turn audio into text.
 - **Face ID:** to unlock the app.
 - **Location:** to show your position and create the link you share.

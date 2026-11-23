@@ -28,6 +28,8 @@ Het meeste van wat de app verwerkt, verlaat je iPhone of iPad nooit.
 
 **Spraakopnames en transcripties.** Audio die je opneemt of importeert, en de tekst die daarvan wordt gemaakt, worden op je apparaat bewaard.
 
+**Grappige stemmen.** Je opname wordt op je apparaat omgezet in de stem die je kiest. Er gaat niets naar ons, en de opname verlaat je apparaat alleen als je die deelt.
+
 **AI-chatbot.** De bot gebruikt een taalmodel dat op je apparaat is opgeslagen. Je vragen en de antwoorden van de bot worden op het apparaat verwerkt en worden niet naar ons of naar iemand anders gestuurd.
 
 **App-vergrendeling.** Face ID en Touch ID worden afgehandeld door iOS. De app krijgt alleen te weten of de controle is geslaagd en ontvangt nooit gegevens over je gezicht of vingerafdruk. Als je in de app een toegangscode instelt, wordt die op je apparaat opgeslagen.
@@ -42,7 +44,7 @@ De app vraagt alleen om een toestemming wanneer een functie die nodig heeft:
 
 - **Camera:** om foto’s en video’s te maken die je in je chats verstuurt.
 - **Foto’s:** om foto’s en video’s uit je chats in je fotobibliotheek te bewaren.
-- **Microfoon:** om spraakberichten en audio voor Transcriptie op te nemen.
+- **Microfoon:** om spraakberichten en audio voor Transcriptie op te nemen, en je stem voor Grappige stemmen.
 - **Spraakherkenning:** om audio om te zetten in tekst.
 - **Face ID:** om de app te ontgrendelen.
 - **Locatie:** om je positie te tonen en de link te maken die je deelt.

@@ -64,6 +64,11 @@ def keep_plus_right(text):
     return re.sub(r'(Dual ?Messenger\+)(?!' + LRM + ')', r'\1' + LRM, text)
 
 
+def glue_names(text):
+    """Face ID and Touch ID never break across two lines (a no-break space joins the two words)."""
+    return text.replace('Face ID', 'Face ID').replace('Touch ID', 'Touch ID')
+
+
 def deep_map(value, fn):
     if isinstance(value, dict): return {k: deep_map(v, fn) for k, v in value.items()}
     if isinstance(value, list): return [deep_map(v, fn) for v in value]
@@ -71,7 +76,7 @@ def deep_map(value, fn):
 
 
 def strings(code):
-    t = json.loads(read('content', code, 'site.json'))
+    t = deep_map(json.loads(read('content', code, 'site.json')), glue_names)
     if code in RTL_MARK_LANGS:
         app = t['app']; t = deep_map(t, keep_plus_right); t['app'] = app
     return t
@@ -86,7 +91,7 @@ def legal_html(code, name, prefix, toc_title, privacy_url):
         counter[0] += 1
         return prefix + (m.group(1) if m else 'x%d' % counter[0])
 
-    src = read('content', code, name + '.md').replace('{{privacy_url}}', privacy_url)
+    src = glue_names(read('content', code, name + '.md').replace('{{privacy_url}}', privacy_url))
     if code in RTL_MARK_LANGS:
         src = keep_plus_right(src)
     md = markdown.Markdown(extensions=['md_in_html', 'toc', 'smarty', 'sane_lists'],
