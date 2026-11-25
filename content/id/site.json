@@ -47,13 +47,13 @@
         "img": "lock",
         "title": "Kunci dengan Face ID atau kode sandi",
         "text": "Hanya Anda yang bisa membuka aplikasi dan chat Anda. Pilih apakah aplikasi terkunci seketika atau setelah beberapa menit.",
-        "alt": "Layar kunci bertuliskan DualMessenger+ Terkunci dengan tombol Gunakan Face ID"
+        "alt": "Layar kunci bertuliskan Dual Messenger+ Terkunci dengan tombol Gunakan Face ID"
       },
       {
-        "img": "voice",
-        "title": "Pesan suara menjadi teks",
-        "text": "Ubah pesan suara dan file audio menjadi teks dalam bahasa Anda, lalu salin teksnya ke mana saja.",
-        "alt": "Layar Suara ke Teks dengan tiga catatan suara beserta transkripsinya"
+        "img": "notes",
+        "title": "Catatan dan pengingat di samping chat Anda",
+        "text": "Tulis hal-hal penting, temukan kembali lewat pencarian, dan dapatkan notifikasi saat pengingat tiba waktunya.",
+        "alt": "Layar Catatan dengan daftar catatan seperti daftar belanja, rapat, dan ide hadiah"
       },
       {
         "img": "bot",
@@ -62,10 +62,10 @@
         "alt": "Layar Bot Obrolan dengan percakapan tentang merencanakan hari"
       },
       {
-        "img": "notes",
-        "title": "Catatan dan pengingat di samping chat Anda",
-        "text": "Tulis hal-hal penting, temukan kembali lewat pencarian, dan dapatkan notifikasi saat pengingat tiba waktunya.",
-        "alt": "Layar Catatan dengan daftar catatan seperti daftar belanja, rapat, dan ide hadiah"
+        "img": "voice",
+        "title": "Pesan suara menjadi teks",
+        "text": "Ubah pesan suara dan file audio menjadi teks dalam bahasa Anda, lalu salin teksnya ke mana saja.",
+        "alt": "Layar Suara ke Teks dengan tiga catatan suara beserta transkripsinya"
       }
     ],
     "also_title": "Juga ada di aplikasi",

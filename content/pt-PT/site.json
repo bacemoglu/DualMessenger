@@ -47,13 +47,13 @@
         "img": "lock",
         "title": "Bloqueie com Face ID ou com o seu código",
         "text": "Mais ninguém consegue abrir a app nem as suas conversas. Escolha se bloqueia de imediato ou ao fim de alguns minutos.",
-        "alt": "Ecrã de bloqueio com o texto DualMessenger+ Bloqueado e o botão Usar Face ID"
+        "alt": "Ecrã de bloqueio com o texto Dual Messenger+ Bloqueado e o botão Usar Face ID"
       },
       {
-        "img": "voice",
-        "title": "Mensagens de voz transformadas em texto",
-        "text": "Transcreva mensagens de voz e ficheiros de áudio no seu idioma e copie o texto para onde quiser.",
-        "alt": "Ecrã Voz para texto com três notas de voz e as respetivas transcrições"
+        "img": "notes",
+        "title": "Notas e lembretes ao lado das suas conversas",
+        "text": "Aponte o que precisar, encontre-o com a pesquisa e receba uma notificação à hora do lembrete.",
+        "alt": "Ecrã Notas com uma lista de notas como a lista de compras, uma reunião e ideias de presentes"
       },
       {
         "img": "bot",
@@ -62,10 +62,10 @@
         "alt": "Ecrã Chat Bot com uma conversa sobre como organizar o dia"
       },
       {
-        "img": "notes",
-        "title": "Notas e lembretes ao lado das suas conversas",
-        "text": "Aponte o que precisar, encontre-o com a pesquisa e receba uma notificação à hora do lembrete.",
-        "alt": "Ecrã Notas com uma lista de notas como a lista de compras, uma reunião e ideias de presentes"
+        "img": "voice",
+        "title": "Mensagens de voz transformadas em texto",
+        "text": "Transcreva mensagens de voz e ficheiros de áudio no seu idioma e copie o texto para onde quiser.",
+        "alt": "Ecrã Voz para texto com três notas de voz e as respetivas transcrições"
       }
     ],
     "also_title": "Também na app",

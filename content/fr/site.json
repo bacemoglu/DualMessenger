@@ -47,13 +47,13 @@
         "img": "lock",
         "title": "Verrouillez avec Face ID ou votre code",
         "text": "Vous seul pouvez ouvrir l’app et vos conversations. Choisissez un verrouillage immédiat ou au bout de quelques minutes.",
-        "alt": "Écran de verrouillage indiquant DualMessenger+ Verrouillé, avec le bouton Utiliser Face ID"
+        "alt": "Écran de verrouillage indiquant Dual Messenger+ Verrouillé, avec le bouton Utiliser Face ID"
       },
       {
-        "img": "voice",
-        "title": "Les messages vocaux deviennent du texte",
-        "text": "Transcrivez vos messages vocaux et fichiers audio dans votre langue et copiez le texte où vous voulez.",
-        "alt": "Écran Voix en texte avec trois notes vocales et leur transcription"
+        "img": "notes",
+        "title": "Notes et rappels à côté de vos conversations",
+        "text": "Notez ce qui compte, retrouvez-le grâce à la recherche et recevez une notification à l’heure du rappel.",
+        "alt": "Écran Notes avec une liste de notes comme une liste de courses, une réunion et des idées cadeaux"
       },
       {
         "img": "bot",
@@ -62,10 +62,10 @@
         "alt": "Écran Bot de discussion avec une conversation sur l’organisation de la journée"
       },
       {
-        "img": "notes",
-        "title": "Notes et rappels à côté de vos conversations",
-        "text": "Notez ce qui compte, retrouvez-le grâce à la recherche et recevez une notification à l’heure du rappel.",
-        "alt": "Écran Notes avec une liste de notes comme une liste de courses, une réunion et des idées cadeaux"
+        "img": "voice",
+        "title": "Les messages vocaux deviennent du texte",
+        "text": "Transcrivez vos messages vocaux et fichiers audio dans votre langue et copiez le texte où vous voulez.",
+        "alt": "Écran Voix en texte avec trois notes vocales et leur transcription"
       }
     ],
     "also_title": "Également dans l’app",

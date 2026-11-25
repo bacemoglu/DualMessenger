@@ -47,13 +47,13 @@
         "img": "lock",
         "title": "Bloquea con Face ID o con tu código",
         "text": "Solo tú puedes abrir la app y tus chats. Elige si se bloquea al instante o al cabo de unos minutos.",
-        "alt": "Pantalla de bloqueo con el texto DualMessenger+ Bloqueado y el botón Usar Face ID"
+        "alt": "Pantalla de bloqueo con el texto Dual Messenger+ Bloqueado y el botón Usar Face ID"
       },
       {
-        "img": "voice",
-        "title": "Los mensajes de voz se convierten en texto",
-        "text": "Transcribe mensajes de voz y archivos de audio en tu idioma y copia el texto donde quieras.",
-        "alt": "Pantalla Voz a texto con tres notas de voz y sus transcripciones"
+        "img": "notes",
+        "title": "Notas y recordatorios junto a tus chats",
+        "text": "Apunta lo que necesites, encuéntralo con la búsqueda y recibe una notificación cuando llegue la hora del recordatorio.",
+        "alt": "Pantalla Notas con una lista de notas como la lista de la compra, una reunión e ideas de regalo"
       },
       {
         "img": "bot",
@@ -62,10 +62,10 @@
         "alt": "Pantalla Chat Bot con una conversación sobre cómo organizar el día"
       },
       {
-        "img": "notes",
-        "title": "Notas y recordatorios junto a tus chats",
-        "text": "Apunta lo que necesites, encuéntralo con la búsqueda y recibe una notificación cuando llegue la hora del recordatorio.",
-        "alt": "Pantalla Notas con una lista de notas como la lista de la compra, una reunión e ideas de regalo"
+        "img": "voice",
+        "title": "Los mensajes de voz se convierten en texto",
+        "text": "Transcribe mensajes de voz y archivos de audio en tu idioma y copia el texto donde quieras.",
+        "alt": "Pantalla Voz a texto con tres notas de voz y sus transcripciones"
       }
     ],
     "also_title": "También en la app",

@@ -47,13 +47,13 @@
         "img": "lock",
         "title": "Lock it with Face ID or your passcode",
         "text": "Only you can open the app and your chats. Choose whether it locks right away or after a few minutes.",
-        "alt": "Lock screen that says DualMessenger+ Locked, with a Use Face ID button"
+        "alt": "Lock screen that says Dual Messenger+ Locked, with a Use Face ID button"
       },
       {
-        "img": "voice",
-        "title": "Voice messages, turned into text",
-        "text": "Transcribe voice messages and audio files in your language, then copy the text anywhere.",
-        "alt": "Voice To Text screen with three voice notes and their transcriptions"
+        "img": "notes",
+        "title": "Notes and reminders next to your chats",
+        "text": "Write things down, find them with search, and get a notification when a reminder is due.",
+        "alt": "Notes screen with a list of notes such as a grocery list, meeting notes and gift ideas"
       },
       {
         "img": "bot",
@@ -62,10 +62,10 @@
         "alt": "Chat Bot screen with a conversation about planning the day"
       },
       {
-        "img": "notes",
-        "title": "Notes and reminders next to your chats",
-        "text": "Write things down, find them with search, and get a notification when a reminder is due.",
-        "alt": "Notes screen with a list of notes such as a grocery list, meeting notes and gift ideas"
+        "img": "voice",
+        "title": "Voice messages, turned into text",
+        "text": "Transcribe voice messages and audio files in your language, then copy the text anywhere.",
+        "alt": "Voice To Text screen with three voice notes and their transcriptions"
       }
     ],
     "also_title": "Also in the app",

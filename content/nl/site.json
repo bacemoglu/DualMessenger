@@ -47,13 +47,13 @@
         "img": "lock",
         "title": "Vergrendel met Face ID of je toegangscode",
         "text": "Alleen jij kunt de app en je chats openen. Kies of de app direct wordt vergrendeld of pas na een paar minuten.",
-        "alt": "Vergrendelscherm met de tekst DualMessenger+ Vergrendeld en de knop Gebruik Face ID"
+        "alt": "Vergrendelscherm met de tekst Dual Messenger+ Vergrendeld en de knop Gebruik Face ID"
       },
       {
-        "img": "voice",
-        "title": "Spraakberichten omgezet in tekst",
-        "text": "Transcribeer spraakberichten en audiobestanden in je eigen taal en kopieer de tekst waar je maar wilt.",
-        "alt": "Het scherm Transcriptie met drie spraakopnames en hun transcripties"
+        "img": "notes",
+        "title": "Notities en herinneringen naast je chats",
+        "text": "Schrijf dingen op, vind ze terug met de zoekfunctie en krijg een melding wanneer het tijd is voor een herinnering.",
+        "alt": "Het scherm Notities met een lijst notities zoals een boodschappenlijst, een vergadering en cadeau-ideeën"
       },
       {
         "img": "bot",
@@ -62,10 +62,10 @@
         "alt": "Het scherm Chatbot met een gesprek over het plannen van de dag"
       },
       {
-        "img": "notes",
-        "title": "Notities en herinneringen naast je chats",
-        "text": "Schrijf dingen op, vind ze terug met de zoekfunctie en krijg een melding wanneer het tijd is voor een herinnering.",
-        "alt": "Het scherm Notities met een lijst notities zoals een boodschappenlijst, een vergadering en cadeau-ideeën"
+        "img": "voice",
+        "title": "Spraakberichten omgezet in tekst",
+        "text": "Transcribeer spraakberichten en audiobestanden in je eigen taal en kopieer de tekst waar je maar wilt.",
+        "alt": "Het scherm Transcriptie met drie spraakopnames en hun transcripties"
       }
     ],
     "also_title": "Ook in de app",

@@ -47,13 +47,13 @@
         "img": "lock",
         "title": "Sperren mit Face ID oder deinem Code",
         "text": "Nur du kannst die App und deine Chats öffnen. Wähle, ob sie sofort oder erst nach ein paar Minuten gesperrt wird.",
-        "alt": "Sperrbildschirm mit dem Text „DualMessenger+ gesperrt“ und dem Button „Face ID verwenden“"
+        "alt": "Sperrbildschirm mit dem Text „Dual Messenger+ gesperrt“ und dem Button „Face ID verwenden“"
       },
       {
-        "img": "voice",
-        "title": "Sprachnachrichten werden zu Text",
-        "text": "Transkribiere Sprachnachrichten und Audiodateien in deiner Sprache und kopiere den Text überallhin.",
-        "alt": "Bildschirm „Sprache in Text“ mit drei Sprachnotizen und ihren Transkripten"
+        "img": "notes",
+        "title": "Notizen und Erinnerungen direkt neben deinen Chats",
+        "text": "Schreibe dir Dinge auf, finde sie über die Suche wieder und erhalte eine Mitteilung, wenn eine Erinnerung fällig ist.",
+        "alt": "Bildschirm „Notizen“ mit einer Liste von Notizen wie Einkaufsliste, Besprechung und Geschenkideen"
       },
       {
         "img": "bot",
@@ -62,10 +62,10 @@
         "alt": "Bildschirm „Chat-Bot“ mit einer Unterhaltung über die Tagesplanung"
       },
       {
-        "img": "notes",
-        "title": "Notizen und Erinnerungen direkt neben deinen Chats",
-        "text": "Schreibe dir Dinge auf, finde sie über die Suche wieder und erhalte eine Mitteilung, wenn eine Erinnerung fällig ist.",
-        "alt": "Bildschirm „Notizen“ mit einer Liste von Notizen wie Einkaufsliste, Besprechung und Geschenkideen"
+        "img": "voice",
+        "title": "Sprachnachrichten werden zu Text",
+        "text": "Transkribiere Sprachnachrichten und Audiodateien in deiner Sprache und kopiere den Text überallhin.",
+        "alt": "Bildschirm „Sprache in Text“ mit drei Sprachnotizen und ihren Transkripten"
       }
     ],
     "also_title": "Außerdem in der App",

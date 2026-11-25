@@ -47,13 +47,13 @@
         "img": "lock",
         "title": "Blocca con Face ID o il tuo codice",
         "text": "Solo tu puoi aprire l’app e le tue chat. Scegli se bloccarla subito o dopo qualche minuto.",
-        "alt": "Schermata di blocco con la scritta DualMessenger+ Bloccato e il pulsante Usa Face ID"
+        "alt": "Schermata di blocco con la scritta Dual Messenger+ Bloccato e il pulsante Usa Face ID"
       },
       {
-        "img": "voice",
-        "title": "I messaggi vocali diventano testo",
-        "text": "Trascrivi messaggi vocali e file audio nella tua lingua e copia il testo dove vuoi.",
-        "alt": "Schermata Da Voce a Testo con tre note vocali e le relative trascrizioni"
+        "img": "notes",
+        "title": "Note e promemoria accanto alle tue chat",
+        "text": "Scrivi quello che ti serve, ritrovalo con la ricerca e ricevi una notifica quando scade un promemoria.",
+        "alt": "Schermata Note con un elenco di note come la lista della spesa, una riunione e idee regalo"
       },
       {
         "img": "bot",
@@ -62,10 +62,10 @@
         "alt": "Schermata Chat Bot con una conversazione su come organizzare la giornata"
       },
       {
-        "img": "notes",
-        "title": "Note e promemoria accanto alle tue chat",
-        "text": "Scrivi quello che ti serve, ritrovalo con la ricerca e ricevi una notifica quando scade un promemoria.",
-        "alt": "Schermata Note con un elenco di note come la lista della spesa, una riunione e idee regalo"
+        "img": "voice",
+        "title": "I messaggi vocali diventano testo",
+        "text": "Trascrivi messaggi vocali e file audio nella tua lingua e copia il testo dove vuoi.",
+        "alt": "Schermata Da Voce a Testo con tre note vocali e le relative trascrizioni"
       }
     ],
     "also_title": "Nell’app trovi anche",

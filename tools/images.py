@@ -64,14 +64,15 @@ if ONLY: LANGS = [c for c in LANGS if c in ONLY]
 
 
 def source(code, name):
-    """Phone screens of version 1.4.1: the Messenger+ page and Notes were captured again for 1.4.1,
-    Voice To Text and Chat Bot come from the 1.4.0 sets (same tab bar), the lock screen did not change."""
+    """Phone screens of version 1.5.0: the Messenger+ page and Notes come from the 1.4.1 captures,
+    Voice To Text and Chat Bot from the 1.4.0 sets (same tab bar), and the lock screen is the new 1.5.0 one
+    (English: the real capture; other languages built from it, see /home/claude/lock02)."""
     if name == 'main': return S + f'iphone_v3_{code}/01.png'
     if name == 'notes': return S + f'iphone_v3_{code}/05.png'
     if name == 'voice': return S + f'iphone_v2_{code}/03.png'
     if name == 'bot': return S + f'iphone_v2_{code}/04.png'
     if name == 'funny': return S + f'voices_{code}/06.png'
-    return (S if code == 'en' else S + code + '/') + '02.png'       # lock
+    return S + f'lock2_iphone/{code}.png'                           # lock (1.5.0)
 
 
 shots = ['main', 'lock', 'voice', 'bot', 'notes', 'funny']

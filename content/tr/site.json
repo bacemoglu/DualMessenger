@@ -47,13 +47,13 @@
         "img": "lock",
         "title": "Face ID veya şifreyle kilitleyin",
         "text": "Uygulamayı ve sohbetlerinizi yalnızca siz açabilirsiniz. Hemen mi yoksa birkaç dakika sonra mı kilitleneceğini siz seçin.",
-        "alt": "DualMessenger+ Kilitli yazan ve Face ID Kullanın düğmesi bulunan kilit ekranı"
+        "alt": "Dual Messenger+ Kilitli yazan ve Face ID Kullanın düğmesi bulunan kilit ekranı"
       },
       {
-        "img": "voice",
-        "title": "Sesli mesajlar metne dönüşsün",
-        "text": "Sesli mesajları ve ses dosyalarını kendi dilinizde yazıya dökün, metni istediğiniz yere kopyalayın.",
-        "alt": "Üç sesli not ve yazıya dökülmüş metinleriyle Sesten Metne ekranı"
+        "img": "notes",
+        "title": "Notlar ve hatırlatıcılar sohbetlerinizin yanında",
+        "text": "Aklınızdakileri yazın, aramayla bulun; hatırlatıcının zamanı gelince bildirim alın.",
+        "alt": "Alışveriş listesi, Toplantı notları ve Hediye fikirleri gibi notların listelendiği Notlar ekranı"
       },
       {
         "img": "bot",
@@ -62,10 +62,10 @@
         "alt": "Günü planlamakla ilgili bir sohbetin göründüğü Sohbet Botu ekranı"
       },
       {
-        "img": "notes",
-        "title": "Notlar ve hatırlatıcılar sohbetlerinizin yanında",
-        "text": "Aklınızdakileri yazın, aramayla bulun; hatırlatıcının zamanı gelince bildirim alın.",
-        "alt": "Alışveriş listesi, Toplantı notları ve Hediye fikirleri gibi notların listelendiği Notlar ekranı"
+        "img": "voice",
+        "title": "Sesli mesajlar metne dönüşsün",
+        "text": "Sesli mesajları ve ses dosyalarını kendi dilinizde yazıya dökün, metni istediğiniz yere kopyalayın.",
+        "alt": "Üç sesli not ve yazıya dökülmüş metinleriyle Sesten Metne ekranı"
       }
     ],
     "also_title": "Uygulamada ayrıca",
