@@ -198,7 +198,11 @@ def build_dist():
                 prefix = 'p-' if kind == 'privacy' else 't-'
                 body = legal_html(code, kind, prefix, t['legal']['toc_title'], rel(here, page_path(slug, 'privacy')))
                 heading = t['meta'][kind + '_title']
-                html = page.render(kind='legal', current=kind, heading=heading, body=body, title=heading + ' – ' + T[code]['app'],
+                title = heading + ' – ' + T[code]['app']
+                if code in RTL_MARK_LANGS:
+                    # The app name ends the title here, so its "+" needs the mark too (the home titles get it from strings()).
+                    title = keep_plus_right(title)
+                html = page.render(kind='legal', current=kind, heading=heading, body=body, title=title,
                                    description=t['meta'][kind + '_description'], fit=None, **common)
             write(os.path.join(out, here, 'index.html'), html)
             urls.append(SITE + here)
